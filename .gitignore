@@ -361,3 +361,27 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.thumbnails
+/.vscode
+/data/.cache_textures
+/data/.editor2
+/data/.runtimes
+/data/.thumbnails
+/data/configs
+/data/template_assets/template_material_ball
+/data/core.ung
+/data/csharp_components.prop
+/data/default.bitmasks
+/data/editor2.ung
+/data/material_ball.node
+/data/mesh_base_0.mat
+/data/root_mount.umount
+/data/scripts.ung
+/Properties
+/data/guids.db
+/data/surface_base_0.prop
+/data/surface_base_1.prop
+/utils/natvis
+/launch_debug.bat
+/launch_editor.bat
+/launch_release.bat
