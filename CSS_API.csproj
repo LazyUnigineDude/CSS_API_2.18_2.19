@@ -45,8 +45,9 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="data/ComponentCheck.cs"/>
-		<Compile Include="data/AnotherComponent.cs"/>
+		<Compile Include="data/Components/AnotherComponent.cs"/>
+		<Compile Include="data/Components/ComponentCheck.cs"/>
+		<Compile Include="data/Components/AnotherComponentInherit.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>

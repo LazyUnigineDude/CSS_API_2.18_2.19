@@ -73,12 +73,12 @@ public class ComponentCheck : Component
 	[ShowInEditor, Parameter(Title = "User List", Group = "Struct")]
 	private List<UserAccount> Users;
 
-	void Init() { }
-	void UpdateAsyncThread() {  }
-	void UpdateSyncThread() {  }
+	void Init() { Unigine.Console.Onscreen = true; }
+	void UpdateAsyncThread() { }
+	void UpdateSyncThread() { }
 	void Update() { }
-    void PostUpdate() {  }
-	void UpdatePhysics() {  }
-    void Swap() {  }
-	void Shutdown() {  }
+    void PostUpdate() { }
+	void UpdatePhysics() { }
+    void Swap() { }
+	void Shutdown() { }
 }
