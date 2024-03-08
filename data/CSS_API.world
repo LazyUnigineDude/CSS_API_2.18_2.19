@@ -801,11 +801,7 @@
 			<controlled>1</controlled>
 			<transform>-0.999999821186 -8.23325674304e-09 8.83006165964e-08 0.0 8.74227481518e-08 -0.258818894625 0.965925455093 0.0 1.49011549766e-08 0.965925395489 0.258818924427 0.0 0 6 2 1.0</transform>
 		</node>
-		<node type="NodeReference" id="532972954" name="material_ball">
-			<reference>guid://195f9699e605114087e7c79e9555b4cdeae10f48</reference>
-			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 1.55609221031 0 0 1.0</transform>
-		</node>
-		<node type="ObjectMeshStatic" id="1553941355" enabled="0" name="material_ball">
+		<node type="ObjectMeshStatic" id="1553941355" name="material_ball">
 			<streaming_mode_vram>0</streaming_mode_vram>
 			<streaming_mode_ram>0</streaming_mode_ram>
 			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
@@ -813,14 +809,29 @@
 			<surface name="material_ball_mat_lod_1" intersection="1" min_visible_distance="3" max_visible_distance="9" min_fade_distance="0.5" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<properties>
-				<property parent="39d2f3a2ea219359aeb0ab0f9d59efe3714445ec" guid="7c5060c6b8f618e3c532a70df391778e6701abbf"/>
+				<property parent="643786b4f5f25678138f61a23b3303386116904e" guid="332d3591232bdedda67626fb90bd467b6c33259d">
+					<parameter name="Color">0.305882365 0.756862819 0.82745105 1</parameter>
+					<parameter name="MProperty">bf265ada45266758fd43579187d1c81a692bf363</parameter>
+					<parameter name="Mat">81a81a1cb6591e2fda643831f076f8a9ca776736</parameter>
+					<parameter name="AssetLinks">guid://81a81a1cb6591e2fda643831f076f8a9ca776736</parameter>
+					<parameter name="Comp">cb84a5ea28ca877bdb63ffe86447c5f706f03834</parameter>
+					<parameter name="isDetail">1</parameter>
+					<parameter name="Users">
+						<value index="1"/>
+					</parameter>
+				</property>
 			</properties>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
 		</node>
-		<node type="NodeDummy" id="625908929" name="NodeDummy">
+		<node type="NodeDummy" id="1385207066" name="NodeDummy">
 			<properties>
-				<property parent="889570f416a111b1ed4e1f697dbaf2b2a4964dce" guid="be47f3b88c20545f8d7c5f174bc95f47899898d9"/>
-				<property parent="eecec2bdba93de84ed440a33b2f7fc4dc6703a1f" guid="bae3bb5a9b9337e8e71ce9bc315c09cd52fb7a46"/>
+				<property parent="889570f416a111b1ed4e1f697dbaf2b2a4964dce" guid="cb84a5ea28ca877bdb63ffe86447c5f706f03834"/>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1471873985" name="NodeDummy_1">
+			<properties>
+				<property parent="024ba9d225e0acdc6d3189c9be43c232c047a5b6" guid="bb98f38a4a5b59502de2fbf74eb28045fef822fb"/>
 			</properties>
 			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
 		</node>
