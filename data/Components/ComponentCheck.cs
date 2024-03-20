@@ -23,7 +23,7 @@ public class ComponentCheck : Component
     private bool IDBool;
 
     [ShowInEditor, Parameter(Title = "Date", Tooltip = "Date in DD MM YYYY", Group = "Basics")] 
-    private ivec3 DateTime;
+    private dvec3 DateTime;
 
     [ShowInEditor, ParameterColor(Title = "Random Color", Tooltip = "Random Color", Group = "Basics")]
     private vec4 Color;

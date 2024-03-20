@@ -48,6 +48,8 @@
 		<Compile Include="data/Components/AnotherComponent.cs"/>
 		<Compile Include="data/Components/ComponentCheck.cs"/>
 		<Compile Include="data/Components/ComponentCheckInherit.cs"/>
+		<Compile Include="data/Timer/TimeController.cs"/>
+		<Compile Include="data/Timer/Lerper.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
