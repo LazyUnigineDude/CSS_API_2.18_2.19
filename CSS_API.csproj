@@ -50,6 +50,7 @@
 		<Compile Include="data/Components/ComponentCheckInherit.cs"/>
 		<Compile Include="data/Timer/TimeController.cs"/>
 		<Compile Include="data/Timer/Lerper.cs"/>
+		<Compile Include="data/GUI/RotateImageAroundCenter.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>

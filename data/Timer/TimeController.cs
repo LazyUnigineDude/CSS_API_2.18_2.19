@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Reflection.Metadata.Ecma335;
 using Unigine;
 using UnigineApp.data.Timer;
 
@@ -45,13 +46,13 @@ public class TimeController : Component
 		foreach (var item in Objects) Start.Add(item.WorldPosition);
     }
 
-    private void UpdateAsyncThread() => AsyncL.Text = "Async Time: " + Game.Time + " Seconds";
+    private void UpdateAsyncThread() => AsyncL.Text = "Async Time: " + Game.Time.ToString("0.00") + " Seconds";
     private void UpdatePhysics() => PhysicsL.Text = "Physics: " + Physics.IFps + " Frames 1/60";
     private void Update()
 	{
 		UpdateL.Text = "Update: " + Game.IFps + " Frames";
-		//MoveObjects();
-	}
+		MoveObjects();
+    }
 
     private void MoveObjects()
 	{
@@ -64,7 +65,18 @@ public class TimeController : Component
 		Objects[3].WorldPosition = Lerper.Lerp(Start[3], Start[3] + End, t, Lerper.LERP_TYPE.EASE_IN_OUT);
 
 		float tCurve = Curve.Evaluate(t);
-        Objects[4].WorldPosition = Lerper.Lerp(Start[4], Start[4] + End, tCurve, Lerper.LERP_TYPE.LINEAR);
+       Objects[4].WorldPosition = Lerper.Lerp(Start[4], Start[4] + End, tCurve, Lerper.LERP_TYPE.LINEAR);
 		if (t > 1.0f) Time = 0.0f;
     }
+
+	private void Shutdown()
+	{
+        Gui GUI = Gui.GetCurrent();
+        
+		if (GUI.IsChild(AsyncL) == 1) { GUI.RemoveChild(AsyncL); AsyncL.DeleteLater(); } 
+		if (GUI.IsChild(UpdateL) == 1) { GUI.RemoveChild(UpdateL); UpdateL.DeleteLater(); } 
+		if (GUI.IsChild(PhysicsL) == 1) { GUI.RemoveChild(PhysicsL); PhysicsL.DeleteLater(); } 
+		if (GUI.IsChild(TimeSlider) == 1) { GUI.RemoveChild(TimeSlider); TimeSlider.DeleteLater(); }
+    }
+
 }
