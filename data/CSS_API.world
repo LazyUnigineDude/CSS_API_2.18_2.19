@@ -799,7 +799,7 @@
 			<is_main>1</is_main>
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 2 -4 10 1.0</transform>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 2 -5.13516499987 12.8663250024 1.0</transform>
 		</node>
 		<node type="ObjectMeshStatic" id="1553941355" name="material_ball">
 			<streaming_mode_vram>0</streaming_mode_vram>
@@ -846,6 +846,15 @@
 			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 -7.99999952316 0 1.0</transform>
 		</node>
+		<node type="ObjectMeshStatic" id="1626832347" name="material_ball_5">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
+			<surface name="material_ball_mat_lod_0" intersection="1" max_visible_distance="3" max_fade_distance="0.5" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<surface name="material_ball_mat_lod_1" intersection="1" min_visible_distance="3" max_visible_distance="9" min_fade_distance="0.5" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 -9.99999940395 0 1.0</transform>
+		</node>
 		<node type="NodeDummy" id="612179548" name="TimeController">
 			<properties>
 				<property parent="344776fc44448984936f8ce0319277530801c4b7" guid="7b061437dff706fbdb0180a3b8ca7d9574548f92">
@@ -855,13 +864,16 @@
 						<value index="2">1726131226</value>
 						<value index="3">353242289</value>
 						<value index="4">1742611979</value>
+						<value index="5">1626832347</value>
 					</parameter>
 					<parameter name="Curve">
-						<curve repeat_mode_start="2" repeat_mode_end="1">
+						<curve>
 							<keys>
 								<key point="0 0" left_tangent="-0.00999999046 0" right_tangent="0.00999999046 0"/>
-								<key point="0.5 1" left_tangent="-0.00999999046 0" right_tangent="0.00999999046 0"/>
-								<key point="1 0" left_tangent="-0.00999999046 0" right_tangent="0.00999999046 0"/>
+								<key point="0.234921932 0.99968344" left_tangent="-0.260593712 0.769697011" right_tangent="0.122431934 -0.386860728"/>
+								<key point="0.457246095 1" left_tangent="0.00589343905 -0.162907362" right_tangent="-0.00270137191 0.177884936"/>
+								<key point="0.537687302 1" left_tangent="0.0148817897 0.124669313" right_tangent="0.0020532608 -0.218920767"/>
+								<key point="1 1" left_tangent="-0.00999999046 0" right_tangent="0.00999999046 0"/>
 							</keys>
 						</curve>
 					</parameter>
