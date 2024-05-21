@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <world version="2.18.0.1">
+	<data>
+		<unigine_editor>
+			<body>
+				<node_extensions/>
+			</body>
+		</unigine_editor>
+	</data>
 	<sound>
 		<enabled>1</enabled>
 		<sound_manager_load_samples>0</sound_manager_load_samples>
@@ -644,6 +651,18 @@
 		<render_transparent_enabled>1</render_transparent_enabled>
 		<render_transparent_light>1</render_transparent_light>
 		<render_transparent_multiple_env_probes>1</render_transparent_multiple_env_probes>
+		<render_upscale_dlss_mode>3</render_upscale_dlss_mode>
+		<render_upscale_dlss_preset>0</render_upscale_dlss_preset>
+		<render_upscale_fsr_auto_reactive_max>0.899999976</render_upscale_fsr_auto_reactive_max>
+		<render_upscale_fsr_auto_reactive_scale>5</render_upscale_fsr_auto_reactive_scale>
+		<render_upscale_fsr_auto_tc_scale>1</render_upscale_fsr_auto_tc_scale>
+		<render_upscale_fsr_auto_tc_threshold>0.0500000007</render_upscale_fsr_auto_tc_threshold>
+		<render_upscale_fsr_enable_sharpness>0</render_upscale_fsr_enable_sharpness>
+		<render_upscale_fsr_mode>3</render_upscale_fsr_mode>
+		<render_upscale_fsr_pre_exposure>1</render_upscale_fsr_pre_exposure>
+		<render_upscale_fsr_sharpness>0.5</render_upscale_fsr_sharpness>
+		<render_upscale_mode>0</render_upscale_mode>
+		<render_upscale_post>0</render_upscale_post>
 		<render_viewport_mode>0</render_viewport_mode>
 		<render_vignette_mask>0</render_vignette_mask>
 		<render_vignette_mask_intensity>1</render_vignette_mask_intensity>
@@ -798,8 +817,68 @@
 			<is_oblique_frustum>0</is_oblique_frustum>
 			<is_main>1</is_main>
 			<is_listener>1</is_listener>
-			<controlled>1</controlled>
-			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 1.5 1.0</transform>
+			<controlled>0</controlled>
+			<transform>0.78152513504 0.623873770237 -2.38418579098e-06 0.0 -0.267607688904 0.335234940052 0.903329253197 0.0 0.563564181328 -0.705973863602 0.428947985172 0.0 4.52168764061 -2.3707502481 3.48923955705 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="190004311" name="PNode">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
+			<surface name="material_ball_mat_lod_0" intersection="1" max_visible_distance="3" max_fade_distance="0.5" physics_friction="1" physics_restitution="1" material="de05526b8b199469a2924f4d5f57cdeaccf6b6df"/>
+			<surface name="material_ball_mat_lod_1" intersection="1" min_visible_distance="3" max_visible_distance="9" min_fade_distance="0.5" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="de05526b8b199469a2924f4d5f57cdeaccf6b6df"/>
+			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="de05526b8b199469a2924f4d5f57cdeaccf6b6df"/>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 -2 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="928813187" name="TNode">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
+			<surface name="material_ball_mat_lod_0" intersection="1" max_visible_distance="3" max_fade_distance="0.5" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<surface name="material_ball_mat_lod_1" intersection="1" min_visible_distance="3" max_visible_distance="9" min_fade_distance="0.5" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
+			<body type="BodyRigid" id="634827587" frozen="0">
+				<angular_scale>0 0 1</angular_scale>
+				<linear_damping>0.200000003</linear_damping>
+				<angular_damping>0.200000003</angular_damping>
+				<max_linear_velocity>1.5</max_linear_velocity>
+				<max_angular_velocity>1.5</max_angular_velocity>
+				<shape type="ShapeCapsule" id="475712223" transform="1 0 0 0 0 1 0 0 0 0 1 0 -3.65301967e-05 -0.0132298619 0.482064337 1">
+					<radius>0.434608012</radius>
+					<height>0.172558129</height>
+				</shape>
+			</body>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="2030216109" enabled="0" name="Chess">
+			<properties>
+				<property parent="ee0a9d94d0f8fa475d69f3fac7cdecd855f638ce" guid="ecab457351f33c0408d4f8952cb3339cc2fdf267">
+					<parameter name="MoveObj">928813187</parameter>
+				</property>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1242561690" enabled="0" name="Const">
+			<properties>
+				<property parent="5a48ce051d44fc32ab03d9375e03338e0d48f7d9" guid="9f64d01e9972983ad045e334e807a6d2cab50128">
+					<parameter name="MoveObj">928813187</parameter>
+				</property>
+			</properties>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="149824305" name="Physics">
+			<properties>
+				<property parent="77b7ae4e53c344a2c58387e492c9ef76139536d8" guid="bab1b899220eb51aec56236b3db2cf160e85b3ad">
+					<parameter name="MoveObj">928813187</parameter>
+				</property>
+			</properties>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1258215075" immovable="1" name="Test">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://15b9443a4545bc013e494c70830e4502ae04eca4</mesh_name>
+			<surface name="plane" intersection="1" material="e7ca54a399c59a29eaeff545e116469c4067fc97"/>
+			<transform>0.999999880791 0 0 0.0 0 0.965925693512 0.258819043636 0.0 0 -0.258819043636 0.965925693512 0.0 -0.999999940395 2 0 1.0</transform>
 		</node>
 	</editor>
 	<console>

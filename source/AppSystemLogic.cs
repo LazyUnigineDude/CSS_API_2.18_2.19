@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -19,7 +20,8 @@ namespace UnigineApp
 		public override bool Init()
 		{
 			// Write here code to be called on engine initialization.
-
+			Unigine.Console.Onscreen = true;
+			Visualizer.Mode = Visualizer.MODE.ENABLED_DEPTH_TEST_ENABLED;
 			return true;
 		}
 
