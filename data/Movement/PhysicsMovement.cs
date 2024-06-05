@@ -5,11 +5,11 @@ using Unigine;
 [Component(PropertyGuid = "77b7ae4e53c344a2c58387e492c9ef76139536d8")]
 public class PhysicsMovement : Component
 {
-	public Node MoveObj;
+	public Node node;
 	BodyRigid _Physics;
     float Speed = 10;
 
-	void Init() => _Physics = MoveObj.ObjectBodyRigid;
+	void Init() => _Physics = node.ObjectBodyRigid;
 
 	void UpdatePhysics()
 	{
@@ -52,23 +52,24 @@ public class PhysicsMovement : Component
 
         if (Input.IsKeyPressed(Input.KEY.W))
         {
-            _Physics.AddLinearImpulse(MoveObj.GetWorldDirection(MathLib.AXIS.Y) * _Speed);
+            _Physics.AddLinearImpulse(node.GetWorldDirection(MathLib.AXIS.Y) * _Speed);
             Log.Message("Pressed W, Forward\n");
         }
         if (Input.IsKeyPressed(Input.KEY.S))
         {
-            _Physics.AddLinearImpulse(MoveObj.GetWorldDirection(MathLib.AXIS.NY) * _Speed);
+            _Physics.AddLinearImpulse(node.GetWorldDirection(MathLib.AXIS.NY) * _Speed);
             Log.Message("Pressed S, Backward\n");
         }
         if (Input.IsKeyPressed(Input.KEY.A))
         {
-            _Physics.AddLinearImpulse(MoveObj.GetWorldDirection(MathLib.AXIS.NX) * _Speed);
+            _Physics.AddLinearImpulse(node.GetWorldDirection(MathLib.AXIS.NX) * _Speed);
             Log.Message("Pressed A, Left\n");
         }
         if (Input.IsKeyPressed(Input.KEY.D))
         {
-            _Physics.AddLinearImpulse(MoveObj.GetWorldDirection(MathLib.AXIS.X) * _Speed);
+            _Physics.AddLinearImpulse(node.GetWorldDirection(MathLib.AXIS.X) * _Speed);
             Log.Message("Pressed D, Right\n");
+
         }
 
        //Log.Message($"Speed: {GetSpeed(_Physics.LinearVelocity)}\n");
@@ -78,12 +79,12 @@ public class PhysicsMovement : Component
     {
         if (Input.IsKeyPressed(Input.KEY.Q))
         {
-            _Physics.AddAngularImpulse(-MoveObj.GetWorldDirection() * Physics.IFps);
+            _Physics.AddAngularImpulse(-node.GetWorldDirection() * Physics.IFps);
             Log.Message("Pressed Q, CounterClockwise Rotation\n");
         }
         if (Input.IsKeyPressed(Input.KEY.E))
         {
-            _Physics.AddAngularImpulse(MoveObj.GetWorldDirection() * Physics.IFps);
+            _Physics.AddAngularImpulse(node.GetWorldDirection() * Physics.IFps);
             Log.Message("Pressed E, CounterClockwise Rotation\n");
         }
     }

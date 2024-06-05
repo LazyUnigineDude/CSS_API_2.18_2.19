@@ -5,7 +5,7 @@ using Unigine;
 [Component(PropertyGuid = "5a48ce051d44fc32ab03d9375e03338e0d48f7d9")]
 public class ConstMovement : Component
 {
-	public Node MoveObj;
+	public Node node;
     quat Rotate = new(0, 0, 1), RRotate = new(0, 0, -1);
 	
 	void Update()
@@ -23,26 +23,26 @@ public class ConstMovement : Component
 
         if (Input.IsKeyDown(Input.KEY.W))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.Y);
-            MoveObj.WorldPosition += Pos * Game.IFps;
+            Pos = node.GetWorldDirection(MathLib.AXIS.Y);
+            node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed W, Forward\n");
         }
         if (Input.IsKeyDown(Input.KEY.S))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.NY);
-            MoveObj.WorldPosition += Pos * Game.IFps;
+            Pos = node.GetWorldDirection(MathLib.AXIS.NY);
+            node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed S, Backward\n");
         }
         if (Input.IsKeyDown(Input.KEY.A))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.NX);
-            MoveObj.WorldPosition += Pos * Game.IFps;
+            Pos = node.GetWorldDirection(MathLib.AXIS.NX);
+            node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed A, Left\n");
         }
         if (Input.IsKeyDown(Input.KEY.D))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.X);
-            MoveObj.WorldPosition += Pos * Game.IFps;
+            Pos = node.GetWorldDirection(MathLib.AXIS.X);
+            node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed D, Right\n");
         }
     }
@@ -51,12 +51,12 @@ public class ConstMovement : Component
     {
         if (Input.IsKeyPressed(Input.KEY.Q)) 
         { 
-            MoveObj.WorldRotate(Rotate);
+            node.WorldRotate(Rotate);
             Log.Message("Pressed Q, CounterClockwise Rotation\n");
         }
         if (Input.IsKeyPressed(Input.KEY.E))
         { 
-            MoveObj.WorldRotate(RRotate);
+            node.WorldRotate(RRotate);
             Log.Message("Pressed E, Clockwise Rotation\n");
         }
     }

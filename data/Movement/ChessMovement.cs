@@ -5,7 +5,6 @@ using Unigine;
 [Component(PropertyGuid = "ee0a9d94d0f8fa475d69f3fac7cdecd855f638ce")]
 public class ChessMovement : Component
 {
-	public Node MoveObj;
 	quat Rotate = new(0, 0, 15), RRotate = new(0, 0, -15);
 
     void Update()
@@ -15,7 +14,7 @@ public class ChessMovement : Component
 		//Rot();
 		//Combined();
 		//FixedMovement();
-		FixedCombinedMovement();
+		//FixedCombinedMovement();
 	}
 
 	void Movement()
@@ -23,22 +22,22 @@ public class ChessMovement : Component
 
 		if (Input.IsKeyDown(Input.KEY.W)) 
 		{ 
-			MoveObj.WorldPosition += vec3.FORWARD;
+			node.WorldPosition += vec3.FORWARD;
 			Log.Message("Pressed W, Forward\n");
 		}
 		if (Input.IsKeyDown(Input.KEY.S)) 
 		{ 
-			MoveObj.WorldPosition += vec3.BACK;
+			node.WorldPosition += vec3.BACK;
             Log.Message("Pressed S, Backward\n");
         }
 		if (Input.IsKeyDown(Input.KEY.A)) 
 		{ 
-			MoveObj.WorldPosition += vec3.LEFT;
+			node.WorldPosition += vec3.LEFT;
             Log.Message("Pressed A, Left\n");
         }
 		if (Input.IsKeyDown(Input.KEY.D)) 
 		{ 
-			MoveObj.WorldPosition += vec3.RIGHT;
+			node.WorldPosition += vec3.RIGHT;
             Log.Message("Pressed D, Right\n");
         }
 	}
@@ -47,12 +46,12 @@ public class ChessMovement : Component
 	{
 		if (Input.IsKeyDown(Input.KEY.Q)) 
 		{ 
-			MoveObj.WorldRotate(Rotate); 
+			node.WorldRotate(Rotate); 
             Log.Message("Pressed Q, CounterClockwise Rotation\n");
         }
         if (Input.IsKeyDown(Input.KEY.E)) 
 		{ 
-			MoveObj.WorldRotate(RRotate);
+			node.WorldRotate(RRotate);
             Log.Message("Pressed E, Clockwise Rotation\n");
         }
     }
@@ -69,31 +68,31 @@ public class ChessMovement : Component
 
         if (Input.IsKeyDown(Input.KEY.W))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.Y);
-            MoveObj.WorldPosition += Pos;
+            Pos = node.GetWorldDirection(MathLib.AXIS.Y);
+            node.WorldPosition += Pos;
 			Log.Message("Pressed W, Forward\n");
         }
         if (Input.IsKeyDown(Input.KEY.S))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.NY);
-            MoveObj.WorldPosition += Pos;
+            Pos = node.GetWorldDirection(MathLib.AXIS.NY);
+            node.WorldPosition += Pos;
             Log.Message("Pressed S, Backward\n");
         }
         if (Input.IsKeyDown(Input.KEY.A))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.NX);
-            MoveObj.WorldPosition += Pos;
+            Pos = node.GetWorldDirection(MathLib.AXIS.NX);
+            node.WorldPosition += Pos;
             Log.Message("Pressed A, Left\n");
         }
         if (Input.IsKeyDown(Input.KEY.D))
         {
-            Pos = MoveObj.GetWorldDirection(MathLib.AXIS.X);
-            MoveObj.WorldPosition += Pos;
+            Pos = node.GetWorldDirection(MathLib.AXIS.X);
+            node.WorldPosition += Pos;
             Log.Message("Pressed D, Right\n");
         }
     }
 
-	void FixedCombinedMovement()
+	public void FixedCombinedMovement()
 	{
 		FixedMovement();
 		Rot();
