@@ -11,31 +11,30 @@ public class GetComponents : Component
 
 	void Init()
 	{
-		// write here code to be called on component initialization
 
-		//1. Component Click and Drag
-
-		//2. World ID
-		Node _Node = World.GetNodeByID(469325426);
+        //World ID
+        Node _Node = World.GetNodeByID(469325426);
 		Log.Message($"Caught {_Node.Name}, ID: {_Node.ID}\n");
 
-		//3. World Name;
-		_Node = World.GetNodeByName("MatBall");
+        //World Name
+        _Node = World.GetNodeByName("MatBall");
 		Log.Message($"Caught {_Node.Name}, ID: {_Node.ID}\n");
 
-		//4. Get Custom Component via Step 1
-		_Movement = GetComponent<ChessMovement>(NodeItem);
+        //Get Custom Component from NodeItem
+        _Movement = GetComponent<ChessMovement>(NodeItem);
 
-		//5. Get Components
-		Unigine.Object Obj = NodeItem as Unigine.Object;
+        //Get Unigine Component from the Node
+        Unigine.Object Obj = NodeItem as Unigine.Object;
 
-		if (Obj.ClutterInteractionEnabled) Log.Message("Clutter Intersection is Enabled\n");
-		else Log.Message("Clutter Intersection is Disabled\n");
-	}
+        // Example
+        if (Obj.ClutterInteractionEnabled)
+            Log.Message("Clutter Intersection is Enabled\\n");
+        else
+            Log.Message("Clutter Intersection is Disabled\\n");
+    }
 
     void Update()
 	{
-		// write here code to be called before updating each render frame
 
 		if (_Movement) _Movement.FixedCombinedMovement();
 	}
