@@ -21,25 +21,25 @@ public class ConstMovement : Component
 	{
         vec3 Pos;
 
-        if (Input.IsKeyDown(Input.KEY.W))
+        if (Input.IsKeyPressed(Input.KEY.W))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.Y);
             node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed W, Forward\n");
         }
-        if (Input.IsKeyDown(Input.KEY.S))
+        if (Input.IsKeyPressed(Input.KEY.S))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.NY);
             node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed S, Backward\n");
         }
-        if (Input.IsKeyDown(Input.KEY.A))
+        if (Input.IsKeyPressed(Input.KEY.A))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.NX);
             node.WorldPosition += Pos * Game.IFps;
             Log.Message("Pressed A, Left\n");
         }
-        if (Input.IsKeyDown(Input.KEY.D))
+        if (Input.IsKeyPressed(Input.KEY.D))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.X);
             node.WorldPosition += Pos * Game.IFps;

@@ -55,6 +55,9 @@
 		<Compile Include="data/Movement/ConstMovement.cs" />
 		<Compile Include="data/Movement/PhysicsMovement.cs" />
 		<Compile Include="data\Get Components\GetComponents.cs" />
+		<Compile Include="data\Intersections\CameraDetect.cs" />
+		<Compile Include="data\Intersections\ScreenDetect.cs" />
+		<Compile Include="data\Intersections\SimpleDetect.cs" />
 		<Compile Include="data\Lever\Lever.cs" />
 	</ItemGroup>
 	<ItemGroup>
@@ -67,6 +70,9 @@
 	  <None Include="data\Get Components\Get Component.world" />
 	  <None Include="data\Get Components\Get Component.world.meta" />
 	  <None Include="data\Get Components\GetComponents.cs.meta" />
+	  <None Include="data\Intersections\Intersection.world" />
+	  <None Include="data\Intersections\Intersection.world.meta" />
+	  <None Include="data\Intersections\SimpleDetect.cs.meta" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="System.IO.Ports" Version="8.0.0" />

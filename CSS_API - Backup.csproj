@@ -56,6 +56,9 @@
 		<Compile Include="data/Movement/PhysicsMovement.cs"/>
 		<Compile Include="data/Lever/Lever.cs"/>
 		<Compile Include="data/Get Components/GetComponents.cs"/>
+		<Compile Include="data/Intersections/SimpleDetect.cs"/>
+		<Compile Include="data/Intersections/CameraDetect.cs"/>
+		<Compile Include="data/Intersections/ScreenDetect.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
