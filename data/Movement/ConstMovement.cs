@@ -25,25 +25,25 @@ public class ConstMovement : Component
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.Y);
             node.WorldPosition += Pos * Game.IFps;
-            Log.Message("Pressed W, Forward\n");
+            //Log.Message("Pressed W, Forward\n");
         }
         if (Input.IsKeyPressed(Input.KEY.S))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.NY);
             node.WorldPosition += Pos * Game.IFps;
-            Log.Message("Pressed S, Backward\n");
+            //Log.Message("Pressed S, Backward\n");
         }
         if (Input.IsKeyPressed(Input.KEY.A))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.NX);
             node.WorldPosition += Pos * Game.IFps;
-            Log.Message("Pressed A, Left\n");
+            //Log.Message("Pressed A, Left\n");
         }
         if (Input.IsKeyPressed(Input.KEY.D))
         {
             Pos = node.GetWorldDirection(MathLib.AXIS.X);
             node.WorldPosition += Pos * Game.IFps;
-            Log.Message("Pressed D, Right\n");
+            //Log.Message("Pressed D, Right\n");
         }
     }
 
@@ -52,12 +52,12 @@ public class ConstMovement : Component
         if (Input.IsKeyPressed(Input.KEY.Q)) 
         { 
             node.WorldRotate(Rotate);
-            Log.Message("Pressed Q, CounterClockwise Rotation\n");
+           // Log.Message("Pressed Q, CounterClockwise Rotation\n");
         }
         if (Input.IsKeyPressed(Input.KEY.E))
         { 
             node.WorldRotate(RRotate);
-            Log.Message("Pressed E, Clockwise Rotation\n");
+           // Log.Message("Pressed E, Clockwise Rotation\n");
         }
     }
 

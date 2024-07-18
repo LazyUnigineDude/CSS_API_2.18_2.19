@@ -33,7 +33,7 @@ public class SimpleDetect : Component
 	protected void SetPoints(MathLib.AXIS Axis, int Distance, Node Node)
 	{
 		P0 = Node.WorldPosition;
-		P1 = P0 + new dvec3(Node.GetWorldDirection(Axis) * Distance);
+		P1 = P0 +  (dvec3)Node.GetWorldDirection(Axis) * Distance;
 	}
 
 	void Init()

@@ -59,6 +59,7 @@
 		<Compile Include="data\Intersections\ScreenDetect.cs" />
 		<Compile Include="data\Intersections\SimpleDetect.cs" />
 		<Compile Include="data\Lever\Lever.cs" />
+		<Compile Include="data\Triggers\TriggerExample.cs" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs" />
@@ -73,6 +74,9 @@
 	  <None Include="data\Intersections\Intersection.world" />
 	  <None Include="data\Intersections\Intersection.world.meta" />
 	  <None Include="data\Intersections\SimpleDetect.cs.meta" />
+	  <None Include="data\Triggers\Trigger.world" />
+	  <None Include="data\Triggers\Trigger.world.meta" />
+	  <None Include="data\Triggers\TriggerExample.cs.meta" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="System.IO.Ports" Version="8.0.0" />
