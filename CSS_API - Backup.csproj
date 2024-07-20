@@ -45,20 +45,21 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="data/Components/AnotherComponent.cs"/>
-		<Compile Include="data/Components/ComponentCheck.cs"/>
-		<Compile Include="data/Components/ComponentCheckInherit.cs"/>
-		<Compile Include="data/Coroutines/Lerper.cs"/>
-		<Compile Include="data/Coroutines/TimeController.cs"/>
-		<Compile Include="data/Coroutines/GUI/RotateImageAroundCenter.cs"/>
-		<Compile Include="data/Movement/ChessMovement.cs"/>
-		<Compile Include="data/Movement/ConstMovement.cs"/>
-		<Compile Include="data/Movement/PhysicsMovement.cs"/>
-		<Compile Include="data/Lever/Lever.cs"/>
 		<Compile Include="data/Get Components/GetComponents.cs"/>
+		<Compile Include="data/Triggers/TriggerExample.cs"/>
+		<Compile Include="data/Coroutines/Lerper.cs"/>
+		<Compile Include="data/Movement/PhysicsMovement.cs"/>
+		<Compile Include="data/Movement/ChessMovement.cs"/>
+		<Compile Include="data/Components/ComponentCheckInherit.cs"/>
+		<Compile Include="data/Components/ComponentCheck.cs"/>
+		<Compile Include="data/Coroutines/GUI/RotateImageAroundCenter.cs"/>
 		<Compile Include="data/Intersections/SimpleDetect.cs"/>
-		<Compile Include="data/Intersections/CameraDetect.cs"/>
+		<Compile Include="data/Lever/Lever.cs"/>
 		<Compile Include="data/Intersections/ScreenDetect.cs"/>
+		<Compile Include="data/Movement/ConstMovement.cs"/>
+		<Compile Include="data/Coroutines/TimeController.cs"/>
+		<Compile Include="data/Components/AnotherComponent.cs"/>
+		<Compile Include="data/Intersections/CameraDetect.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
