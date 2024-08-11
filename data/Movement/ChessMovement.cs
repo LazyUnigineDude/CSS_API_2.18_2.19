@@ -17,7 +17,14 @@ public class ChessMovement : Component
 		//FixedCombinedMovement();
 	}
 
-	void Movement()
+	public void MoveUp() => node.WorldPosition += node.GetWorldDirection(MathLib.AXIS.Y);
+	public void MoveDown() => node.WorldPosition += node.GetWorldDirection(MathLib.AXIS.NY);
+	public void MoveLeft() => node.WorldPosition += node.GetWorldDirection(MathLib.AXIS.NX);
+	public void MoveRight() => node.WorldPosition += node.GetWorldDirection(MathLib.AXIS.X);
+	public void RotLeft() => node.WorldRotate(Rotate);
+    public void RotRight() => node.WorldRotate(RRotate);
+
+    void Movement()
 	{
 
 		if (Input.IsKeyDown(Input.KEY.W)) 
@@ -45,13 +52,13 @@ public class ChessMovement : Component
 	void Rot()
 	{
 		if (Input.IsKeyDown(Input.KEY.Q)) 
-		{ 
-			node.WorldRotate(Rotate); 
+		{
+			RotLeft();
             Log.Message("Pressed Q, CounterClockwise Rotation\n");
         }
         if (Input.IsKeyDown(Input.KEY.E)) 
-		{ 
-			node.WorldRotate(RRotate);
+		{
+			RotRight();
             Log.Message("Pressed E, Clockwise Rotation\n");
         }
     }
@@ -64,30 +71,24 @@ public class ChessMovement : Component
 
 	void FixedMovement()
 	{
-		vec3 Pos;
-
         if (Input.IsKeyDown(Input.KEY.W))
         {
-            Pos = node.GetWorldDirection(MathLib.AXIS.Y);
-            node.WorldPosition += Pos;
+			MoveUp();
 			Log.Message("Pressed W, Forward\n");
         }
         if (Input.IsKeyDown(Input.KEY.S))
         {
-            Pos = node.GetWorldDirection(MathLib.AXIS.NY);
-            node.WorldPosition += Pos;
+			MoveDown();
             Log.Message("Pressed S, Backward\n");
         }
         if (Input.IsKeyDown(Input.KEY.A))
         {
-            Pos = node.GetWorldDirection(MathLib.AXIS.NX);
-            node.WorldPosition += Pos;
+			MoveLeft();
             Log.Message("Pressed A, Left\n");
         }
         if (Input.IsKeyDown(Input.KEY.D))
         {
-            Pos = node.GetWorldDirection(MathLib.AXIS.X);
-            node.WorldPosition += Pos;
+			MoveRight();
             Log.Message("Pressed D, Right\n");
         }
     }

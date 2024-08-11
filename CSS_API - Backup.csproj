@@ -60,6 +60,7 @@
 		<Compile Include="data/Coroutines/TimeController.cs"/>
 		<Compile Include="data/Components/AnotherComponent.cs"/>
 		<Compile Include="data/Intersections/CameraDetect.cs"/>
+		<Compile Include="data/Dial/DialCheck.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
