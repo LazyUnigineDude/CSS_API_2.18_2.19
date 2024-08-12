@@ -55,6 +55,8 @@
 		<Compile Include="data/Movement/ConstMovement.cs" />
 		<Compile Include="data/Movement/PhysicsMovement.cs" />
 		<Compile Include="data\Get Components\GetComponents.cs" />
+		<Compile Include="data\GUI\ChessGUI.cs" />
+		<Compile Include="data\GUI\Widgets.cs" />
 		<Compile Include="data\Intersections\CameraDetect.cs" />
 		<Compile Include="data\Intersections\ScreenDetect.cs" />
 		<Compile Include="data\Intersections\SimpleDetect.cs" />
@@ -71,6 +73,10 @@
 	  <None Include="data\Get Components\Get Component.world" />
 	  <None Include="data\Get Components\Get Component.world.meta" />
 	  <None Include="data\Get Components\GetComponents.cs.meta" />
+	  <None Include="data\GUI\ChessGUI.cs.meta" />
+	  <None Include="data\GUI\GUI.world" />
+	  <None Include="data\GUI\GUI.world.meta" />
+	  <None Include="data\GUI\Widgets.cs.meta" />
 	  <None Include="data\Intersections\Intersection.world" />
 	  <None Include="data\Intersections\Intersection.world.meta" />
 	  <None Include="data\Intersections\SimpleDetect.cs.meta" />

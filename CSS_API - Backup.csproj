@@ -61,6 +61,8 @@
 		<Compile Include="data/Components/AnotherComponent.cs"/>
 		<Compile Include="data/Intersections/CameraDetect.cs"/>
 		<Compile Include="data/Dial/DialCheck.cs"/>
+		<Compile Include="data/GUI/Widgets.cs"/>
+		<Compile Include="data/GUI/ChessGUI.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>

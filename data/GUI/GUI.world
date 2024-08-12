@@ -832,6 +832,18 @@
 			</properties>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
 		</node>
+		<node type="NodeDummy" id="1470150978" name="Widgets">
+			<properties>
+				<property parent="a044ac6f354bab8943cef6e51922ded8908f4fc9" guid="99d7b4012c2dc21896d8c227efb62cfb16e68ceb"/>
+			</properties>
+			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1356507065" name="ChessGUI">
+			<properties>
+				<property parent="f18d254471ec733d447d5ca601151c05710aa908" guid="9885fb2a6a11a6351533ac7cbe255a2d053cbd4e"/>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
 	</editor>
 	<console>
 		<bake_lighting_bounces>4</bake_lighting_bounces>
