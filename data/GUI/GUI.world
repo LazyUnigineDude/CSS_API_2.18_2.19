@@ -840,7 +840,9 @@
 		</node>
 		<node type="NodeDummy" id="1356507065" name="ChessGUI">
 			<properties>
-				<property parent="f18d254471ec733d447d5ca601151c05710aa908" guid="9885fb2a6a11a6351533ac7cbe255a2d053cbd4e"/>
+				<property parent="f18d254471ec733d447d5ca601151c05710aa908" guid="9885fb2a6a11a6351533ac7cbe255a2d053cbd4e">
+					<parameter name="ChessNode">1892015624</parameter>
+				</property>
 			</properties>
 			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
 		</node>
