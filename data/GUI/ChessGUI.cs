@@ -7,11 +7,9 @@ public class ChessGUI : Component
 {
 	[ShowInEditor]
 	Node ChessNode;
-
 	ChessMovement ChessLogic;
-	WidgetButton Button;
-    WidgetSlider Slider;
-	WidgetCanvas Canvas;
+
+	WidgetButton Up, Down, Left, Right, RLeft, RRight;
 
 	void ClickUp(Widget Button) => ChessLogic.MoveUp();
     void ClickDown(Widget Button) => ChessLogic.MoveDown();
@@ -34,61 +32,75 @@ public class ChessGUI : Component
 
 	void Init()
 	{
-		// write here code to be called on component initialization
-		Button = new WidgetButton();
-		Button.Width = 50;
-		Button.FontSize = 21;
-		Button.SetPosition(400, 400);
-		Button.FontColor = vec4.RED;
-		Button.ButtonColor = vec4.BLACK;
-		Button.Order = 1;
+		ChessLogic = GetComponent<ChessMovement>(ChessNode);
 
-		Button.EventClicked.Connect(x => Log.Message("Clicked\n"));
-		Button.EventEnter.Connect(Enter);
-		Button.EventLeave.Connect(Leave);
+		Up = new WidgetButton("UP");
+		Down = new WidgetButton("DOWN");
+		Left = new WidgetButton("LEFT");
+		Right = new WidgetButton("RIGHT");
+		RLeft = new WidgetButton("ROTATE LEFT");
+		RRight = new WidgetButton("ROTATE RIGHT");
 
-		Slider = new();
-		Slider.Orientation = 0;
-		Slider.SetPosition(200, 250);
-		Slider.ButtonColor = vec4.BLUE;
-		Slider.EventChanged.Connect(x => { Log.Message($"{Slider.Value}\n"); });
+		Up.SetPosition(250, 125);
+        Down.SetPosition(250, 175);
+        Left.SetPosition(200, 150);
+        Right.SetPosition(300, 150);
+        RLeft.SetPosition(150, 100);
+        RRight.SetPosition(300, 100);
 
-		Canvas = new();
-		Canvas.SetPosition(400, 400);
+        Up.EventEnter.Connect(Enter);
+        Up.EventLeave.Connect(Leave);
+        Up.EventClicked.Connect(ClickUp);
 
-		int sq = Canvas.AddPolygon(0);
-		Canvas.SetPolygonColor(sq, vec4.GREEN);
-		Canvas.AddPolygonPoint(sq, vec3.ZERO);
-		Canvas.AddPolygonPoint(sq, vec3.LEFT * 200);
-		Canvas.AddPolygonPoint(sq, vec3.FORWARD * 200);
-		Canvas.AddPolygonPoint(sq, (vec3.FORWARD + vec3.LEFT) * 200);
 
-		int line = Canvas.AddLine(1);
-		Canvas.SetLineColor(line, vec4.RED);
-		Canvas.AddLinePoint(line, new vec2(10, 200));
-		Canvas.AddLinePoint(line, new vec2(50, 150));
+        Down.EventEnter.Connect(Enter);
+        Down.EventLeave.Connect(Leave);
+        Down.EventClicked.Connect(ClickDown);
 
-		int text = Canvas.AddText(2);
-		Canvas.SetTextSize(text, 26);
-		Canvas.SetTextText(text, "Hello");
-		Canvas.SetTextColor(text, vec4.BLUE);
-		Canvas.SetTextPosition(text, vec2.ONE * 100);
 
-		Unigine.Gui GUI = Gui.GetCurrent();
-		GUI.AddChild(Button, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
-		GUI.AddChild(Slider, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
-		GUI.AddChild(Canvas, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        Left.EventEnter.Connect(Enter);
+        Left.EventLeave.Connect(Leave);
+        Left.EventClicked.Connect(ClickLeft);
+
+
+        Right.EventEnter.Connect(Enter);
+        Right.EventLeave.Connect(Leave);
+        Right.EventClicked.Connect(ClickRight);
+
+
+        RLeft.EventEnter.Connect(Enter);
+        RLeft.EventLeave.Connect(Leave);
+        RLeft.EventClicked.Connect(ClickRLeft);
+
+
+        RRight.EventEnter.Connect(Enter);
+        RRight.EventLeave.Connect(Leave);
+        RRight.EventClicked.Connect(ClickRRight);
+
+        Gui GUI = Gui.GetCurrent();
+        GUI.AddChild(Up, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        GUI.AddChild(Down, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        GUI.AddChild(Left, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        GUI.AddChild(Right, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        GUI.AddChild(RLeft, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+        GUI.AddChild(RRight, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
     }
 
-	void Shutdown()
-	{
-        Unigine.Gui GUI = Gui.GetCurrent();
-		if (GUI.IsChild(Button) == 1) GUI.RemoveChild(Button);
-		if (GUI.IsChild(Slider) == 1) GUI.RemoveChild(Slider);
-		if (GUI.IsChild(Canvas) == 1) GUI.RemoveChild(Canvas);
+    void Shutdown()
+    {
+        Gui GUI = Gui.GetCurrent();
+        if (GUI.IsChild(Up) == 1) GUI.RemoveChild(Up);
+        if (GUI.IsChild(Down) == 1) GUI.RemoveChild(Down);
+        if (GUI.IsChild(Left) == 1) GUI.RemoveChild(Left);
+        if (GUI.IsChild(Right) == 1) GUI.RemoveChild(Right);
+        if (GUI.IsChild(RLeft) == 1) GUI.RemoveChild(RLeft);
+        if (GUI.IsChild(RRight) == 1) GUI.RemoveChild(RRight);
 
-		Button.DeleteLater();
-        Slider.DeleteLater();
-        Canvas.DeleteLater();
+        Up.DeleteLater();
+        Down.DeleteLater();
+        Left.DeleteLater();
+        Right.DeleteLater();
+        RLeft.DeleteLater();
+        RRight.DeleteLater();
     }
 }

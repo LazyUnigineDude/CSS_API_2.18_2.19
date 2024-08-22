@@ -802,7 +802,7 @@
 			<transform>-0.43301237 0.43559623 -0.78914917 0.0 -0.75000048 -0.6597392 0.047366858 0.0 -0.49999967 0.61237252 0.6123724 0.0 0 0 0 1.0</transform>
 		</node>
 		<node type="PlayerSpectator" id="620479819" name="main_player">
-			<collision>1</collision>
+			<collision>0</collision>
 			<collision_mask>0x1</collision_mask>
 			<collision_radius>0.5</collision_radius>
 			<min_velocity>2</min_velocity>
@@ -818,9 +818,34 @@
 			<is_main>1</is_main>
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
-			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 1.5 1.0</transform>
+			<transform>0.994149804115 -0.108010068536 -1.91852450371e-06 0.0 0.0290493965149 0.26736035943 0.963158607483 0.0 -0.104030326009 -0.957523941994 0.268933862448 0.0 -0.120281075694 -4.87122763513 2.6966559158 1.0</transform>
 		</node>
-		<node type="ObjectMeshStatic" id="1892015624" name="material_ball">
+		<node type="NodeDummy" id="320420366" name="Widgets">
+			<properties>
+				<property parent="a044ac6f354bab8943cef6e51922ded8908f4fc9" guid="099b7a2b4e71b4eb2edd40aca65126636c5f0aea">
+					<parameter name="ImageFile">
+						<value index="0">guid://d76e4260367523a2ca802bbeedeb98481271b616</value>
+						<value index="1">guid://d6c4098b453eae27ed0317f57ef83ef7952ebed3</value>
+						<value index="2">guid://43dc8e6d0f1a740baa73e5a73975827be8bf9035</value>
+					</parameter>
+					<parameter name="MaterialFile">12f6d36f4003dc2ddf499a924021a817eee6bddb</parameter>
+					<parameter name="VideoFile">guid://4b323cbbda24724e2d304ea54fa4b4ea6d634c03</parameter>
+					<parameter name="SoundFile">guid://ca7fcc1f98f11940792e48a97f41b6ac423915e7</parameter>
+					<parameter name="GUINode">1427271738</parameter>
+					<parameter name="SoundNode">1400969084</parameter>
+				</property>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="626629057" enabled="0" name="Chess GUI">
+			<properties>
+				<property parent="f18d254471ec733d447d5ca601151c05710aa908" guid="2532d3f72d383210a7319b2854432a1a56a1ef86">
+					<parameter name="ChessNode">1712731919</parameter>
+				</property>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1712731919" name="material_ball">
 			<streaming_mode_vram>0</streaming_mode_vram>
 			<streaming_mode_ram>0</streaming_mode_ram>
 			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
@@ -828,23 +853,56 @@
 			<surface name="material_ball_mat_lod_1" intersection="1" min_visible_distance="3" max_visible_distance="9" min_fade_distance="0.5" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<properties>
-				<property parent="ee0a9d94d0f8fa475d69f3fac7cdecd855f638ce" guid="b86cb48600dbe16d8ad34e8f7c8216b0abcf67e0"/>
-			</properties>
-			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="1470150978" name="Widgets">
-			<properties>
-				<property parent="a044ac6f354bab8943cef6e51922ded8908f4fc9" guid="99d7b4012c2dc21896d8c227efb62cfb16e68ceb"/>
-			</properties>
-			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
-		</node>
-		<node type="NodeDummy" id="1356507065" name="ChessGUI">
-			<properties>
-				<property parent="f18d254471ec733d447d5ca601151c05710aa908" guid="9885fb2a6a11a6351533ac7cbe255a2d053cbd4e">
-					<parameter name="ChessNode">1892015624</parameter>
-				</property>
+				<property parent="ee0a9d94d0f8fa475d69f3fac7cdecd855f638ce" guid="2560a757221feaf76b414cbacb4ab6b78c2d812d"/>
 			</properties>
 			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="8749234" immovable="1" name="TV">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://f56876b3a1b56b0687e8a15d046cc1ab16f9aafb</mesh_name>
+			<surface name="defaultMat" intersection="1" material="43a1b08c9120055145a3850ae84a2edf6358c562"/>
+			<transform>-0.766044020653 0.642788171768 5.61935209475e-08 0.0 -0.642788171768 -0.766044020653 -6.69690436439e-08 0.0 -2.00728282195e-13 -8.74217462865e-08 0.999999821186 0.0 3.21394026279 3.83021980524 3.34845182692e-07 1.0</transform>
+			<node type="ObjectGui" id="1427271738" immovable="1" name="ObjectGui">
+				<gui_name>core/gui/</gui_name>
+				<billboard>0</billboard>
+				<background>1</background>
+				<depth_test>1</depth_test>
+				<mouse_show>1</mouse_show>
+				<control_distance>2</control_distance>
+				<polygon_offset>1</polygon_offset>
+				<physical_width>3.0999999</physical_width>
+				<physical_height>1.79999995</physical_height>
+				<screen_width>1024</screen_width>
+				<screen_height>768</screen_height>
+				<surface name="gui" intersection="1" material="1f14ce52ff2d0d126d21be317e860a4a76477183"/>
+				<transform>-0.999999582767 -3.22329647418e-08 8.74227481518e-08 0.0 8.74227481518e-08 5.96046234591e-08 0.999999582767 0.0 -3.22329647418e-08 0.999999642372 5.96046270118e-08 0.0 1.36363021556e-14 0.09168 1.28053 1.0</transform>
+			</node>
+			<node type="SoundSource" id="1400969084" name="SoundSource">
+				<sample_name>guid://ca7fcc1f98f11940792e48a97f41b6ac423915e7</sample_name>
+				<sample_stream>1</sample_stream>
+				<source_mask>0x1</source_mask>
+				<reverb_mask>0x1</reverb_mask>
+				<loop>1</loop>
+				<play_on_enable>0</play_on_enable>
+				<restart_on_enable>0</restart_on_enable>
+				<occlusion>1</occlusion>
+				<occlusion_mask>-1</occlusion_mask>
+				<adaptation>0.25</adaptation>
+				<time>0</time>
+				<pitch>1</pitch>
+				<gain>1</gain>
+				<room_rolloff>0</room_rolloff>
+				<air_absorption>0</air_absorption>
+				<min_distance>0</min_distance>
+				<max_distance>5</max_distance>
+				<cone_inner_angle>180</cone_inner_angle>
+				<cone_outer_angle>180</cone_outer_angle>
+				<cone_outer_gain>0</cone_outer_gain>
+				<cone_outer_gain_hf>1</cone_outer_gain_hf>
+				<playing>0</playing>
+				<transform>0.999999880791 0 0 0.0 0 1 0 0.0 0 0 0.999999761581 0.0 0 0 0 1.0</transform>
+			</node>
 		</node>
 	</editor>
 	<console>
