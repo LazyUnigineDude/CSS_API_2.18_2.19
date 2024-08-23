@@ -89,7 +89,7 @@ public class Widgets : Component
         Canvas = new();
         Canvas.SetPosition(400, 400);
 
-        int sq = Canvas.AddPolygon(0);
+        int sq = Canvas.AddPolygon(); // 200, 200
         Canvas.SetPolygonColor(sq, vec4.GREEN);
         Canvas.AddPolygonPoint(sq, vec3.ZERO);
         Canvas.AddPolygonPoint(sq, vec3.RIGHT * 200);
@@ -101,27 +101,27 @@ public class Widgets : Component
         Canvas.AddLinePoint(line, new vec2(10, 100));
         Canvas.AddLinePoint(line, new vec2(50, 150));
 
-        int text = Canvas.AddText(2);
+        int text = Canvas.AddText();
         Canvas.SetTextSize(text, 26);
         Canvas.SetTextText(text, "Hello");
         Canvas.SetTextColor(text, vec4.BLUE);
-        Canvas.SetTextPosition(text, vec2.ONE * 100);
+        Canvas.SetTextPosition(text, vec2.ONE * 100); //Pos 100, 100
 
         // Add Image to Canvas Shape
-        int Image = Canvas.AddPolygon(1);
-        Canvas.SetPolygonTexture(Image, ImageFile[0].AbsolutePath);
+        int Image = Canvas.AddPolygon(1); // 200x200 at pos 400, 0
+        Canvas.SetPolygonTexture(Image, ImageFile[0].AbsolutePath); // HardCoding Positions
 
-        Canvas.AddPolygonPoint(Image, vec3.RIGHT * 200);
-        Canvas.SetPolygonTexCoord(Image, vec2.ZERO);
+        Canvas.AddPolygonPoint(Image, vec3.RIGHT * 200); // 200, 0
+        Canvas.SetPolygonTexCoord(Image, vec2.ZERO); // 0, 0
 
-        Canvas.AddPolygonPoint(Image, vec3.RIGHT * 400);
-        Canvas.SetPolygonTexCoord(Image, new vec2(1, 0));
+        Canvas.AddPolygonPoint(Image, vec3.RIGHT * 400); // 400, 0
+        Canvas.SetPolygonTexCoord(Image, new vec2(1, 0)); //  1, 0
 
         Canvas.AddPolygonPoint(Image, vec3.RIGHT * 400 + vec3.FORWARD * 200);
-        Canvas.SetPolygonTexCoord(Image, vec2.ONE);
+        Canvas.SetPolygonTexCoord(Image, vec2.ONE); // 400, 200 & 1, 1
 
         Canvas.AddPolygonPoint(Image, (vec3.RIGHT + vec3.FORWARD) * 200);
-        Canvas.SetPolygonTexCoord(Image, new vec2(0, 1));
+        Canvas.SetPolygonTexCoord(Image, new vec2(0, 1)); // 200, 200 & 0, 1
 
         // Image
         Sprite = new WidgetSprite();
