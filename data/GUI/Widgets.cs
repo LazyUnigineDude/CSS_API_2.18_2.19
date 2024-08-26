@@ -187,6 +187,7 @@ public class Widgets : Component
         GUI.AddChild(Color, Gui.ALIGN_OVERLAP);
 
         // Add Video to Object in World
+        // THE GUI Inside the GUIObject
         Gui VGUIP = VGui.GetGui();
         VGUIP.AddChild(Video, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
     }
