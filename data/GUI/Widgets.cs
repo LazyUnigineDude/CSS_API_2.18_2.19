@@ -19,7 +19,7 @@ public class Widgets : Component
     File SoundFile;
 
     [ShowInEditor]
-    Node GUINode, SoundNode;
+    Node GUINode, SoundNode, GUIMeshNode;
 
     WidgetLabel Label;
     WidgetButton Button;
@@ -168,7 +168,7 @@ public class Widgets : Component
         Color.CancelText = "Cancel the changes my dudes";
         Color.OkText = "OK Dudes we pick this";
         Color.Sizeable = true;
-        Color.SetPosition(800, 400);
+        //Color.SetPosition(800, 400);
         Color.Width = 200;
         Color.Height = 200;
         Color.EventClicked.Connect(() => {
@@ -184,12 +184,16 @@ public class Widgets : Component
         GUI.AddChild(Canvas, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
         GUI.AddChild(Sprite, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
         GUI.AddChild(Shader, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
-        GUI.AddChild(Color, Gui.ALIGN_OVERLAP);
+        //GUI.AddChild(Color, Gui.ALIGN_OVERLAP);
 
         // Add Video to Object in World
         // THE GUI Inside the GUIObject
         Gui VGUIP = VGui.GetGui();
         VGUIP.AddChild(Video, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
+
+        ObjectGuiMesh mGUI = GUIMeshNode as ObjectGuiMesh;
+        Gui mGUIP = mGUI.Gui;
+        mGUIP.AddChild(Color, Gui.ALIGN_EXPAND | Gui.ALIGN_OVERLAP);
     }
 
     void Update()
@@ -224,12 +228,17 @@ public class Widgets : Component
         Canvas.DeleteLater();
         Sprite.DeleteLater();
         Shader.DeleteLater();
-        Color.DeleteLater();
 
         // Video
         ObjectGui VGui = GUINode as ObjectGui;
         Gui VGUIP = VGui.GetGui();
         if (VGUIP.IsChild(Video) == 1) VGUIP.RemoveChild(Video);
+
+        ObjectGuiMesh mGUI = GUIMeshNode as ObjectGuiMesh;
+        Gui mGUIP = mGUI.Gui;
+        if (mGUIP.IsChild(Color) == 1) mGUIP.RemoveChild(Color);
+        Color.DeleteLater();
+
         Sound.Stop();
         //Ambient.Stop();
         Video.DeleteLater();
