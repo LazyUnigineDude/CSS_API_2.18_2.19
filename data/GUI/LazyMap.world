@@ -801,38 +801,25 @@
 			</lens_flare_billboards>
 			<transform>-0.43301237 0.43559623 -0.78914917 0.0 -0.75000048 -0.6597392 0.047366858 0.0 -0.49999967 0.61237252 0.6123724 0.0 0 0 0 1.0</transform>
 		</node>
-		<node type="PlayerSpectator" id="620479819" name="main_player">
-			<collision>1</collision>
-			<collision_mask>0x1</collision_mask>
-			<collision_radius>0.5</collision_radius>
-			<min_velocity>2</min_velocity>
-			<max_velocity>4</max_velocity>
-			<min_theta_angle>-89.9000015</min_theta_angle>
-			<max_theta_angle>89.9000015</max_theta_angle>
-			<acceleration>4</acceleration>
-			<damping>8</damping>
-			<turning>90</turning>
-			<zfar>100000</zfar>
-			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
-			<is_oblique_frustum>0</is_oblique_frustum>
-			<is_main>1</is_main>
-			<is_listener>1</is_listener>
-			<controlled>1</controlled>
-			<transform>1 -3.5762787e-07 0 0.0 0 0 1 0.0 -3.5762787e-07 -1 0 0.0 0 0 1.5 1.0</transform>
-		</node>
 		<node type="PlayerDummy" id="1569362004" name="MapView">
 			<znear>0.300000012</znear>
 			<zfar>100000</zfar>
 			<projection_mode>1</projection_mode>
-			<ortho_height>50</ortho_height>
+			<ortho_height>10</ortho_height>
 			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
 			<is_oblique_frustum>0</is_oblique_frustum>
 			<is_main>0</is_main>
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
-			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+			<properties>
+				<property parent="64cb64cbe8499ee471b85ad5e0f055a3c92089ee" guid="ff24617461fc3e8e722deb92f35840745f617079">
+					<parameter name="MapCamera">1569362004</parameter>
+					<parameter name="FollowObj">834960630</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 50 1.0</transform>
 		</node>
-		<node type="ObjectMeshStatic" id="834960630" name="material_ball">
+		<node type="ObjectMeshStatic" id="834960630" name="MainCharacter">
 			<streaming_mode_vram>0</streaming_mode_vram>
 			<streaming_mode_ram>0</streaming_mode_ram>
 			<mesh_name>guid://d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7</mesh_name>
@@ -841,10 +828,39 @@
 			<surface name="material_ball_mat_lod_2" intersection="1" min_visible_distance="9" min_fade_distance="1" physics_friction="1" physics_restitution="1" material="2d2814767f25015d91f013182a937b973ae9640a"/>
 			<properties>
 				<property parent="5a48ce051d44fc32ab03d9375e03338e0d48f7d9" guid="354deea79b867a538fe2a2113ffba2872de5921a">
-					<parameter name="node">834960630</parameter>
+					<parameter name="MoveNode">834960630</parameter>
 				</property>
 			</properties>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+			<node type="PlayerDummy" id="1837237618" name="PlayerDummy">
+				<znear>0.300000012</znear>
+				<zfar>100000</zfar>
+				<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
+				<is_oblique_frustum>0</is_oblique_frustum>
+				<is_main>1</is_main>
+				<is_listener>1</is_listener>
+				<controlled>1</controlled>
+				<transform>0.999902665603 0.0139613279952 -3.07802129256e-07 0.0 -0.00638163165827 0.457068587192 0.889408581818 0.0 0.012417465066 -0.889321969667 0.457113114423 0.0 0.133993465438 -2.81201207148 2.40415706074 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeReference" id="506631747" name="material_ball">
+			<reference>guid://195f9699e605114087e7c79e9555b4cdeae10f48</reference>
+			<transform>0.642366111279 -0.76639765501 0 0.0 0.76639765501 0.642366111279 0 0.0 0 0 0.999999940395 0.0 3.09247461581 3.07253085769 -1.19209289551e-07 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1214082925" name="material_ball_1">
+			<reference>guid://195f9699e605114087e7c79e9555b4cdeae10f48</reference>
+			<transform>0.715299606323 0.698817193508 0 0.0 -0.698817193508 0.715299606323 0 0.0 0 0 0.999999821186 0.0 -2.96409813696 6.97448775709 -1.19209289773e-07 1.0</transform>
+		</node>
+		<node type="NodeReference" id="1273095207" name="material_ball_2">
+			<reference>guid://195f9699e605114087e7c79e9555b4cdeae10f48</reference>
+			<transform>0.715299546719 0.698817074299 0 0.0 -0.698817133904 0.715299606323 0 0.0 0 0 0.999999821186 0.0 5.78710924949 9.15252482755 -1.19209289773e-07 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="758818448" immovable="1" name="default">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://f56876b3a1b56b0687e8a15d046cc1ab16f9aafb</mesh_name>
+			<surface name="defaultMat" intersection="1" material="43a1b08c9120055145a3850ae84a2edf6358c562"/>
+			<transform>0.827648162842 -0.561246991158 -4.90657967589e-08 0.0 0.561246991158 0.827648162842 7.23552844306e-08 0.0 3.19744197211e-14 -8.7422769468e-08 0.999999940395 0.0 -4.67547607422 2.70788145065 -1.19209289551e-07 1.0</transform>
 		</node>
 	</editor>
 	<console>

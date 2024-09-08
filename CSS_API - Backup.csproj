@@ -63,6 +63,7 @@
 		<Compile Include="data/Dial/DialCheck.cs"/>
 		<Compile Include="data/GUI/Widgets.cs"/>
 		<Compile Include="data/GUI/ChessGUI.cs"/>
+		<Compile Include="data/GUI/MapMaker.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs"/>
