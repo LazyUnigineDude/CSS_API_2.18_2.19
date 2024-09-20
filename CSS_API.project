@@ -47,7 +47,7 @@
             },
             {
                 "file": "CSS_API.csproj",
-                "hash": "17142899691553489",
+                "hash": "17264461195754769",
                 "tags": [
                     "project_sources"
                 ]
@@ -77,300 +77,300 @@
                 "file": "bin",
                 "hash": "",
                 "tags": [
-                    "binaries",
-                    "unigine"
+                    "unigine",
+                    "binaries"
                 ]
             },
             {
                 "file": "bin/ApplicationLauncher_x64.exe",
-                "hash": "17142899686241123840",
+                "hash": "17264461177651108480",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/EditorCore_double_x64.dll",
-                "hash": "171428996874018617600",
+                "hash": "172644611790014739208",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/EditorCore_double_x64.pdb",
-                "hash": "171428996875823515136",
+                "hash": "1726446118005129970176",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/EditorCore_double_x64d.dll",
-                "hash": "171428996878636742400",
+                "hash": "172644611803532791304",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/EditorCore_double_x64d.pdb",
-                "hash": "1714289969005313626624",
+                "hash": "1726446118234225275904",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Editor_double_x64.exe",
-                "hash": "17142899686615540608",
+                "hash": "17264461178095217544",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Editor_double_x64.pdb",
-                "hash": "17142899686674837376",
+                "hash": "172644611783331969280",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Editor_double_x64d.exe",
-                "hash": "17142899686758798464",
+                "hash": "17264461178408808200",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Editor_double_x64d.pdb",
-                "hash": "171428996872562631936",
+                "hash": "172644611788757831424",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Qt5Concurrent.dll",
-                "hash": "171428996865028672",
+                "hash": "172644611779828672",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Qt5Core.dll",
-                "hash": "17142899686356105088",
+                "hash": "17264461177786105088",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Qt5Gui.dll",
-                "hash": "17142899686426464000",
+                "hash": "17264461177866464000",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Qt5Network.dll",
-                "hash": "17142899686501301504",
+                "hash": "17264461177981301504",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Qt5Widgets.dll",
-                "hash": "17142899686485530624",
+                "hash": "17264461177955530624",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64.deps.json",
-                "hash": "1714289969028461",
+                "hash": "1726446118344461",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64.dll",
-                "hash": "17142899690254830464",
+                "hash": "17264461183374993288",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64.pdb",
-                "hash": "17142899690271545592",
+                "hash": "17264461183431568864",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64.xml",
-                "hash": "17142899691465908910",
+                "hash": "17264461195635538318",
                 "tags": [
                     "unigine_utils"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64d.deps.json",
-                "hash": "1714289969032464",
+                "hash": "1726446118363464",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64d.dll",
-                "hash": "17142899690305118208",
+                "hash": "17264461183555287688",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64d.pdb",
-                "hash": "17142899690311952176",
+                "hash": "17264461183611982628",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineSharp_double_x64d.xml",
-                "hash": "17142899691485908910",
+                "hash": "17264461195665538318",
                 "tags": [
                     "unigine_utils"
                 ]
             },
             {
                 "file": "bin/UnigineWrapper_double_x64.dll",
-                "hash": "17142899690073779840",
+                "hash": "17264461182403477768",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineWrapper_double_x64.pdb",
-                "hash": "17142899690097622656",
+                "hash": "172644611826125325568",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineWrapper_double_x64d.dll",
-                "hash": "17142899690127076608",
+                "hash": "17264461182686843144",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/UnigineWrapper_double_x64d.pdb",
-                "hash": "171428996902336687872",
+                "hash": "172644611832438268928",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Unigine_double_x64.dll",
-                "hash": "171428996800683277056",
+                "hash": "172644611681581688328",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Unigine_double_x64.pdb",
-                "hash": "1714289968244367284224",
+                "hash": "1726446117190389689344",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Unigine_double_x64d.dll",
-                "hash": "1714289968322105918208",
+                "hash": "172644611729098314504",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/Unigine_double_x64d.pdb",
-                "hash": "1714289968619423448576",
+                "hash": "1726446117760430510080",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/VarjoLib.dll",
-                "hash": "1714289969061231424",
+                "hash": "1726446118436231424",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64.deps.json",
-                "hash": "1714289969034891",
+                "hash": "1726446118370891",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64.dll",
-                "hash": "1714289969032431872",
+                "hash": "1726446118366429320",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64.pdb",
-                "hash": "171428996903311076",
+                "hash": "172644611836811340",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64.runtimeconfig.json",
-                "hash": "1714289969035253",
+                "hash": "1726446118371340",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64d.deps.json",
-                "hash": "1714289969036898",
+                "hash": "1726446118378898",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64d.dll",
-                "hash": "1714289969036431872",
+                "hash": "1726446118375429832",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64d.pdb",
-                "hash": "171428996903611408",
+                "hash": "172644611837611672",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/cspropgen_double_x64d.runtimeconfig.json",
-                "hash": "1714289969037253",
+                "hash": "1726446118379340",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/d3dcompiler_47.dll",
-                "hash": "17142899690454524480",
+                "hash": "17264461183954524480",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/dxcompiler.dll",
-                "hash": "171428996905817367600",
+                "hash": "172644611842517367600",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/dxil.dll",
-                "hash": "17142899690611421856",
+                "hash": "17264461184351421856",
                 "tags": [
                     "binaries"
                 ]
@@ -384,28 +384,28 @@
             },
             {
                 "file": "bin/imageformats/qgif.dll",
-                "hash": "171428996862432768",
+                "hash": "172644611776732768",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/libeay32.dll",
-                "hash": "17142899686542101248",
+                "hash": "17264461178032101248",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/msvcp140.dll",
-                "hash": "1714289969038633152",
+                "hash": "1726446118380573008",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/openal32.dll",
-                "hash": "1714289969039962560",
+                "hash": "1726446118381962560",
                 "tags": [
                     "binaries"
                 ]
@@ -419,7 +419,7 @@
             },
             {
                 "file": "bin/platforms/qwindows.dll",
-                "hash": "17142899686281446400",
+                "hash": "17264461177711446400",
                 "tags": [
                     "binaries"
                 ]
@@ -440,28 +440,28 @@
             },
             {
                 "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_double_x64.dll",
-                "hash": "17142899691207409408",
+                "hash": "17264461186797497480",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_double_x64.pdb",
-                "hash": "17142899691275779456",
+                "hash": "172644611878640456192",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_double_x64d.dll",
-                "hash": "17142899691359938688",
+                "hash": "172644611881410121992",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxExporter/UnigineFbxExporter_plugin_double_x64d.pdb",
-                "hash": "171428996914410285056",
+                "hash": "172644611893545477888",
                 "tags": [
                     "plugins"
                 ]
@@ -475,28 +475,28 @@
             },
             {
                 "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_double_x64.dll",
-                "hash": "17142899690737807232",
+                "hash": "17264461184577965960",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_double_x64.pdb",
-                "hash": "17142899690816041600",
+                "hash": "172644611853341766912",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_double_x64d.dll",
-                "hash": "171428996909110897152",
+                "hash": "172644611855211138824",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/FbxImporter/UnigineFbxImporter_plugin_double_x64d.pdb",
-                "hash": "171428996910114659584",
+                "hash": "172644611862748271360",
                 "tags": [
                     "plugins"
                 ]
@@ -510,34 +510,41 @@
             },
             {
                 "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_double_x64.dll",
-                "hash": "1714289969103540928",
+                "hash": "1726446118628593160",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_double_x64.pdb",
-                "hash": "1714289969103815104",
+                "hash": "17264461186383985408",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_double_x64d.dll",
-                "hash": "17142899691061196288",
+                "hash": "17264461186441291528",
                 "tags": [
                     "plugins"
                 ]
             },
             {
                 "file": "bin/plugins/Unigine/GLTFImporter/UnigineGLTFImporter_plugin_double_x64d.pdb",
-                "hash": "17142899691126746112",
+                "hash": "17264461186616361088",
                 "tags": [
                     "plugins"
                 ]
             },
             {
-                "file": "bin/plugins/Unigine/OpenFlight",
+                "file": "bin/plugins/Unigine/Geodetics",
+                "hash": "",
+                "tags": [
+                    "plugins"
+                ]
+            },
+            {
+                "file": "bin/plugins/Unigine/UsdExporter",
                 "hash": "",
                 "tags": [
                     "plugins"
@@ -545,7 +552,7 @@
             },
             {
                 "file": "bin/ssleay32.dll",
-                "hash": "1714289968651353792",
+                "hash": "1726446117799353792",
                 "tags": [
                     "binaries"
                 ]
@@ -559,14 +566,21 @@
             },
             {
                 "file": "bin/styles/qwindowsvistastyle.dll",
-                "hash": "1714289968625136192",
+                "hash": "1726446117768136192",
+                "tags": [
+                    "binaries"
+                ]
+            },
+            {
+                "file": "bin/usc_x64.exe",
+                "hash": "17264461189576402848",
                 "tags": [
                     "binaries"
                 ]
             },
             {
                 "file": "bin/vcruntime140.dll",
-                "hash": "171428996903887888",
+                "hash": "1726446118380119376",
                 "tags": [
                     "binaries"
                 ]
@@ -1338,7 +1352,7 @@
             },
             {
                 "file": "data/.cache_textures/69/692dbb7d56d633e22551bd47f4d92cd2d498270d.texture",
-                "hash": "1708052373688172",
+                "hash": "1716325035880172",
                 "tags": [
                     "project_data"
                 ]
@@ -3599,14 +3613,14 @@
             },
             {
                 "file": "data/CSS_API.world",
-                "hash": "171229529070280882",
+                "hash": "172433470414379472",
                 "tags": [
                     "project_data"
                 ]
             },
             {
                 "file": "data/CSS_API.world.meta",
-                "hash": "17080539649491550",
+                "hash": "1721507215782590",
                 "tags": [
                     "project_data"
                 ]
@@ -3697,7 +3711,7 @@
             },
             {
                 "file": "data/core.ung",
-                "hash": "171428997464968532565",
+                "hash": "172644613349465370047",
                 "tags": [
                     "unigine_data"
                 ]
@@ -4831,7 +4845,7 @@
             },
             {
                 "file": "data/editor2.ung",
-                "hash": "17142899778058038724",
+                "hash": "17264461373127474431",
                 "tags": [
                     "unigine_data"
                 ]
@@ -4845,14 +4859,14 @@
             },
             {
                 "file": "data/scripts.ung",
-                "hash": "171428997467411780",
+                "hash": "172644613358811940",
                 "tags": [
                     "unigine_data"
                 ]
             },
             {
                 "file": "data/shader_d3d11.cache",
-                "hash": "17120075462562494732",
+                "hash": "17260099622962573751",
                 "tags": [
                     "project_data"
                 ]
@@ -4873,21 +4887,21 @@
             },
             {
                 "file": "launch_debug.bat",
-                "hash": "1714289987230463",
+                "hash": "1726446151552463",
                 "tags": [
                     "launcher_console"
                 ]
             },
             {
                 "file": "launch_editor.bat",
-                "hash": "1714289987237507",
+                "hash": "1726446151562507",
                 "tags": [
                     "launcher_console"
                 ]
             },
             {
                 "file": "launch_release.bat",
-                "hash": "1714289987222462",
+                "hash": "1726446151551462",
                 "tags": [
                     "launcher_console"
                 ]
@@ -4908,7 +4922,7 @@
             },
             {
                 "file": "source/AppSystemLogic.cs",
-                "hash": "1708052374113960",
+                "hash": "17163266039651088",
                 "tags": [
                     "project_sources"
                 ]
@@ -4931,6 +4945,7 @@
                 "file": "utils",
                 "hash": "",
                 "tags": [
+                    "migration_scripts",
                     "unigine_utils"
                 ]
             },
@@ -4943,30 +4958,4265 @@
             },
             {
                 "file": "utils/natvis/image.natvis",
-                "hash": "17142899686201891",
+                "hash": "17264461177621891",
                 "tags": [
                     "unigine_utils"
                 ]
             },
             {
                 "file": "utils/natvis/install.txt",
-                "hash": "1714289968620214",
+                "hash": "1726446117762214",
                 "tags": [
                     "unigine_utils"
                 ]
             },
             {
                 "file": "utils/natvis/qt5_2.natvis",
-                "hash": "171428996862133547",
+                "hash": "172644611776333547",
                 "tags": [
                     "unigine_utils"
                 ]
             },
             {
                 "file": "utils/natvis/unigine_stl.natvis",
-                "hash": "171428996862110715",
+                "hash": "172644611776310715",
                 "tags": [
                     "unigine_utils"
+                ]
+            },
+            {
+                "file": "utils/upgrade",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/config.h",
+                "hash": "17264461189701551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/log.h",
+                "hash": "17264461189705629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/material.h",
+                "hash": "172644611897110150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/materials.h",
+                "hash": "17264461189711754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/meta.h",
+                "hash": "17264461189721265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/process.h",
+                "hash": "172644611897210746",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/projections.h",
+                "hash": "17264461189771244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/properties.h",
+                "hash": "17264461189782592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/property.h",
+                "hash": "17264461189787963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/render.xml",
+                "hash": "172644611897933631",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/syncker.h",
+                "hash": "17264461189791218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/track.h",
+                "hash": "17264461189801192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/upgrade.usc",
+                "hash": "17264461189803629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/utils.h",
+                "hash": "17264461189819053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.10.0.0/worlds_nodes.h",
+                "hash": "17264461189813640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/config.h",
+                "hash": "17264461189821551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/fbx_reader.h",
+                "hash": "17264461189834931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/log.h",
+                "hash": "17264461189835629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/material.h",
+                "hash": "172644611898410150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/materials.h",
+                "hash": "17264461189851754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/meta.h",
+                "hash": "17264461189851271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/process.h",
+                "hash": "17264461189898350",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/projections.h",
+                "hash": "17264461189891244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/properties.h",
+                "hash": "17264461189902592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/property.h",
+                "hash": "17264461189907963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/render.xml",
+                "hash": "172644611899133658",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/syncker.h",
+                "hash": "17264461189911218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/track.h",
+                "hash": "17264461189921192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/upgrade.usc",
+                "hash": "17264461189923629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/utils.h",
+                "hash": "17264461189939055",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.11.0.0/worlds_nodes.h",
+                "hash": "17264461189933640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/config.h",
+                "hash": "17264461189941551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/fbx_reader.h",
+                "hash": "17264461189944931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/log.h",
+                "hash": "17264461189955629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/material.h",
+                "hash": "172644611899510150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/materials.h",
+                "hash": "17264461189961754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/meta.h",
+                "hash": "17264461189961271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/process.h",
+                "hash": "17264461190059343",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/projections.h",
+                "hash": "17264461190061244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/properties.h",
+                "hash": "17264461190062592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/property.h",
+                "hash": "17264461190067963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/render.xml",
+                "hash": "172644611900733658",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/syncker.h",
+                "hash": "17264461190071218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/track.h",
+                "hash": "17264461190081192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/upgrade.usc",
+                "hash": "17264461190083629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/utils.h",
+                "hash": "17264461190099055",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.0/worlds_nodes.h",
+                "hash": "17264461190093640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/config.h",
+                "hash": "17264461190101551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/fbx_reader.h",
+                "hash": "17264461190104931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/log.h",
+                "hash": "17264461190115629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/material.h",
+                "hash": "172644611901110150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/materials.h",
+                "hash": "17264461190121768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/meta.h",
+                "hash": "17264461190121271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/process.h",
+                "hash": "172644611901312137",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/projections.h",
+                "hash": "17264461190131244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/properties.h",
+                "hash": "17264461190142592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/property.h",
+                "hash": "17264461190147963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/render.xml",
+                "hash": "172644611901535331",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/syncker.h",
+                "hash": "17264461190151218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/track.h",
+                "hash": "17264461190161192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/upgrade.usc",
+                "hash": "17264461190163630",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/utils.h",
+                "hash": "17264461190179055",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.1/worlds_nodes.h",
+                "hash": "17264461190183640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/config.h",
+                "hash": "17264461190181644",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/fbx_reader.h",
+                "hash": "17264461190194931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/log.h",
+                "hash": "17264461190195629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/material.h",
+                "hash": "172644611902010150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/materials.h",
+                "hash": "17264461190201768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/meta.h",
+                "hash": "17264461190211271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/process.h",
+                "hash": "172644611902211940",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/projections.h",
+                "hash": "17264461190221244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/properties.h",
+                "hash": "17264461190232592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/property.h",
+                "hash": "17264461190237963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/render.xml",
+                "hash": "172644611902434726",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/syncker.h",
+                "hash": "17264461190241218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/track.h",
+                "hash": "17264461190251192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/upgrade.usc",
+                "hash": "17264461190253741",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/utils.h",
+                "hash": "17264461190269055",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.12.0.2/worlds_nodes.h",
+                "hash": "17264461190263640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/config.h",
+                "hash": "17264461190271765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/fbx_reader.h",
+                "hash": "17264461190284931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/log.h",
+                "hash": "17264461190285629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/material.h",
+                "hash": "172644611902910150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/materials.h",
+                "hash": "17264461190301768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/meta.h",
+                "hash": "17264461190301271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/process.h",
+                "hash": "172644611903110493",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/projections.h",
+                "hash": "17264461190321244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/properties.h",
+                "hash": "17264461190332592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/property.h",
+                "hash": "17264461190347963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/render.xml",
+                "hash": "172644611903435607",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/syncker.h",
+                "hash": "17264461190351218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/track.h",
+                "hash": "17264461190361192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/upgrade.usc",
+                "hash": "17264461190363875",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/utils.h",
+                "hash": "17264461190379169",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.13.0.0/worlds_nodes.h",
+                "hash": "17264461190383640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/config.h",
+                "hash": "17264461190381765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/fbx_reader.h",
+                "hash": "17264461190394931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/log.h",
+                "hash": "17264461190395629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/material.h",
+                "hash": "172644611904010150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/materials.h",
+                "hash": "17264461190401768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/meta.h",
+                "hash": "17264461190411271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/process.h",
+                "hash": "17264461190425986",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/projections.h",
+                "hash": "17264461190421244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/properties.h",
+                "hash": "17264461190432592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/property.h",
+                "hash": "17264461190437963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/render.xml",
+                "hash": "172644611904438660",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/syncker.h",
+                "hash": "17264461190451218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/track.h",
+                "hash": "17264461190451192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/upgrade.usc",
+                "hash": "17264461190453875",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/utils.h",
+                "hash": "17264461190459169",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.0.0/worlds_nodes.h",
+                "hash": "17264461190463640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/config.h",
+                "hash": "17264461190471765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/fbx_reader.h",
+                "hash": "17264461190484931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/log.h",
+                "hash": "17264461190485629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/material.h",
+                "hash": "172644611904910150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/materials.h",
+                "hash": "17264461190501768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/meta.h",
+                "hash": "17264461190501271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/process.h",
+                "hash": "17264461190604941",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/projections.h",
+                "hash": "17264461190601244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/properties.h",
+                "hash": "17264461190612592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/property.h",
+                "hash": "17264461190627963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/syncker.h",
+                "hash": "17264461190631218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/track.h",
+                "hash": "17264461190631192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/upgrade.usc",
+                "hash": "17264461190643875",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/utils.h",
+                "hash": "17264461190659169",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.14.1.0/worlds_nodes.h",
+                "hash": "17264461190663640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/config.h",
+                "hash": "17264461190671765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/fbx_reader.h",
+                "hash": "17264461190674931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/landscape.h",
+                "hash": "17264461190685027",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/log.h",
+                "hash": "17264461190685629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/material.h",
+                "hash": "172644611906910150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/materials.h",
+                "hash": "17264461190701768",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/meta.h",
+                "hash": "17264461190711271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/process.h",
+                "hash": "17264461190714324",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/projections.h",
+                "hash": "17264461190721244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/properties.h",
+                "hash": "17264461190732592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/property.h",
+                "hash": "17264461190747963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/render.xml",
+                "hash": "172644611907438660",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/syncker.h",
+                "hash": "17264461190751218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/track.h",
+                "hash": "17264461190761192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/upgrade.usc",
+                "hash": "17264461190773985",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/utils.h",
+                "hash": "17264461190799169",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.0/worlds_nodes.h",
+                "hash": "17264461190823640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/config.h",
+                "hash": "17264461190841765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/fbx_reader.h",
+                "hash": "17264461190844931",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/log.h",
+                "hash": "17264461190855629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/material.h",
+                "hash": "172644611908610224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/materials.h",
+                "hash": "17264461190871775",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/meta.h",
+                "hash": "17264461190871271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/process.h",
+                "hash": "172644611908834751",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/projections.h",
+                "hash": "17264461190891244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/properties.h",
+                "hash": "17264461190902592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/property.h",
+                "hash": "17264461190907963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/render.xml",
+                "hash": "172644611909138660",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/sandworm.h",
+                "hash": "172644611909223448",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/syncker.h",
+                "hash": "17264461190921218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/track.h",
+                "hash": "17264461190931192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/upgrade.usc",
+                "hash": "17264461190943982",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/utils.h",
+                "hash": "17264461190959318",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.0.1/worlds_nodes.h",
+                "hash": "17264461190963642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/config.h",
+                "hash": "17264461190961765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/log.h",
+                "hash": "17264461190975629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/mat_graph.json",
+                "hash": "1726446119098865",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/material.h",
+                "hash": "172644611909810224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/material_graph.h",
+                "hash": "17264461190996351",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/materials.h",
+                "hash": "17264461191001775",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/meta.h",
+                "hash": "17264461191091271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/process.h",
+                "hash": "172644611911011395",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/projections.h",
+                "hash": "17264461191111244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/properties.h",
+                "hash": "17264461191112592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/property.h",
+                "hash": "17264461191127963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/render.xml",
+                "hash": "172644611911238660",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/syncker.h",
+                "hash": "17264461191131218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/track.h",
+                "hash": "17264461191131192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/upgrade.usc",
+                "hash": "17264461191144581",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/utils.h",
+                "hash": "172644611911510042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.15.1.0/worlds_nodes.h",
+                "hash": "17264461191153642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/config.h",
+                "hash": "17264461191161765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/log.h",
+                "hash": "17264461191165629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/material.h",
+                "hash": "172644611911710224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/material_graph.h",
+                "hash": "17264461191176351",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/materials.h",
+                "hash": "17264461191181775",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/meta.h",
+                "hash": "17264461191181271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/process.h",
+                "hash": "17264461191278395",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/projections.h",
+                "hash": "17264461191281244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/properties.h",
+                "hash": "17264461191282592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/property.h",
+                "hash": "17264461191297963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/syncker.h",
+                "hash": "17264461191291218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/track.h",
+                "hash": "17264461191301192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/upgrade.usc",
+                "hash": "17264461191304670",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/utils.h",
+                "hash": "172644611913110042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.0/worlds_nodes.h",
+                "hash": "17264461191313642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/config.h",
+                "hash": "17264461191321765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/log.h",
+                "hash": "17264461191325629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/material.h",
+                "hash": "172644611913310224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/material_graph.h",
+                "hash": "17264461191346352",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/materials.h",
+                "hash": "17264461191341775",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/meta.h",
+                "hash": "17264461191351271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/process.h",
+                "hash": "172644611914413709",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/projections.h",
+                "hash": "17264461191441244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/properties.h",
+                "hash": "17264461191452592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/property.h",
+                "hash": "17264461191457963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/syncker.h",
+                "hash": "17264461191461218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/track.h",
+                "hash": "17264461191461192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/upgrade.usc",
+                "hash": "17264461191474581",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/utils.h",
+                "hash": "172644611914710042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.1/worlds_nodes.h",
+                "hash": "17264461191483642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/config.h",
+                "hash": "17264461191481765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/editor_hotkey_preset.h",
+                "hash": "17264461191491194",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/log.h",
+                "hash": "17264461191505629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/material.h",
+                "hash": "172644611915010224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/material_graph.h",
+                "hash": "17264461191516351",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/materials.h",
+                "hash": "17264461191511898",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/meta.h",
+                "hash": "17264461191611271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/process.h",
+                "hash": "172644611916240662",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/projections.h",
+                "hash": "17264461191621244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/properties.h",
+                "hash": "17264461191632592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/property.h",
+                "hash": "17264461191637963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/render.xml",
+                "hash": "172644611916445327",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/syncker.h",
+                "hash": "17264461191651218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/track.h",
+                "hash": "17264461191651192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/upgrade.usc",
+                "hash": "17264461191664721",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/utils.h",
+                "hash": "172644611916610042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.0.2/worlds_nodes.h",
+                "hash": "17264461191673642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/config.h",
+                "hash": "17264461191681765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/editor_hotkey_preset.h",
+                "hash": "17264461191681194",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/log.h",
+                "hash": "17264461191695629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/material.h",
+                "hash": "172644611917010224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/material_graph.h",
+                "hash": "17264461191706351",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/materials.h",
+                "hash": "17264461191711898",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/meta.h",
+                "hash": "17264461191821271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/process.h",
+                "hash": "17264461191837763",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/projections.h",
+                "hash": "17264461191831244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/properties.h",
+                "hash": "17264461191842592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/property.h",
+                "hash": "17264461191847963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/render.xml",
+                "hash": "172644611918545886",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/syncker.h",
+                "hash": "17264461191861218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/track.h",
+                "hash": "17264461191861192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/upgrade.usc",
+                "hash": "17264461191874721",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/utils.h",
+                "hash": "172644611918710042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.16.1.0/worlds_nodes.h",
+                "hash": "17264461191883642",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/config.h",
+                "hash": "17264461191891765",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/editor_hotkey_preset.h",
+                "hash": "17264461191891194",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/log.h",
+                "hash": "17264461191905629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/material.h",
+                "hash": "172644611919110224",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/material_graph.h",
+                "hash": "17264461191916351",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/materials.h",
+                "hash": "17264461191921898",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/meta.h",
+                "hash": "17264461192001271",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/process.h",
+                "hash": "172644611920015212",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/projections.h",
+                "hash": "17264461192011244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/properties.h",
+                "hash": "17264461192022592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/property.h",
+                "hash": "17264461192027963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/render.xml",
+                "hash": "172644611920345886",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/syncker.h",
+                "hash": "17264461192031218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/track.h",
+                "hash": "17264461192041192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/upgrade.usc",
+                "hash": "17264461192044763",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/utils.h",
+                "hash": "172644611920510042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.0/worlds_nodes.h",
+                "hash": "17264461192053833",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/config.h",
+                "hash": "17264461192061750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/editor_hotkey_preset.h",
+                "hash": "17264461192071185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/log.h",
+                "hash": "17264461192075601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/material.h",
+                "hash": "172644611920810053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/material_graph.h",
+                "hash": "17264461192086277",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/materials.h",
+                "hash": "17264461192091861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/meta.h",
+                "hash": "17264461192091257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/process.h",
+                "hash": "172644611921016151",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/projections.h",
+                "hash": "17264461192101231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/properties.h",
+                "hash": "17264461192112549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/property.h",
+                "hash": "17264461192117847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/render.xml",
+                "hash": "172644611921246013",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/syncker.h",
+                "hash": "17264461192121205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/track.h",
+                "hash": "17264461192131178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/upgrade.usc",
+                "hash": "17264461192134772",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/utils.h",
+                "hash": "17264461192149970",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.17.0.1/worlds_nodes.h",
+                "hash": "17264461192143547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/config.h",
+                "hash": "17264461192151750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/editor_hotkey_preset.h",
+                "hash": "17264461192151185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/log.h",
+                "hash": "17264461192165601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/material.h",
+                "hash": "172644611921610053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/material_graph.h",
+                "hash": "17264461192176277",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/materials.h",
+                "hash": "17264461192181861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/meta.h",
+                "hash": "17264461192301257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/process.h",
+                "hash": "17264461192308979",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/projections.h",
+                "hash": "17264461192311231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/properties.h",
+                "hash": "17264461192322549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/property.h",
+                "hash": "17264461192327847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/render.xml",
+                "hash": "172644611923250104",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/syncker.h",
+                "hash": "17264461192331205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/track.h",
+                "hash": "17264461192341178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/upgrade.usc",
+                "hash": "17264461192344772",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/utils.h",
+                "hash": "17264461192359970",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.0/worlds_nodes.h",
+                "hash": "17264461192353547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/config.h",
+                "hash": "17264461192361750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/editor_hotkey_preset.h",
+                "hash": "17264461192371185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/log.h",
+                "hash": "17264461192375601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/material.h",
+                "hash": "172644611923810053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/material_graph.h",
+                "hash": "17264461192386277",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/materials.h",
+                "hash": "17264461192391861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/meta.h",
+                "hash": "17264461192451257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/process.h",
+                "hash": "17264461192466017",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/projections.h",
+                "hash": "17264461192461231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/properties.h",
+                "hash": "17264461192472549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/property.h",
+                "hash": "17264461192477847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/render.xml",
+                "hash": "172644611924850104",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/syncker.h",
+                "hash": "17264461192481205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/track.h",
+                "hash": "17264461192491178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/upgrade.usc",
+                "hash": "17264461192494772",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/utils.h",
+                "hash": "17264461192509970",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.18.0.1/worlds_nodes.h",
+                "hash": "17264461192513547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/config.h",
+                "hash": "17264461192511750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/editor_hotkey_preset.h",
+                "hash": "17264461192521185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/log.h",
+                "hash": "17264461192525601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/material.h",
+                "hash": "172644611925310053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/material_graph.h",
+                "hash": "17264461192536341",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/materials.h",
+                "hash": "17264461192541861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/meta.h",
+                "hash": "17264461192621257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/process.h",
+                "hash": "172644611926215244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/projections.h",
+                "hash": "17264461192631231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/properties.h",
+                "hash": "17264461192642549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/property.h",
+                "hash": "17264461192647847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/render.xml",
+                "hash": "172644611926550509",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/syncker.h",
+                "hash": "17264461192651205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/track.h",
+                "hash": "17264461192661178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/upgrade.usc",
+                "hash": "17264461192665010",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/utils.h",
+                "hash": "172644611926710308",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.0/worlds_nodes.h",
+                "hash": "17264461192673547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/bin",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/bin/ung_2.18.0.1_x64.exe",
+                "hash": "1726446119529585480",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/bin/ung_2.19.0.1_x64.exe",
+                "hash": "1726446119530588552",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/config.h",
+                "hash": "17264461192681750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/editor_hotkey_preset.h",
+                "hash": "17264461192691185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/log.h",
+                "hash": "17264461192695601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/material.h",
+                "hash": "172644611927010053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/material_graph.h",
+                "hash": "17264461192706341",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/materials.h",
+                "hash": "17264461192801861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/meta.h",
+                "hash": "17264461192811257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/process.h",
+                "hash": "17264461192818056",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/projections.h",
+                "hash": "17264461192821231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/properties.h",
+                "hash": "17264461192822549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/property.h",
+                "hash": "17264461192837847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/render.xml",
+                "hash": "172644611928352408",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/syncker.h",
+                "hash": "17264461192841205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/track.h",
+                "hash": "17264461192851178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/ung.h",
+                "hash": "17264461192854586",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/upgrade.usc",
+                "hash": "17264461192865095",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/utils.h",
+                "hash": "172644611928610308",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.1/worlds_nodes.h",
+                "hash": "17264461192873547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/config.h",
+                "hash": "17264461192881750",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/editor_hotkey_preset.h",
+                "hash": "17264461192881185",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/log.h",
+                "hash": "17264461192895601",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/material.h",
+                "hash": "172644611928910053",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/material_graph.h",
+                "hash": "17264461192906341",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/materials.h",
+                "hash": "17264461192901861",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/meta.h",
+                "hash": "17264461192991257",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/process.h",
+                "hash": "17264461193007481",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/projections.h",
+                "hash": "17264461193001231",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/properties.h",
+                "hash": "17264461193012549",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/property.h",
+                "hash": "17264461193017847",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/render.xml",
+                "hash": "172644611930253090",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/syncker.h",
+                "hash": "17264461193031205",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/track.h",
+                "hash": "17264461193031178",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/umount.h",
+                "hash": "17264461193042228",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/upgrade.usc",
+                "hash": "17264461193045107",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/utils.h",
+                "hash": "172644611930510308",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.19.0.2/worlds_nodes.h",
+                "hash": "17264461193053547",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/config.h",
+                "hash": "172644611930614519",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/log.h",
+                "hash": "17264461193075557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials.h",
+                "hash": "172644611930750197",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials/create_unigine20_cache.usc",
+                "hash": "172644611953011415",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials/legacy.h",
+                "hash": "17264461195311513",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials/model.h",
+                "hash": "172644611953113304",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials/unigine20.h",
+                "hash": "17264461195321603",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/materials/unigine20_cache.generated.h",
+                "hash": "172644611953232696",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/mesh.h",
+                "hash": "17264461193082429",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/path.h",
+                "hash": "17264461193082897",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/terrain.h",
+                "hash": "17264461193099413",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/track.h",
+                "hash": "17264461193108784",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/upgrade.usc",
+                "hash": "17264461193113133",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/utils.h",
+                "hash": "17264461193117007",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.1/worlds_nodes.h",
+                "hash": "172644611931266420",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/addons_base_materials.xml",
+                "hash": "1726446119313303",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/config.h",
+                "hash": "1726446119314999",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/core_base_materials.xml",
+                "hash": "172644611931454777",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/core_materials.usc",
+                "hash": "17264461193152042",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/core_override_materials.xml",
+                "hash": "17264461193153574",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/log.h",
+                "hash": "17264461193165557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/material.h",
+                "hash": "17264461193169917",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/materials.h",
+                "hash": "172644611931713808",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/track.h",
+                "hash": "1726446119317996",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/upgrade.usc",
+                "hash": "17264461193182449",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/utils.h",
+                "hash": "17264461193198057",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.5.0.2/worlds_nodes.h",
+                "hash": "17264461193194716",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/config.h",
+                "hash": "17264461193201026",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/log.h",
+                "hash": "17264461193215557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/material.h",
+                "hash": "17264461193219982",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/materials.h",
+                "hash": "17264461193221816",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/process.h",
+                "hash": "17264461193222148",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/track.h",
+                "hash": "1726446119322992",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/upgrade.usc",
+                "hash": "17264461193252596",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/utils.h",
+                "hash": "17264461193267889",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.0/worlds_nodes.h",
+                "hash": "17264461193262694",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/config.h",
+                "hash": "17264461193271026",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/log.h",
+                "hash": "17264461193275557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/material.h",
+                "hash": "17264461193289982",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/materials.h",
+                "hash": "17264461193281816",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/process.h",
+                "hash": "17264461193292148",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/properties.h",
+                "hash": "172644611932917246",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/property.h",
+                "hash": "17264461193419109",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/track.h",
+                "hash": "1726446119341992",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/upgrade.usc",
+                "hash": "17264461193422999",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/utils.h",
+                "hash": "17264461193438003",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.1/worlds_nodes.h",
+                "hash": "17264461193432691",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/config.h",
+                "hash": "17264461193441026",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/log.h",
+                "hash": "17264461193445557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/material.h",
+                "hash": "17264461193459982",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/materials.h",
+                "hash": "17264461193451816",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/process.h",
+                "hash": "17264461193462148",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/track.h",
+                "hash": "1726446119347992",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/upgrade.usc",
+                "hash": "17264461193552596",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/utils.h",
+                "hash": "17264461193568016",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.2/worlds_nodes.h",
+                "hash": "17264461193562694",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/asset.h",
+                "hash": "17264461193573803",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/assets.xml",
+                "hash": "172644611935756091",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/config.h",
+                "hash": "17264461193581092",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/file_system.h",
+                "hash": "17264461193588125",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/log.h",
+                "hash": "17264461193595557",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/material.h",
+                "hash": "17264461193599982",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/materials.h",
+                "hash": "17264461193681754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/process.h",
+                "hash": "17264461193697887",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/track.h",
+                "hash": "17264461193691054",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/upgrade.usc",
+                "hash": "172644611937016584",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/utils.h",
+                "hash": "17264461193709294",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.3/worlds_nodes.h",
+                "hash": "17264461193712708",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/asset.h",
+                "hash": "17264461193713809",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/assets.xml",
+                "hash": "172644611937256091",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/config.h",
+                "hash": "17264461193731227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/file_system.h",
+                "hash": "17264461193738488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/log.h",
+                "hash": "17264461193745629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/material.h",
+                "hash": "172644611938210034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/materials.h",
+                "hash": "17264461193831754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/nodes",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/nodes/light_omni.xml",
+                "hash": "17264461195336906",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/nodes/light_proj.xml",
+                "hash": "17264461195336941",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/nodes/light_world.xml",
+                "hash": "17264461195346911",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/process.h",
+                "hash": "17264461193834274",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/properties.h",
+                "hash": "17264461193845960",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/property.h",
+                "hash": "17264461193849674",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/render.xml",
+                "hash": "172644611938524945",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/track.h",
+                "hash": "17264461193851192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/upgrade.usc",
+                "hash": "17264461193864151",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/utils.h",
+                "hash": "17264461193868496",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.0.4/worlds_nodes.h",
+                "hash": "17264461193873227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/asset.h",
+                "hash": "17264461193874265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/assets.xml",
+                "hash": "172644611938855843",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/config.h",
+                "hash": "17264461193881227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/file_system.h",
+                "hash": "17264461193898488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/log.h",
+                "hash": "17264461193895629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/material.h",
+                "hash": "172644611939010034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/materials.h",
+                "hash": "17264461194021754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/process.h",
+                "hash": "17264461194034157",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/properties.h",
+                "hash": "17264461194035960",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/property.h",
+                "hash": "17264461194049674",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/render.xml",
+                "hash": "172644611940524408",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/track.h",
+                "hash": "17264461194051192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/upgrade.usc",
+                "hash": "17264461194064395",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/utils.h",
+                "hash": "17264461194078496",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.1.0/worlds_nodes.h",
+                "hash": "17264461194073227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/asset.h",
+                "hash": "17264461194084265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/assets.xml",
+                "hash": "172644611940955843",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/config.h",
+                "hash": "17264461194091227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/file_system.h",
+                "hash": "17264461194108488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/log.h",
+                "hash": "17264461194105629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/material.h",
+                "hash": "172644611941110034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/materials.h",
+                "hash": "17264461194111754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/process.h",
+                "hash": "17264461194126627",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/properties.h",
+                "hash": "17264461194125960",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/property.h",
+                "hash": "17264461194139674",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/render.xml",
+                "hash": "172644611941424461",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/track.h",
+                "hash": "17264461194141192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/upgrade.usc",
+                "hash": "17264461194154295",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/utils.h",
+                "hash": "17264461194158496",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.0/worlds_nodes.h",
+                "hash": "17264461194153640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/asset.h",
+                "hash": "17264461194154265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/assets.xml",
+                "hash": "172644611941655592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/config.h",
+                "hash": "17264461194161227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/file_system.h",
+                "hash": "17264461194178488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/log.h",
+                "hash": "17264461194175629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/material.h",
+                "hash": "172644611941710034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/materials.h",
+                "hash": "17264461194241754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/process.h",
+                "hash": "17264461194255219",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/properties.h",
+                "hash": "17264461194255960",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/property.h",
+                "hash": "17264461194269674",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/render.xml",
+                "hash": "172644611942625047",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/track.h",
+                "hash": "17264461194271192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/upgrade.usc",
+                "hash": "17264461194284314",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/utils.h",
+                "hash": "17264461194288496",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.1/worlds_nodes.h",
+                "hash": "17264461194293640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/asset.h",
+                "hash": "17264461194294265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/assets.xml",
+                "hash": "172644611943055592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/config.h",
+                "hash": "17264461194301227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/file_system.h",
+                "hash": "17264461194318488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/log.h",
+                "hash": "17264461194315629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/material.h",
+                "hash": "172644611943210034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/materials.h",
+                "hash": "17264461194431754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/process.h",
+                "hash": "17264461194434892",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/properties.h",
+                "hash": "17264461194445960",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/property.h",
+                "hash": "17264461194449674",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/render.xml",
+                "hash": "172644611944525047",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/track.h",
+                "hash": "17264461194451192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/upgrade.usc",
+                "hash": "17264461194464022",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/utils.h",
+                "hash": "17264461194478496",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.2.2/worlds_nodes.h",
+                "hash": "17264461194473640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/asset.h",
+                "hash": "17264461194484265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/assets.xml",
+                "hash": "172644611944855592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/config.h",
+                "hash": "17264461194491227",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/file_system.h",
+                "hash": "17264461194508488",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/log.h",
+                "hash": "17264461194505629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/material.h",
+                "hash": "172644611945110034",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/materials.h",
+                "hash": "17264461194591754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/meta.h",
+                "hash": "17264461194601186",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/process.h",
+                "hash": "172644611946011702",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/properties.h",
+                "hash": "17264461194616199",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/property.h",
+                "hash": "17264461194629962",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/render.xml",
+                "hash": "172644611946225047",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/track.h",
+                "hash": "17264461194631192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/upgrade.usc",
+                "hash": "17264461194634157",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/utils.h",
+                "hash": "17264461194648908",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.7.3.0/worlds_nodes.h",
+                "hash": "17264461194653640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/asset.h",
+                "hash": "17264461194654265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/assets.xml",
+                "hash": "172644611946655592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/config.h",
+                "hash": "17264461194661551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/file_system.h",
+                "hash": "17264461194678520",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/log.h",
+                "hash": "17264461194685629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/material.h",
+                "hash": "172644611946810150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/materials.h",
+                "hash": "17264461194791754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/meta.h",
+                "hash": "17264461194801265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/process.h",
+                "hash": "172644611948010732",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/projections.h",
+                "hash": "17264461194811244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/properties.h",
+                "hash": "17264461194812592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/property.h",
+                "hash": "17264461194817963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/render.xml",
+                "hash": "172644611948227994",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/syncker.h",
+                "hash": "17264461194821218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/track.h",
+                "hash": "17264461194831192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/upgrade.usc",
+                "hash": "17264461194844652",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/utils.h",
+                "hash": "17264461194849036",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.8.0.0/worlds_nodes.h",
+                "hash": "17264461194853640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/asset.h",
+                "hash": "17264461194854265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/assets.xml",
+                "hash": "172644611948655592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/config.h",
+                "hash": "17264461194871551",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/file_system.h",
+                "hash": "17264461194878522",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/log.h",
+                "hash": "17264461194885629",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/material.h",
+                "hash": "172644611948810150",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/materials.h",
+                "hash": "17264461194981754",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/meta.h",
+                "hash": "17264461194991265",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/process.h",
+                "hash": "17264461194998286",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/projections.h",
+                "hash": "17264461195001244",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/properties.h",
+                "hash": "17264461195012592",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/property.h",
+                "hash": "17264461195017963",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/render.xml",
+                "hash": "172644611950230693",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/syncker.h",
+                "hash": "17264461195031218",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/track.h",
+                "hash": "17264461195031192",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/upgrade.usc",
+                "hash": "17264461195044652",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/utils.h",
+                "hash": "17264461195049057",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/2.9.0.0/worlds_nodes.h",
+                "hash": "17264461195053640",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/bin",
+                "hash": "",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/bin/usc_2.18.0.1_x64.exe",
+                "hash": "17264461195287241992",
+                "tags": [
+                    "migration_scripts"
+                ]
+            },
+            {
+                "file": "utils/upgrade/upgrade.usc",
+                "hash": "17264461189694583",
+                "tags": [
+                    "migration_scripts"
                 ]
             }
         ],
@@ -4976,11 +9226,12 @@
         "plugin_name": "",
         "plugin_vendor": "",
         "plugins": [
-            "UnigineOpenFlight",
             "UnigineFbxImporter",
             "UnigineCadImporter",
             "UnigineGLTFImporter",
-            "UnigineFbxExporter"
+            "UnigineFbxExporter",
+            "UnigineGeodetics",
+            "UnigineUsdExporter"
         ],
         "precision": 1,
         "project_template": [
@@ -5000,12 +9251,12 @@
     },
     "sdk": {
         "edition": "community",
-        "internal_version": 55,
-        "key": "tier0_bin_windows-2.18.1",
+        "internal_version": 56,
+        "key": "tier0_bin_windows-2.19.0.1",
         "name": "UNIGINE 2 Community",
-        "path": "D:/Unigine/sdks/community_windows_2.18.1_bin",
+        "path": "D:/Unigine/sdks/community_windows_2.19.0.1_bin",
         "type": "bin",
-        "version": "2.18.1"
+        "version": "2.19.0.1"
     },
     "version": "2"
 }
