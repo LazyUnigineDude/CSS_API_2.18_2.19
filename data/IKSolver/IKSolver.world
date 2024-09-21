@@ -829,11 +829,32 @@
 			<fps_invisible>0</fps_invisible>
 			<anim_name>guid://569221a8585e80c899fe2cc162b58d1458e8af16</anim_name>
 			<speed>30</speed>
-			<surface name="Ch36_Body" intersection="1" material="8d52d3b85e045458de89a3e3c061fa6059ffa6a9"/>
+			<surface name="Ch36_Body" intersection="1" viewport_mask="0x0" intersection_mask="0x0" material="8d52d3b85e045458de89a3e3c061fa6059ffa6a9"/>
 			<properties>
-				<property parent="5a48ce051d44fc32ab03d9375e03338e0d48f7d9" guid="1ae437bf59cfc142f3b24d5edb80d73376171474"/>
+				<property parent="5a48ce051d44fc32ab03d9375e03338e0d48f7d9" guid="1ae437bf59cfc142f3b24d5edb80d73376171474">
+					<parameter name="MoveNode">2108241033</parameter>
+				</property>
+				<property parent="31d6c4d5d2d76cab0f580ee2948e7f696d153543" guid="7fe6724cc1dcf83642bd9df05fc1601141071992">
+					<parameter name="GroundMask">0x1</parameter>
+					<parameter name="LLeg">
+						<value index="0">2</value>
+						<value index="1">9</value>
+						<value index="2">10</value>
+					</parameter>
+					<parameter name="RLeg">
+						<value index="0">1</value>
+						<value index="1">32</value>
+						<value index="2">34</value>
+					</parameter>
+				</property>
 			</properties>
 			<transform>0.999999940395 -5.91218539534e-29 1.76775501593e-21 0.0 -2.32670083458e-23 0.999999940395 -2.66411298274e-14 0.0 -1.76775500331e-21 2.66411298274e-14 0.999999940395 0.0 0 0 0 1.0</transform>
+			<node type="NodeDummy" id="2030947420" name="Left Vector">
+				<transform>0.999999940396 5.91219010484e-29 -1.76775501593e-21 0.0 2.32670083459e-23 0.999999940396 2.66411298274e-14 0.0 1.76775510868e-21 -2.66411314154e-14 1 0.0 -0.18 0.5 1 1.0</transform>
+			</node>
+			<node type="NodeDummy" id="1451949067" name="Right Vector">
+				<transform>1 5.91219045724e-29 -1.7677551213e-21 0.0 2.32670097327e-23 1 2.66411314154e-14 0.0 1.76775510868e-21 -2.66411314154e-14 1 0.0 0.18 0.5 1 1.0</transform>
+			</node>
 			<node type="PlayerSpectator" id="620479819" name="Camera">
 				<collision>1</collision>
 				<collision_mask>0x1</collision_mask>
@@ -851,8 +872,23 @@
 				<is_main>1</is_main>
 				<is_listener>1</is_listener>
 				<controlled>0</controlled>
-				<transform>0.992546259913 0.121868990175 -8.45640944906e-07 0.0 -0.0360376744591 0.293510722727 0.955276426987 0.0 0.116418800737 -0.948155936489 0.295714843018 0.0 0.629408480925 -2.34049329449 2.02816224061 1.0</transform>
+				<transform>0.71447489944 0.699661117772 -3.42726726025e-06 0.0 -0.289039688649 0.295163947056 0.910677964132 0.0 0.637167014907 -0.650655546824 0.413117075748 0.0 1.83116816462 -1.45408764419 2.02815863945 1.0</transform>
 			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="519905774" immovable="1" name="Box">
+			<mesh_name>guid://3c872a5937a3132488787965bfa7eed91a6405f3</mesh_name>
+			<surface name="box" intersection="1" material="0aac9dc480210b986a3752e863be51fe1fd9264a"/>
+			<transform>0 0.999999761581 -9.53674089033e-07 0.0 0 9.53673406912e-07 0.999999046326 0.0 0.99999910593 0 0 0.0 0.30928455788 3.04951863459 -0.287217803892 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="2087659013" immovable="1" name="Box_1">
+			<mesh_name>guid://3c872a5937a3132488787965bfa7eed91a6405f3</mesh_name>
+			<surface name="box" intersection="1" material="0aac9dc480210b986a3752e863be51fe1fd9264a"/>
+			<transform>0 0.999999761581 -9.53674089033e-07 0.0 0 9.53673406912e-07 0.999999046326 0.0 0.99999910593 0 0 0.0 0.30928455788 4.50365654656 -0.101931901054 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="230088608" immovable="1" name="Box_2">
+			<mesh_name>guid://3c872a5937a3132488787965bfa7eed91a6405f3</mesh_name>
+			<surface name="box" intersection="1" material="0aac9dc480210b986a3752e863be51fe1fd9264a"/>
+			<transform>-0.950747609138 0.055901452899 0.304881215096 0.0 0.305358588696 2.38418323306e-07 0.952236235142 0.0 0.053231369704 0.99843531847 -0.0170701593161 0.0 -5.01422781123 4.50365654656 -0.101931901054 1.0</transform>
 		</node>
 	</editor>
 	<console>
