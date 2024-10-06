@@ -829,7 +829,7 @@
 			<fps_invisible>0</fps_invisible>
 			<anim_name>guid://569221a8585e80c899fe2cc162b58d1458e8af16</anim_name>
 			<speed>30</speed>
-			<surface name="Ch36_Body" intersection="1" viewport_mask="0x0" intersection_mask="0x0" material="8d52d3b85e045458de89a3e3c061fa6059ffa6a9"/>
+			<surface name="Ch36_Body" intersection="1" intersection_mask="0x0" material="8d52d3b85e045458de89a3e3c061fa6059ffa6a9"/>
 			<properties>
 				<property parent="5a48ce051d44fc32ab03d9375e03338e0d48f7d9" guid="1ae437bf59cfc142f3b24d5edb80d73376171474">
 					<parameter name="MoveNode">2108241033</parameter>
