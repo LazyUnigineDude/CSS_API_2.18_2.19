@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.19.0.2" guid="08c21ce58d9af473e989e3e8c4329cf3f1d6ec89" base_material="ccda50467656eaedd1984f6851f66ba71825f4da">
+	<texture name="albedo">guid://b485e5378234d956da79e91234eb252e293b51bb</texture>
+	<texture name="Displacement">guid://f04ef07549c070011cbc60e6bbb02d87b6a8ed0a</texture>
+	<parameter name="Displacement Factor" expression="0">100</parameter>
+	<parameter name="Height" expression="0">0</parameter>
+</material>

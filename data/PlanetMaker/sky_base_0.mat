@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.19.0.2" guid="f070f38d1f93e94d2d13265ec55d95b612ea2502" base_material="35a276124c303849f0e072ef632908545149b6fb">
+	<options order="0" depth_test="1" two_sided="0" cast_shadow="1" overlap="0"/>
+	<state name="background">1</state>
+	<state name="clouds">0</state>
+	<texture name="background_0">guid://d6fa271d4c0cd7b2b43fac2e56b1d2edc27221d2</texture>
+	<parameter name="sphere_transform" expression="0">0.00100000005 0.100000001 11 10</parameter>
+	<parameter name="background_color" expression="0">0.00784313772 0.00784313772 0.00784313772 1</parameter>
+</material>

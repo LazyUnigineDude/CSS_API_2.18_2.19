@@ -386,3 +386,4 @@ FodyWeavers.xsd
 /launch_editor.bat
 /launch_release.bat
 /data/Lever
+/data/bake_lighting/env_probes
