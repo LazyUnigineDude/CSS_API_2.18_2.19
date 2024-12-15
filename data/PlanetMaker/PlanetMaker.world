@@ -751,7 +751,7 @@
 			<transform>50 0 0 0.0 0 50 0 0.0 0 0 50 0.0 0 120000 -6953.56897493 1.0</transform>
 		</node>
 		<node type="LightWorld" id="2091995981" name="LightWorld">
-			<scattering>1</scattering>
+			<scattering>0</scattering>
 			<disable_angle>180</disable_angle>
 			<shadow_height>10</shadow_height>
 			<shadow_width>10</shadow_width>
@@ -831,7 +831,7 @@
 				<billboard name="flare_29" offset="0.936999977" size="0.449999988" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.180000007"/>
 				<billboard name="flare_30" offset="1" size="1.03999996" rotate="1" uv_lower_left="0.75 0.75" uv_upper_right="1 1" color="0.972549081 1 0.898039281 1" offset_scale="1" intensity="0.150000006"/>
 			</lens_flare_billboards>
-			<transform>0.999955296516 0 0 0.0 0 1.78792035399e-07 -0.99987745285 0.0 0 0.999848127365 1.78786791594e-07 0.0 0 0 0 1.0</transform>
+			<transform>0.999939441681 0 0 0.0 0 1.78788752692e-07 -0.99985909462 0.0 0 0.999832332134 1.78783963634e-07 0.0 0 0 0 1.0</transform>
 		</node>
 	</editor>
 	<console>

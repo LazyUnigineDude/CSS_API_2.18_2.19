@@ -10,40 +10,40 @@ public class MeshMaker : Component
 	ObjectMeshDynamic MeshDynamic;
 
 	[ShowInEditor]
-	File image;
+	AssetLink image;
+
+    HisMeshMaker meshMaker;
+
 
 	void Init()
 	{
-		// write here code to be called on component initialization
-		// vertices.Add(vec3.FORWARD);
+        // write here code to be called on component initialization
+        // vertices.Add(vec3.FORWARD);
         // vertices.Add(vec3.BACK + vec3.LEFT);
         // vertices.Add(vec3.BACK + vec3.RIGHT);
 
         // mesh = new Mesh();
-		// int _surface = mesh.AddSurface();
+        // int _surface = mesh.AddSurface();
 
-		// for (int i = 0; i < vertices.Count; i++)
-		// {
-		// 	mesh.AddVertex(vertices[i], _surface);
-		// 	mesh.AddIndex(i, _surface);
-		// }
-		// mesh.CreateTangents();
-		// mesh.CreateBounds();
+        // for (int i = 0; i < vertices.Count; i++)
+        // {
+        // 	mesh.AddVertex(vertices[i], _surface);
+        // 	mesh.AddIndex(i, _surface);
+        // }
+        // mesh.CreateTangents();
+        // mesh.CreateBounds();
 
-		// MeshDynamic = new ObjectMeshDynamic(mesh);
-		// MeshDynamic.WorldPosition = vec3.ZERO;
-		// MeshDynamic.Name = "Example";
+        // MeshDynamic = new ObjectMeshDynamic(mesh);
+        // MeshDynamic.WorldPosition = vec3.ZERO;
+        // MeshDynamic.Name = "Example";
 
-		//HisMeshMaker his;
-		//his.GenerateMeshFromGrid();
-
+        Image img = new Image(image.AbsolutePath);
+         meshMaker = new HisMeshMaker(img);
     }
 
 	void Shutdown()
 	{
-		mesh.Clear();
-		mesh.DeleteLater();
-		MeshDynamic.DeleteLater();
+        meshMaker.Dispose();
 	}
 }
 
@@ -51,68 +51,46 @@ class HisMeshMaker {
 
 	Mesh mesh;
 	ObjectMeshDynamic dynamicMesh;
+    int width = 2, height = 2, raise = 2;
 
-public void GenerateMeshFromGrid(ivec2[][] grid)
+    public HisMeshMaker()
     {
-        List<vec3> vertices = new List<vec3>();
+        mesh = new Mesh();
+        dynamicMesh = new ObjectMeshDynamic();
+    }
+
+    public HisMeshMaker(Image Image)
+    {
+        List<ivec3> vertices = new List<ivec3>();
         List<int> indices = new List<int>();
 
-        int width = grid.GetLength(0);
-        int height = grid.GetLength(1);
-        
+        //width = Image.Width;
+        //height = Image.Height;
+
         mesh = new Mesh();
+        mesh.AddSurface();
+
         // Generate vertices based on traversable points
         for (int y = 0; y < height; y++)
-        {
             for (int x = 0; x < width; x++)
             {
-				ivec2 check; check.x = x; check.y = y;
-
-                // Check if point is traversable
-                if (grid[x][y] == check) vertices.Add(new vec3(x, y, 0));
+                ivec2 check; check.x = x; check.y = y;
+                mesh.AddVertex(new ivec3(x, y, 0/*Image.Get8F(check) * raise*/), 0);
             }
-        }
 
-        // Create triangles for the mesh
         for (int y = 0; y < height - 1; y++)
-        {
             for (int x = 0; x < width - 1; x++)
             {
-                // Indices for two triangles making a square
-                int topLeft = y * width + x;
-                int topRight = y * width + (x + 1);
-                int bottomLeft = (y + 1) * width + x;
-                int bottomRight = (y + 1) * width + (x + 1);
+                int TL = y * width + x,
+                    TR = y * width + (x + 1),
+                    BL = (y + 1) * width + x,
+                    BR = (y + 1) * width + (x + 1);
 
-                // Triangle 1
-                indices.Add(topLeft);
-                indices.Add(bottomLeft);
-                indices.Add(topRight);
-
-                // Triangle 2
-                indices.Add(topRight);
-                indices.Add(bottomLeft);
-                indices.Add(bottomRight);
+                mesh.AddIndex(BL, 0);
+                mesh.AddIndex(TR, 0);
+                mesh.AddIndex(TL, 0);
             }
-        }
 
-        // Set vertices and indices to dynamic mesh
-        //dynamicMesh.AllocateIndices(indices.Count);
-        //dynamicMesh.AllocateVertex(vertices.Count);
-
-        Log.Warning("So far no errors happened");
-
-        int surface = mesh.AddSurface("surface");
-       
-        for (int i = 0; i < vertices.Count; i++)
-        {
-            mesh.AddVertex(vertices[i],surface);
-        }
-
-        for (int i = 0; i < indices.Count; i++)
-        {
-            mesh.AddIndex(indices[i],surface);
-        }
 
         mesh.CreateTangents();
         mesh.CreateBounds();
@@ -121,4 +99,10 @@ public void GenerateMeshFromGrid(ivec2[][] grid)
         dynamicMesh.Name = "Example";
     }
 
+    public void Dispose()
+    {
+        mesh.Clear();
+        mesh.DeleteLater();
+        dynamicMesh.DeleteLater();
+    }
 }

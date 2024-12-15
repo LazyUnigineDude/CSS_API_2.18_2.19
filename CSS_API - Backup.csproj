@@ -68,6 +68,7 @@
 		<Compile Include="data/Intersections/CameraDetect.cs"/>
 		<Compile Include="data/MeshMaker.cs"/>
 		<Compile Include="data/PlanetMaker/PlanetMaker.cs"/>
+		<Compile Include="data/Rope/RopeHandler.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="obj\x64\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs"/>

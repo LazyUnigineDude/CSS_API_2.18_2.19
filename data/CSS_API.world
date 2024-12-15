@@ -843,7 +843,9 @@
 		</node>
 		<node type="NodeDummy" id="1259387448" name="Mesh Maker">
 			<properties>
-				<property parent="8b3e1e13401f489b79cd8ce34952726be1ea7586" guid="160c9b4a972f83391e7a7fbaed5e29a3121cc6b1"/>
+				<property parent="8b3e1e13401f489b79cd8ce34952726be1ea7586" guid="160c9b4a972f83391e7a7fbaed5e29a3121cc6b1">
+					<parameter name="image">guid://d5486123f121ae2b391885ec9341f724dd4405b2</parameter>
+				</property>
 			</properties>
 			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 7.15255735499e-13 1.99999999495e-06 1.5 1.0</transform>
 		</node>
