@@ -68,6 +68,7 @@
 		<Compile Include="data/Intersections/CameraDetect.cs" />
 		<Compile Include="data\MeshMaker.cs" />
 		<Compile Include="data\PlanetMaker\PlanetMaker.cs" />
+		<Compile Include="data\Rope\RopeHandler.cs" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="source\AppEditorLogic.cs" />
@@ -99,6 +100,25 @@
 		<None Include="data\PlanetMaker\PlanetMaker.world.meta" />
 		<None Include="data\PlanetMaker\sky_base_0.mat" />
 		<None Include="data\PlanetMaker\sky_base_0.mat.meta" />
+		<None Include="data\Rope\box.mesh" />
+		<None Include="data\Rope\box.mesh.meta" />
+		<None Include="data\Rope\box_mesh_base.mgraph" />
+		<None Include="data\Rope\box_mesh_base.mgraph.meta" />
+		<None Include="data\Rope\box_mesh_base_0.mat" />
+		<None Include="data\Rope\box_mesh_base_0.mat.meta" />
+		<None Include="data\Rope\box_mesh_base_1.mat" />
+		<None Include="data\Rope\box_mesh_base_1.mat.meta" />
+		<None Include="data\Rope\cylinder.mesh" />
+		<None Include="data\Rope\cylinder.mesh.meta" />
+		<None Include="data\Rope\cylinder_0.mesh" />
+		<None Include="data\Rope\cylinder_0.mesh.meta" />
+		<None Include="data\Rope\cylinder_0_mesh_base.mgraph" />
+		<None Include="data\Rope\cylinder_0_mesh_base.mgraph.meta" />
+		<None Include="data\Rope\cylinder_mesh_base.mgraph" />
+		<None Include="data\Rope\cylinder_mesh_base.mgraph.meta" />
+		<None Include="data\Rope\Rope.world" />
+		<None Include="data\Rope\Rope.world.meta" />
+		<None Include="data\Rope\RopeHandler.cs.meta" />
 	</ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="'$(Configuration)'=='Debug' And $(SkipPostBuild)=='false'" />
