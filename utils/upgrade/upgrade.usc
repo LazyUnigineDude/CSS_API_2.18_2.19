@@ -50,6 +50,7 @@ string scripts[0] = (
 	"2.19.0.0",
 	"2.19.0.1",
 	"2.19.0.2",
+	"2.19.0.3",
 );
 
 int usc_executables_by_version[] = (
@@ -88,7 +89,8 @@ int usc_executables_by_version[] = (
 	"2.18.0.1" : "bin/usc_2.18.0.1_x64",
 	"2.19.0.0" : "",
 	"2.19.0.1" : "",
-	"2.19.0.2" : ""
+	"2.19.0.2" : "",
+	"2.19.0.3" : ""
 );
 
 string quote(string str)

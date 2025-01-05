@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<material version="2.19.0.2" guid="87fb6a8bc6d72f21a4b764d4ec314cf7e1437358" base_material="9ff6ca7ff89202ecdbd93dc4a6271d42718d6d74">
+<material version="2.19.0.3" guid="87fb6a8bc6d72f21a4b764d4ec314cf7e1437358" base_material="9ff6ca7ff89202ecdbd93dc4a6271d42718d6d74">
 	<options transparent="2" blend_src="5" blend_dest="6" overlap="0"/>
 	<parameter name="diffuse_color" expression="0">0.239215702 0.239215702 0.239215702 1</parameter>
 	<parameter name="volume_power" expression="0">0.0815199986</parameter>
