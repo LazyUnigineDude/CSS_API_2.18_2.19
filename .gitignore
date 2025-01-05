@@ -387,3 +387,4 @@ FodyWeavers.xsd
 /launch_release.bat
 /data/Lever
 /data/bake_lighting/env_probes
+*.gpu_cache

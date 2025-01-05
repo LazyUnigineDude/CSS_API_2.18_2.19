@@ -845,9 +845,9 @@
 			<mesh_name>guid://1cb6486b36629e51451a4b8af46844d2ef3be881</mesh_name>
 			<surface name="cylinder" intersection="1" material="ad185f55267076d4295d28b2a99eaf9e5fb7e3e0"/>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 0 0 1.5 1.0</transform>
-			<node type="ObjectMeshStatic" id="205922859" immovable="1" name="Box">
+			<node type="ObjectMeshStatic" id="205922859" immovable="1" name="Stick Point">
 				<mesh_name>guid://1e0bec05e633b5a7ee61bd22f851a176b39f64d0</mesh_name>
-				<surface name="box" intersection="1" material="b0238993397a446f5525fc08899fa86816d8a246"/>
+				<surface name="box" intersection="1" intersection_mask="0x4" material="b0238993397a446f5525fc08899fa86816d8a246"/>
 				<body type="BodyDummy" id="466149471" frozen="0"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.5 1.0</transform>
 			</node>
@@ -856,14 +856,14 @@
 			<mesh_name>guid://1cb6486b36629e51451a4b8af46844d2ef3be881</mesh_name>
 			<surface name="cylinder" intersection="1" material="ad185f55267076d4295d28b2a99eaf9e5fb7e3e0"/>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 6.39942730367 0 1.5 1.0</transform>
-			<node type="ObjectMeshStatic" id="686034235" immovable="1" name="Box">
+			<node type="ObjectMeshStatic" id="686034235" immovable="1" name="Stick Point">
 				<mesh_name>guid://1e0bec05e633b5a7ee61bd22f851a176b39f64d0</mesh_name>
-				<surface name="box" intersection="1" material="b0238993397a446f5525fc08899fa86816d8a246"/>
+				<surface name="box" intersection="1" intersection_mask="0x4" material="b0238993397a446f5525fc08899fa86816d8a246"/>
 				<body type="BodyDummy" id="699097344" frozen="0"/>
 				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 1.5 1.0</transform>
 			</node>
 		</node>
-		<node type="ObjectMeshStatic" id="2014060894" name="Box_1">
+		<node type="ObjectMeshStatic" id="2014060894" name="Rope Start">
 			<mesh_name>guid://1e0bec05e633b5a7ee61bd22f851a176b39f64d0</mesh_name>
 			<surface name="box" collision="1" material="3c843fafbfc0c364bf1af73e82bc4b4eb0101d25"/>
 			<body type="BodyRigid" id="1938045424" frozen="0" immovable="1" gravity="0">
@@ -1042,9 +1042,9 @@
 			</body>
 			<transform>0.999999880791 0 0 0.0 0 1.78796312866e-07 0.999901235104 0.0 0 -0.999902904034 1.78796597083e-07 0.0 3 1.85542161999 4.34286387216 1.0</transform>
 		</node>
-		<node type="ObjectMeshStatic" id="273463428" name="Box_2">
+		<node type="ObjectMeshStatic" id="273463428" name="Rope Grab Point">
 			<mesh_name>guid://1e0bec05e633b5a7ee61bd22f851a176b39f64d0</mesh_name>
-			<surface name="box" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" collision="1" viewport_mask="0x0" material="3c843fafbfc0c364bf1af73e82bc4b4eb0101d25"/>
+			<surface name="box" cast_shadow="0" cast_world_shadow="0" cast_env_probe_shadow="0" intersection="1" collision="1" viewport_mask="0x0" intersection_mask="0x2" material="3c843fafbfc0c364bf1af73e82bc4b4eb0101d25"/>
 			<body type="BodyRigid" id="1082665564" frozen="0">
 				<shape type="ShapeBox" id="1943329654">
 					<size>0.5 0.5 0.5</size>
@@ -1065,6 +1065,12 @@
 				</joint>
 			</body>
 			<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 3.06639487867 4.7 4.34868976072 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="266898071" name="RopeHandler">
+			<properties>
+				<property parent="85ea0e7d57829f4fd559d1faa76715c34104cee8" guid="c47a4a6f972dd673e2b747e82fe40737449dea53"/>
+			</properties>
+			<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 7.22168663853 5.96029547999 5.13411653875 1.0</transform>
 		</node>
 	</editor>
 	<console>
