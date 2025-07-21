@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Migration log file</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body {
+			background: #1a242a;
+			color: #ececec;
+			margin: 20px;
+			font-size: 14px;
+			font-family: 'Courier New', Courier, monospace;
+			counter-reset: lognum;
+			tab-size: 4;
+		}
+		
+		.m, .w, .e {
+			padding: 3px;
+			white-space: pre-wrap;
+			line-height: 16px;
+		}
+		
+		.m:before, .w:before, .e:before {
+			counter-increment: lognum;
+			content: counter(lognum) ". ";
+		}
+		
+		.m {
+			color: #ececec;
+		}
+		
+		.w {
+			background-color: #FCF8E3;
+			color: #8A6D3B;
+		}
+		
+		.e {
+			background-color: #d64500;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+<div class="m">Start migration to version "2.20.0.0"</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_d3d11.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_d3d11_debug.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_d3d12_dxc.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_vk.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_gl_debug.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/shader_gl.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/unigine.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/editor.cache</div>
+<div class="m"> Remove D:/Unigine/CSS_API/data/d3d12_nvidia_geforce_gtx_1660_super_dxc.gpu_cache</div>
+<div class="m"> Remove directory D:/Unigine/CSS_API/data/.thumbnails</div>
+<div class="m"> Remove directory D:/Unigine/CSS_API/data/.cache_textures</div>
+<div class="m">update materials ...</div>
+<div class="m">update material graphs ...</div>
+<div class="m">migrate properties ...</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/csharp_components.prop.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/CSS_API.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/default.bitmasks.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/material_ball.node.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/MeshMaker.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/ValueNoise-Heightmap.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/bake_lighting/env_probes/4c16fbb9dc92b6eb525a7eacb9dc3f1e3a5a399d.texture.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/bake_lighting/env_probes/8dbba8a961925bce4efd8eea7a54ec09551622ce.texture.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/AnotherComponent.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/ComponentCheck.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/ComponentCheckInherit.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/mesh_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/surface_base_0.prop.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Components/surface_base_1.prop.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.boot.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.config.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.controls.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.user.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/editor.boot.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Coroutines/Coroutines.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Coroutines/Lerper.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Coroutines/TimeController.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Coroutines/GUI/RotateImageAroundCenter.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Dial/Dial Pointer.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Dial/Dial.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Dial/DialCheck.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Get Components/Get Component.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Get Components/GetComponents.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/Arrow Ping.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/BackLayer.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/billboards_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/ChessGUI.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/FrontLayer.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/GUI.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/LazyMap.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/MapMaker.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/plane.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/plane_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/plane_mesh_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/Pointer.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/tv.obj.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/Widgets.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/Wildlife-Windows-7-Sample-Video.mp3.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/Wildlife-Windows-7-Sample-Video.ogv.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/materials/defaultmat.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/materials/Example.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/box.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/box_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/character.fbx.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/IKSolver.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/IKSolver.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/character.fbm/Ch36_1001_Diffuse.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/character.fbm/Ch36_1001_Glossiness.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/character.fbm/Ch36_1001_Normal.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/character.fbm/Ch36_1001_Specular.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/materials/ch36_body.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Intersections/CameraDetect.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Intersections/Intersection.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Intersections/ScreenDetect.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Intersections/SimpleDetect.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder_0.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder_0_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/Green.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/Lever.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/Lever.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/ChessMovement.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/ConstMovement.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/Movement.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/PhysicsMovement.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane_0.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane_0_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/cubemap.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/Globe.fbx.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/PlanetMaker.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/PlanetMaker.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/sky_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/Earth_Albedo.jpg.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/Earth_Displacement.jpg.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/material.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/PBR_1.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/Sun.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/materials/volume_fog_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/PBR_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/MainGraph/PBR.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/SubGraph/Basic_PBR.msubgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/textures/brick_wall_005_diff_4k.jpg.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/textures/brick_wall_005_disp_4k.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/textures/brick_wall_005_rough_4k.jpg.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/MatTextures/textures/brick_wall_006_nor_gl_4k.jpg.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/box.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/box_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/box_mesh_base_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/box_mesh_base_1.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder_0.mesh.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder_0_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder_mesh_base.mgraph.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/Rope.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/RopeHandler.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/CSS_API_.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball.fbx.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_a.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_alb.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_mat.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_mat_0.mat.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_n.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/template_assets/template_material_ball/material_ball_sh.png.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Triggers/CSS_API_Triggers.world.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Triggers/TriggerExample.cs.meta"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.boot"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.controls"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/default.user"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/configs/editor.boot"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/material_ball.node"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/2b/2bdf2610177e422f32ce09c2dcbabe396d465244.node"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/c6/c665993324e8e32ca963881c5c584eb112740a20.node"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/d4/d4dfd906428892a3e768a17459fe55a24c5ceb0c.node"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/f8/f882f906ac11288688d84eb74182bb5ffcf14144.node"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/CSS_API.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Coroutines/Coroutines.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Get Components/Get Component.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/GUI.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/LazyMap.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/IKSolver.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Intersections/Intersection.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/Lever.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/Movement.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/PlanetMaker/PlanetMaker.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/Rope.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Triggers/CSS_API_Triggers.world"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/root_mount.umount"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/78/78fd287ae5234f7c5875415dddbf94b894545bd3.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/a6/a6b85a3bfd5c93e48cf2bc4654a1cd5e657c36ff.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/d6/d66c38d3cb2ce8161c55807d4a2d47b80c46e7b7.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/f5/f56876b3a1b56b0687e8a15d046cc1ab16f9aafb.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/GUI/plane.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/IKSolver/box.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Lever/cylinder_0.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Movement/plane_0.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/box.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/Rope/cylinder_0.mesh"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/56/569221a8585e80c899fe2cc162b58d1458e8af16.anim"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/.runtimes/79/799e263c8d08c8892491c3d7d2bf513c8f289b7d.anim"</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/core.ung"</div>
+<div class="m">unpacking "D:/Unigine/CSS_API/data/core.ung"</div>
+<div class="m"> Remove directory D:/Unigine/CSS_API/data/temp_unpack_core/</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/editor2.ung"</div>
+<div class="m">unpacking "D:/Unigine/CSS_API/data/editor2.ung"</div>
+<div class="m"> Remove directory D:/Unigine/CSS_API/data/temp_unpack_editor2/</div>
+<div class="m">upgrading "D:/Unigine/CSS_API/data/scripts.ung"</div>
+<div class="m">unpacking "D:/Unigine/CSS_API/data/scripts.ung"</div>
+<div class="m"> Remove directory D:/Unigine/CSS_API/data/temp_unpack_scripts/</div>
+</body>
+</html>

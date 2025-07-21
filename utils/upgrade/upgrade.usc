@@ -1,6 +1,6 @@
 #!/usr/bin/env usc
 
-/* Copyright (C) 2005-2024, UNIGINE. All rights reserved.
+/* Copyright (C) 2005-2025, UNIGINE. All rights reserved.
 *
 * This file is a part of the UNIGINE 2 SDK.
 *
@@ -51,6 +51,7 @@ string scripts[0] = (
 	"2.19.0.1",
 	"2.19.0.2",
 	"2.19.0.3",
+	"2.20.0.0",
 );
 
 int usc_executables_by_version[] = (
@@ -90,7 +91,8 @@ int usc_executables_by_version[] = (
 	"2.19.0.0" : "",
 	"2.19.0.1" : "",
 	"2.19.0.2" : "",
-	"2.19.0.3" : ""
+	"2.19.0.3" : "",
+	"2.20.0.0" : ""
 );
 
 string quote(string str)

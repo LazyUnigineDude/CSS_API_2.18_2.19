@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<world version="2.19.0.2">
+<world version="2.20.0.0">
 	<data>
 		<unigine_editor>
 			<body>
@@ -456,7 +456,6 @@
 		<render_motion_blur_velocity_blur_samples>8</render_motion_blur_velocity_blur_samples>
 		<render_motion_blur_velocity_scale>0.75</render_motion_blur_velocity_scale>
 		<render_multithreaded>1</render_multithreaded>
-		<render_multithreaded_editor>0</render_multithreaded_editor>
 		<render_noise>0</render_noise>
 		<render_noise_intensity>0.0299999993</render_noise_intensity>
 		<render_object_distance>1e+09</render_object_distance>
@@ -468,7 +467,6 @@
 		<render_occlusion_queries_num_frames>5</render_occlusion_queries_num_frames>
 		<render_panorama_fisheye_fov>180</render_panorama_fisheye_fov>
 		<render_pre_post_materials_enabled>1</render_pre_post_materials_enabled>
-		<render_quadro_sync>0</render_quadro_sync>
 		<render_reflection_distance>1e+09</render_reflection_distance>
 		<render_reflection_dynamic>1</render_reflection_dynamic>
 		<render_reflection_dynamic_roughness_offset>0</render_reflection_dynamic_roughness_offset>
@@ -500,7 +498,7 @@
 		<render_shadows_world_cascades_culling_clusters>1</render_shadows_world_cascades_culling_clusters>
 		<render_shadows_world_lerp_cascades>1</render_shadows_world_lerp_cascades>
 		<render_sharpen>1</render_sharpen>
-		<render_sharpen_intensity>0.5</render_sharpen_intensity>
+		<render_sharpen_intensity>2</render_sharpen_intensity>
 		<render_show_texture_resolution_blend>0.5</render_show_texture_resolution_blend>
 		<render_show_texture_resolution_streaming_accounting_mode>0</render_show_texture_resolution_streaming_accounting_mode>
 		<render_show_texture_resolution_uv_mode>0</render_show_texture_resolution_uv_mode>
@@ -572,7 +570,6 @@
 		<render_ssr_visibility_roughness_min>0.5</render_ssr_visibility_roughness_min>
 		<render_ssrtgi_fast_tracing>1</render_ssrtgi_fast_tracing>
 		<render_ssrtgi_increased_accuracy>1</render_ssrtgi_increased_accuracy>
-		<render_ssrtgi_noise_step>1</render_ssrtgi_noise_step>
 		<render_ssrtgi_num_rays>2</render_ssrtgi_num_rays>
 		<render_ssrtgi_num_steps>3</render_ssrtgi_num_steps>
 		<render_ssrtgi_preset>disabled</render_ssrtgi_preset>
@@ -722,6 +719,16 @@
 		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
 		<debug_materials/>
 		<scriptable_materials/>
+		<render_indirect_specular_normalization>0</render_indirect_specular_normalization>
+		<render_reflection_dynamic_alpha_fade>0</render_reflection_dynamic_alpha_fade>
+		<render_sharpen_blur_color_threshold>0.200000003</render_sharpen_blur_color_threshold>
+		<render_sharpen_blur_dark_color_threshold_bias>0.0500000007</render_sharpen_blur_dark_color_threshold_bias>
+		<render_sharpen_blur_radius>1</render_sharpen_blur_radius>
+		<render_sharpen_blur_sigma>1</render_sharpen_blur_sigma>
+		<render_sharpen_diagonal_samples>1</render_sharpen_diagonal_samples>
+		<render_sssss_taa>1</render_sssss_taa>
+		<render_streaming_committed_memory_overcommit>1</render_streaming_committed_memory_overcommit>
+		<render_upscale_fsr_auto_reactive_enabled>0</render_upscale_fsr_auto_reactive_enabled>
 	</render>
 	<physics>
 		<frozen_linear_velocity>0.0199999996</frozen_linear_velocity>
