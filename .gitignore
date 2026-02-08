@@ -388,3 +388,5 @@ FodyWeavers.xsd
 /data/Lever
 /data/bake_lighting/env_probes
 *.gpu_cache
+/data/UnigineToolkit
+/source/UnigineToolkit

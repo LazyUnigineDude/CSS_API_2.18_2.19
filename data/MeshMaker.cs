@@ -102,7 +102,7 @@ class HisMeshMaker {
     public void Dispose()
     {
         mesh.Clear();
-        mesh.DeleteLater();
+        mesh.Dispose();
         dynamicMesh.DeleteLater();
     }
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.20.0.0" guid="aa0c57d05f234c03f77f71248d89db9e15599b35" base_material="35a276124c303849f0e072ef632908545149b6fb">
+	<options order="-120" order_clouds="1" blend_src="5" blend_dest="6" cast_shadow="0" overlap="0"/>
+	<state name="background">1</state>
+	<state name="clouds">0</state>
+	<texture name="background_0">guid://3947dc1dcdde31a72a8425b9ef025541d5decb92</texture>
+	<parameter name="clouds_01_scale" expression="0">0.0873199999</parameter>
+	<parameter name="clouds_23_scale" expression="0">0.192120001</parameter>
+	<parameter name="background_0_scale" expression="0">0.0873199999</parameter>
+</material>

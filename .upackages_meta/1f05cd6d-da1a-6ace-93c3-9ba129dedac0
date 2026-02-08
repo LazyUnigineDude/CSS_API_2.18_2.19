@@ -1,0 +1,1537 @@
+{
+	"version": 1,
+	"store_id": "1f05cd6d-da1a-6ace-93c3-9ba129dedac0",
+	"addon_name": "Toolkit_Add-On",
+	"tabs": [
+		{
+			"title": "Description",
+			"fields": [
+				{
+					"title": "Title",
+					"text": "Toolkit Add-On"
+				},
+				{
+					"title": "Categories",
+					"text": "Plugins"
+				},
+				{
+					"title": "Source Code",
+					"text": "C#"
+				},
+				{
+					"title": "Supported Versions",
+					"text": "2.20"
+				},
+				{
+					"title": "Release Date",
+					"text": "2025-07-09T22:10:35+07:00"
+				},
+				{
+					"title": "Platform",
+					"text": "cross"
+				},
+				{
+					"title": "Description",
+					"text": "<p>This add-on is structured as a modular toolkit, offering a range of utilities designed to assist developers, artists, and designers in building scenes within UNIGINE.</p><p>Currently it contains:<br><ul><li>UI Designer - window in UnigineEditor for creating and configuring UI</li><li>Runtime Editor - simplified editor that runs during application runtime.(I have plans to extend it, so stay tuned)</li></ul></p><p>Features:<br><ul><li>Ease of Use</li><li> Based on the C++ Component System, but also works with C# projects.</li><li>Open Source</li></ul></p><p>More details on overall architecture are available in <a href=\"https://drive.google.com/file/d/1fOU3e8YA-cBwo_o6oUSTbekFiAVrBHqs/view?usp=sharing\"  target=\"_blank\">Toolkit Addon Description.pdf</a><br>\r\nInfo on UI Designer, including description of available elements and API is in <a href=\"https://drive.google.com/file/d/1hsMfQ43sa8iKehQndbdsxLtRSKdG2ZQ2/view?usp=sharing\"  target=\"_blank\"> UI Designer Documentation -- Toolkit.pdf</a>.\r\nInfo on Runtime Editor is in <a href=\"https://drive.google.com/file/d/1vFdNUlR2jP03UNZFjAamejcC99P2bfFI/view?usp=sharing\"  target=\"_blank\">Runtime Editor-Toolkit.pdf.</a></p>\r\n"
+				},
+				{
+					"title": "Tags",
+					"text": "UI, UI Designer, Runtime Editor, toolkit"
+				},
+				{
+					"title": "Version Number",
+					"text": "1.0.0"
+				}
+			]
+		}
+	],
+	"assets": [
+		{
+			"path": "/data/UnigineToolkit/imgui/Roboto-Light.ttf",
+			"guid": "b97c1a94b9cf73262f84e1bef461dbbcdb92c45f",
+			"size": 170420,
+			"hashsum_file": "a6d343d425bc38db90152fa06058b1c7391eca9264f334ef65c1ce175085c6f6",
+			"hashsum_meta": "049fc0bad099c724bfb4df1d61b0fa2185892db4620284cf6efaf97e9fcf65b6"
+		},
+		{
+			"path": "/data/UnigineToolkit/imgui/imgui.basemat",
+			"guid": "a3bfd26aec6ac929653a69db74dfb6ad47649e68",
+			"size": 1259,
+			"hashsum_file": "697f29cba441f38f16135a87cf1c1870e344271a39250e31f5db3921777abdce",
+			"hashsum_meta": "b86fb70481002dfb64d068b4317eaa891a99f8695830fb155ed35fb57d1a100a"
+		},
+		{
+			"path": "/data/UnigineToolkit/launchers/Debug-Double.launch",
+			"guid": "17bd90e50916333868423a2716b2ed81f4cab191",
+			"size": 341,
+			"hashsum_file": "3443c8925db9f53316d83387b9fbcaa316a3a721402313b052c2cf634c55f922",
+			"hashsum_meta": "f5bed8ca6bd4a2da8758b9d37dfe6a0b6f480369c0a06eb57338c7c20842eb47"
+		},
+		{
+			"path": "/data/UnigineToolkit/launchers/Debug-Float.launch",
+			"guid": "c7db4e3ea029cf4c64fd0bb5367d2c14900383ad",
+			"size": 334,
+			"hashsum_file": "3d7d36b248cca3cf2bc35b57e85eb4fa4c3600f42678f920e3b13d1036cbb9b5",
+			"hashsum_meta": "56289118bb7d3f0e911e2d4bb1ae635f754a7ea0b2b46d25c0ba375d3013d8e0"
+		},
+		{
+			"path": "/data/UnigineToolkit/launchers/Release-Double.launch",
+			"guid": "36eb8ee9d2301fe0b60d684b7495851f3e8abd55",
+			"size": 343,
+			"hashsum_file": "7e12567f5a6eaafdd24a0bf2b77f4d2baba32ae155f712c2e5082ee8e72db80b",
+			"hashsum_meta": "8aef31108ef8ef80566411ff4dad4926c486ef72476c7159c3aa4b0691874e50"
+		},
+		{
+			"path": "/data/UnigineToolkit/launchers/Release-Float.launch",
+			"guid": "bc127e9f45e2e22dcd16b5b192fe003497a77deb",
+			"size": 336,
+			"hashsum_file": "70a4af1da3972f77bb78c3c7ced15e31353409655b3c21cb35a975f368b6611c",
+			"hashsum_meta": "1c12816bd2d7fa297321ba1acd0f52a98bd664cee03a8e5bb44b71e7f81e559e"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball.fbx",
+			"guid": "e40b45ab1c769f0e7a329b15bfd83170f20c160f",
+			"size": 1346864,
+			"hashsum_file": "82f68b7ee493d50dd6fb00ecf6ba609dcafb39bdccc16eec893d7bdb684e8c2c",
+			"hashsum_meta": "2192bd4bcf6e15060b4d8a238bcb52f63cfa468cf1706ec19aad0af6da1adf46"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball_a.png",
+			"guid": "7ee5c14618f1a7ed2fc1e8689e0930a7ac97f5da",
+			"size": 50869,
+			"hashsum_file": "28b44ca8017d863fa8a21bf9e3debdf12047b4f69b41f54b294cfdf9a458928e",
+			"hashsum_meta": "e6f9d3100de1fd9d367ae9c5c8307fd7d34152cb95e8eafe24e4be1f063ccbfb"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball_alb.png",
+			"guid": "cc0788aaf1dea001d896796c0c0025db99e9217e",
+			"size": 1855393,
+			"hashsum_file": "f1a54f705542b30640ca37cf94a49109b4e9994f8c7baf5ab88a67f2539ef022",
+			"hashsum_meta": "490156b01684ec42cc2408136938118cfefb9f1dcf590db9d31fa05dfac7ffad"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball_mat.mat",
+			"guid": "2d2814767f25015d91f013182a937b973ae9640a",
+			"size": 887,
+			"hashsum_file": "81f4007d3bf6baf9f6b69de381ce28ed69947d1ee5ced15ad9ef91c09eaf0677",
+			"hashsum_meta": "cd6b5ba8342b35eca204498ba01e0c917e6faceaa58f62c3d4a56adbc64f8dd6"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball_n.png",
+			"guid": "d4b48ae8899a7127cf2b3c5ae076dff1de3b589c",
+			"size": 548280,
+			"hashsum_file": "034989252618c0bee4478a941f66095d277add033b15ae54085fe3ca4e09b76d",
+			"hashsum_meta": "3cf589649657ddd48c878aff8c850ed5734a167ec2c68d35a914f7c33e80bf8e"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_material_ball/material_ball_sh.png",
+			"guid": "07083332dc2178e98f0fed3402d4b70301727086",
+			"size": 1772981,
+			"hashsum_file": "2742e615fea64a7e05456ec9a43f4c5f318443973ea2c4ab34ea608eb515a240",
+			"hashsum_meta": "dd69f7f3f1b726ced0f60b769b4e78dc6736b931d1b4bdc6f1b4657289f473e5"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_extreme.render",
+			"guid": "588478b44cd4cc83e5848806faf23fadb8001d28",
+			"size": 53947,
+			"hashsum_file": "48c7add5fc0795b6db540df31bbcc6a19b3a8385cd8f1c73f6745a3edfafeaa0",
+			"hashsum_meta": "36e0484961d2468db3118de977820fa8d4702d377c9725ff455016eae8a40c64"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_high.render",
+			"guid": "92a0ee7917704584f2b913132a497d56e78094bd",
+			"size": 53949,
+			"hashsum_file": "18dd17e1386b4064ba91574068257f92d45b352f15a31ebaefcef6d9b193380b",
+			"hashsum_meta": "988af21b2a257b62db84e613e52bc3a1e628949409326529019c9a8d0e609110"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_low.render",
+			"guid": "bc68a7d2e41f2509d8a66ad4fa26d82385f0df26",
+			"size": 53916,
+			"hashsum_file": "a78157ee35525af0b04ae3161f9378c8ab2fb4b488831be6f9622165b361ddb4",
+			"hashsum_meta": "d2fd90ff4f96477e5ed010d6a8ca1a8841524cb3b10c46c0e73896bd80539b1d"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_medium.render",
+			"guid": "3eaf348f5c3c98a2f8253f99e39b2424233a2133",
+			"size": 53972,
+			"hashsum_file": "e36c823996c941c901998421c085b5fa3f7d00f4b9697dae4be00899a45101be",
+			"hashsum_meta": "92919709852928b3baa25102e37b30bf7dc34dff979cb27d68481fd36232b090"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_ultra.render",
+			"guid": "5fd39a4079e3489f136ffd72983c3e290a437174",
+			"size": 53942,
+			"hashsum_file": "112b06349678b1e4dcf18c1b1e1e8556dad884b114ee0030a1127a92df6bd223",
+			"hashsum_meta": "dfcb0f05d80095b8ca9dc1c4b0666f89aec3cd966d63d9281420c3422d991e56"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/template_assets/template_render_settings/template_virtual_reality.render",
+			"guid": "2e602efe80d88a458f4276e09a0c3cbfdde92312",
+			"size": 53898,
+			"hashsum_file": "a4e94fb20aa29cbcc77fd93acbdbd3c5cd02279b0e7a46d9b0fd8b5260899224",
+			"hashsum_meta": "a85287699fbea4e629cd1ab16b0358b192d9b72ec490fc5488620dd1e0556d3f"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/avatar.png",
+			"guid": "c8eebc099b8e89f4a8ea1a6027b99790a171d76f",
+			"size": 1510070,
+			"hashsum_file": "02f339c8e579677167536501ea385258a20e1b400bb7766a30fc08a3fa302f77",
+			"hashsum_meta": "a8da53b4e3d3035fa4b6f9552c19a6daab19eeed2465a2334320adf609857bf2"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/custom_materials.world",
+			"guid": "14a59be5b7b47e0c7d4effb41866861edb50e7d9",
+			"size": 71949,
+			"hashsum_file": "d1c6e681f670c6409db0620ea8e7b4e12fba89fac60b099af5267d3265549bdd",
+			"hashsum_meta": "e924794fe53bbd0bf20fef87ab8f72486ab551085f4b73ea13f6e45560254cbc"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/ui_circle_1.mat",
+			"guid": "c0b000656e7eb4f9a2bd0df03c342582c35c1291",
+			"size": 261,
+			"hashsum_file": "95362e05d7251c6b6905b157a23097b86861e8b97ac0fd254ef1371ea524401a",
+			"hashsum_meta": "258b0fc3a84bb07ab18046898ea25fd8b97c3a4dd9d7fe904e952446d68544f9"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/ui_nine_sliced_1.mat",
+			"guid": "652eb612b904fd1344d3e1de7b2df2d6af84f64d",
+			"size": 251,
+			"hashsum_file": "f9b320553f654568cff13c47dce2e07a39408324ef0beab6f4e2165b3e64511b",
+			"hashsum_meta": "e697c2754838ba66349b651a70551fc3952221a61abe1ed75fcfb23610d948e9"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/ui_rounded_rectangle_1.mat",
+			"guid": "bcd824e4bc9334edd854c090ef85d21723cac017",
+			"size": 317,
+			"hashsum_file": "8f319a3ae0cc22d429e88547bbac70fc0db760eaa590dc0918c38b61bddcf9c9",
+			"hashsum_meta": "c269666556ba10b21618a3439ba03e965ada190b4006e7fcef3c90aa12438390"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/ui_sector_1.mat",
+			"guid": "724536aed456a4558bdb3eba995b100bfe205879",
+			"size": 431,
+			"hashsum_file": "72043087d069b8a8fdb848ac64257bde81c9bbe4ad7831e6003055c30c74c324",
+			"hashsum_meta": "19f1c02e04e56218e04eb64f9431697715d2eba62ce486a9a078bc78c1866a81"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/custom_materials/ui_sharpen_1.mat",
+			"guid": "932847a771042ad0061be18ab9189d7fa1a9c3f3",
+			"size": 246,
+			"hashsum_file": "dc31d9efb4099860b07e5fe04da1962f4ce25014c184a91f64dd146deb001b12",
+			"hashsum_meta": "e63bd0a23c2f4a99522f3dbab9310a1e21f447e0b2fc755c406984965bdca6c0"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/elements/clip_texture.png",
+			"guid": "bf0c6e4699ff3aaf829a53aace9420b693d21318",
+			"size": 9971,
+			"hashsum_file": "ee6e752507437408600d8bf020308af7c90de143a1f0346f4a33e948ef2808f7",
+			"hashsum_meta": "c646b7d19f220152011a6bbcbf8f2a1174eb0ea970a8563ec5a8d7e29cccd706"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/elements/elements.world",
+			"guid": "61ff5e79daf29697b75817fac425264c3436f876",
+			"size": 89739,
+			"hashsum_file": "fd961417a5985317cb8f2e2c7490a858430c69f0c0267572901bb6397f04bff9",
+			"hashsum_meta": "9044d99b73cbe3b250ed33cf77aa55a5ec1ea334a7fe4509933ccbb268fce1db"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/Kirsty_Rg_It.ttf",
+			"guid": "31cabc4cc90acf808eceb22678801b09f93c6a68",
+			"size": 102008,
+			"hashsum_file": "7db3299ff787994800d0d7e5107a23c3ecde71511ad81d56a23884f9a1e5486c",
+			"hashsum_meta": "142067d5a2468d28ee7426f9694ed1f582b1f45f84c7a77dcf1257b784aee363"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/Typodermic Desktop EULA 2023.pdf",
+			"guid": "9da960b9be4fc1192a03da87a5f3b58504a5d4c3",
+			"size": 145707,
+			"hashsum_file": "1bb2b43ff7702f56eda9db0e18890bcf65de62ab93ddbbe58107fcdd62949b68",
+			"hashsum_meta": "00b91941200dfd7a1e9aeff92279f5d05458afc8a260c273ff941a20bfc840c2"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/button_hover.wav",
+			"guid": "bd394af40099817f40fd449b3db411820fec5b15",
+			"size": 10284,
+			"hashsum_file": "8b485f3765cda8630f6cdaf940f3f007e4ed06e961f4b223296dd785aa354acd",
+			"hashsum_meta": "c7cbda24b1bd428fea3bc521c5f1db45a21e6a043eb5e4d6a6838b210405e8ff"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/button_press.wav",
+			"guid": "9a9c83494bbee9e14e45d944328c246f247e765d",
+			"size": 85460,
+			"hashsum_file": "ab13b5c689c524efb0cd3afd2f2f6f70177cfa7a037c6f64bf66e1201d8d3920",
+			"hashsum_meta": "41471bc9e3a20aa79b4d27e192928208b1c77c3bc7b786a4afd298586abb4ca0"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/epic_menu.world",
+			"guid": "bd9cd752038a3a4a7a3cda5ccbc0563e5528cb0e",
+			"size": 65758,
+			"hashsum_file": "e6af50751e3c47695b90c327a037285915624a7b9a134df30e79344dbb6567c3",
+			"hashsum_meta": "13d45768450013a8359949010ac97c71765db360b100dcb2ffa726a951d6f541"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/fire_sparkle.png",
+			"guid": "fa48aa45ea09610746ce58b3f85fbe484d57de2f",
+			"size": 44720,
+			"hashsum_file": "e7decbcce8c60c6f98d867becb5706b0b008e8f743387245bc3c2215332dc56b",
+			"hashsum_meta": "142ea1c85f11a8343131cb4cba86bf3d9d0ef7867c0d656abd6814f6160aa836"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/sound_license.txt",
+			"guid": "050b6e4330a06700df88d4242f8effa109190418",
+			"size": 196,
+			"hashsum_file": "d37b8060eb68546a81e70f6cb40ea2f253412692b333a67ed5aed174707cb355",
+			"hashsum_meta": "3939b8e5d4a2f538a3646334eaa1e86be7a767e9e9af1f28da417c83ca5968eb"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/two_stripes.png",
+			"guid": "57e4a30fc2065145448016aded5499fa8e12e0c9",
+			"size": 2849,
+			"hashsum_file": "e6321cff706479db4a4370523699fd68a56b3c0b02ba965e76b64836aa7ffaed",
+			"hashsum_meta": "ee1df55e290afd9519b0c4192c7694243b49d4f27c45d0c28a65347ff4983696"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/two_stripes_2.png",
+			"guid": "28ad2a19b659abe44db73bc8ad854d5baa7c094b",
+			"size": 2876,
+			"hashsum_file": "8b1191786d3d5314f70bdc2203097585d6ffa6ce1a9119ec4eef0cd48a2abacf",
+			"hashsum_meta": "043fb18aab8015b020b200babca5937434348439184b19e4449b461df8ad8dae"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/ui_epic_button.basemat",
+			"guid": "db6c77bda256b9236b012229cad1f6c04d93adbb",
+			"size": 3189,
+			"hashsum_file": "d2bb58aec3e6d3b04bab69d42ccbfdeab8435c38b780531035635407534a94a2",
+			"hashsum_meta": "b5e4a56f42c78a357fb989869fbb8b851a0f97acdee0dd4390b566dcd4d6815b"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/epic_menu/ui_epic_button_impl.mat",
+			"guid": "bc2df70ad5fdcd393cee7bd40c095a26fcc13646",
+			"size": 370,
+			"hashsum_file": "4d1d5511577532cbb4ef9dbddcd81de6618c6af9b4af172702ddae78c2e83d78",
+			"hashsum_meta": "b0b8c16d761858214b0384f1b3872cf75378684a600e6e68af66dfdb515f8a29"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/localization/UIC_ButtonSetLocalization.prop",
+			"guid": "c8a6c28321d264eae57a8b0af4dfe0906803ba6c",
+			"size": 202,
+			"hashsum_file": "705ef5737b4d06d09fd41bcbb28814d60ecc4ea8a5b00602cf25b0a974c7b6d0",
+			"hashsum_meta": "57f82820b06987ebfd1416be69c669f428d3ba61990818ff6b3d8fe6f2be67b8"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/localization/en.png",
+			"guid": "b8a4f185e92ae40b5ed11309a6f819a9c6d22cfe",
+			"size": 2303,
+			"hashsum_file": "6d9b561433b973192b98ee8c7ab07cf6381b4a43e3acd2d472386ac50f44114e",
+			"hashsum_meta": "5b07fbeea9c48780a9e387bdbb433b192d0bb538dc5cf9f9379525607434ecfc"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/localization/localization_file.csv",
+			"guid": "49ddbfe8f947a3c67ce1bb74ffa48b358a820599",
+			"size": 677,
+			"hashsum_file": "1bffe4342b7758341f2a9ccda5e2cffe35333385ebc081faa5ab99af18ab4884",
+			"hashsum_meta": "2878593a0a9069a7c44277b3da52604c3d5ae07328e84916e0a87d79ae9cd021"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/localization/localization_sample.world",
+			"guid": "f7e1c6e7fbde1dab95448be41e620cb96ee6d3f1",
+			"size": 63106,
+			"hashsum_file": "4f3c6e9ba45cf0983739468af708b053e2e2a0a4545047424cc5091727876f7f",
+			"hashsum_meta": "bdb1f1a4ae1f79b34d12523eb046fe0d1f54b4ccccfc0284d1f4383935f318dd"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/localization/ru.png",
+			"guid": "e9ce0edbae623f767dc4adbf5fc5f60aab2ed8ec",
+			"size": 1893,
+			"hashsum_file": "0eef1f0988b761cc89522f0094c98395e8726c29556a46ccc716f6ad8353c3c8",
+			"hashsum_meta": "bc1ebe326dbaa4ef2abb7864b2aedf090206f5b246faeb11ad6f5a96c629d1dd"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/rectangle_selection/rectangle_selection.world",
+			"guid": "d3591aac3fe8da2aa5560dd8f5141a229fd116bf",
+			"size": 66689,
+			"hashsum_file": "ca8e4fb0a3ff3b6b4af2842876b12bc0fdcacfda03ea7263f3afdef4233944dc",
+			"hashsum_meta": "d3c6bf563496d945847932ec53a271fe1df92c4d0c9281516986f6d857a5535a"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/rectangle_selection/ui_rounded_rectangle_selection.mat",
+			"guid": "e568544a7d9770eb4975e896e4e233bc789f89a5",
+			"size": 403,
+			"hashsum_file": "d514d84110a3a74b1f6a775dc6cab545747bea23746cded1c4aee9e231d77ad9",
+			"hashsum_meta": "eec508b1482e8433663c5cc20670bbda236367aed904ec5071242be0a12e67a1"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/glass.world",
+			"guid": "3c155d4188b3327ca8734e942347b880cd59bc5d",
+			"size": 89029,
+			"hashsum_file": "f213d19453316b516460cefb04f30c4bc887727b3eacb72726cc519db5f5e407",
+			"hashsum_meta": "89f5696105517c7b71290ad3a17def9b276f41dc3f7269941e08178584741f85"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/radio_buttons.world",
+			"guid": "1aee4d51bc33ec6812f6e832b87883d94d8fdc2e",
+			"size": 68210,
+			"hashsum_file": "3d2f50f3e2399ad7ddfe47114fee983ffc1c8aee53a0f9492bae059490443ebb",
+			"hashsum_meta": "da6a433e2fef9b2218a98efd9cce8b67dc452b9173d92c4fe28f8eaadb230462"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/samples_ui.world",
+			"guid": "d64fa21052d35c37273e87bd5062bed8d9cac9c2",
+			"size": 66349,
+			"hashsum_file": "17b14999064c0cb9e51dc29dc7435445c364cad7224dfa51d0991bc757b7c729",
+			"hashsum_meta": "a59c2790e4d210551a51760d99a1201e5a2aed7ff04a749c38abf1d411fa8700"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/show_animation.world",
+			"guid": "3d00c5b23ac51c9b6e4424b3ea233d3cf08760aa",
+			"size": 69074,
+			"hashsum_file": "da538f14f19eb12657592699c482c14cb86b61ae6a521a32aac247c92e6d971d",
+			"hashsum_meta": "be198275ad9a4e1c98c53d0275639e2c8eb942e8224cf990087cc01f61d557ee"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/toggled_buttons.world",
+			"guid": "81fd17829418007ef1a7b7a602a73c373aec2234",
+			"size": 60838,
+			"hashsum_file": "e407ee4e9baea2f310b183560c2f5097ce4d3a6c030cb5d812b7306533499901",
+			"hashsum_meta": "caba97fe895ee07ea9aec9756ff886198fa67492d2419291fd42c96181738f83"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui/ui_rounded_rectangle_tooltip.mat",
+			"guid": "52d4f790f0e325ab11789b873e6e9b718eebdfe1",
+			"size": 344,
+			"hashsum_file": "961724ad3a6e0fbb5a9ffc5d4856de144444b5530135caff2d0732f434cc8890",
+			"hashsum_meta": "273091ddfec80fb1db6336c824d81821d1cd3590fe9520bb57fdbdde3cdcf660"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui_csharp/ButtonClickSample.cs",
+			"guid": "76cbb465655fc4affc928f42fae7336160f537af",
+			"size": 454,
+			"hashsum_file": "fd33d3718ef13a617e99c22f30197bbcc85210af749cd6cc2c2c6a8aeac9b2d3",
+			"hashsum_meta": "99cf70312c12649e6d6ecd5f579c55964327b1fb62bde22d54b1ccd58bd811ba"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui_csharp/Rotation.cs",
+			"guid": "17e84d1726f08e8e073ed8275d1044210ff740d7",
+			"size": 376,
+			"hashsum_file": "1dcff23e7a13aef5a4b06f9e814cbd655fbb7995dac081190bb6fd86e862e7dc",
+			"hashsum_meta": "38a62785a985f88466756719807f14f514450b4dfa399ba3eab633355e2f6dd0"
+		},
+		{
+			"path": "/data/UnigineToolkit/samples/ui_csharp/ui_csharp_sample.world",
+			"guid": "d4b1eeba02ace56831cc90ea47a104101057d3da",
+			"size": 79339,
+			"hashsum_file": "6e040f4a406dd7ac47af4f70a6a084434266f7823f7fa4b4d2d92b29401cbdb6",
+			"hashsum_meta": "009fea7269312433cf6322641e6464ccecae05bc70e5cef8a0f9098167490968"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/LoadLocalization.prop",
+			"guid": "72ac05c4a53adf6fc9ea25eec84292a5107e2b88",
+			"size": 292,
+			"hashsum_file": "d470c83824847ebc783c851ad496c1158d6961d18bced58aacdd86fdd3f2ee3f",
+			"hashsum_meta": "5eec464562cbfe22bdfc860a355d375b238a42869960e7bc13d9a6f3d8926c0d"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_ButtonChangeWorld.prop",
+			"guid": "c42610b62d5be8c3d452f9a8c98438a424c12e72",
+			"size": 219,
+			"hashsum_file": "8a68f9a3957f066a406ede35694562c7c0c3e4d65f65fc725d04338557775b7c",
+			"hashsum_meta": "f12e4bd9255cd1f6a7a1b8cb4967c9cfc0a0a23af89f317b8c7d08e20b3d0e53"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_ButtonShowElement.prop",
+			"guid": "60fe7851f71cfd9f09f4581e53b5d0e22dffd365",
+			"size": 574,
+			"hashsum_file": "fcb560c98fdf13ed93f679aa1c7b4d6d089dbe8fcdb2937fc2a9cfb8c5986bce",
+			"hashsum_meta": "b16b09d44ccbacfc2479b8632c02a75fca48d3c18fe9c28564a08bf8164174bf"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_DrawSurfaceSample.prop",
+			"guid": "f0777e4919cceeb00d571c573d2904de327bd30b",
+			"size": 134,
+			"hashsum_file": "ec22435fc4e0b7ba7b76f6af3b49beeb7cd82bf38d4e2005a0d2056eb5f28a96",
+			"hashsum_meta": "9284d848f6fdc2f5c3c87ff9cf2ac5772ed273747b2c98ab6e52a5333d5b9c76"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_RadioButtonGroup.prop",
+			"guid": "cf77121a7e2f7918f1ec1a9a0077737e2d6e2eb3",
+			"size": 211,
+			"hashsum_file": "eaba23a89bf86459eaf038f6f5a8ee5367099129a8e79c52e006d02ac4eb1ccd",
+			"hashsum_meta": "e5fe4d08d769ba1d0e461f8c16681c29b9f86cf1eea9512ee6e12ef2e79497ef"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_RectangleSelection.prop",
+			"guid": "470009dab943fae8963e4641a751e14d3dd648d1",
+			"size": 252,
+			"hashsum_file": "0906edbebdd1f4576d363b00d4931af594f4c5b6d73112488a9b6fb39535fa9e",
+			"hashsum_meta": "c845f3a76e0c1b8370cb80ab67e078f72f726ceb74343683b7bb7840155bddff"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_SoundPlayer.prop",
+			"guid": "36315462706f85f3155f8cb86f20d8e744ec28e0",
+			"size": 474,
+			"hashsum_file": "6d7708168f15d36e84e9b2b928d560d0c16e80cf127c679a89fb5c9e1e22dce7",
+			"hashsum_meta": "847a470e4f224004f2e58ee5d8a8f37b20a5435348b75eb5b404f169102cc5b0"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/components/UIC_ToggledButton.prop",
+			"guid": "27c7ca3286b25fa3d900e1d28703cbe11b3c98cc",
+			"size": 1307,
+			"hashsum_file": "f7a78348822018421094467c35e4cdf7f6fdfca376f2440ba63587cf75bab28e",
+			"hashsum_meta": "409ff3e6bfd424cc593734eb8b48451d950ba22a4e0026d271f2935cf89336b6"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Button.prop",
+			"guid": "d007a1033e4bf5d44e6ec54f2ae558534547be19",
+			"size": 4693,
+			"hashsum_file": "d95ee6477ef42de74c9d82c86d75f7cf744d39b5429f118456b23091066e0a25",
+			"hashsum_meta": "1b83631f05e09bc8fe4ca939c61f656ba131b7ff82be7ef7fabc52bc0e070acb"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Canvas.prop",
+			"guid": "481e47ba54f50bc51c49f0400a2fcb32a7854368",
+			"size": 2275,
+			"hashsum_file": "ea919cf329310a8a821f76f7879aae270b0092503b8fd3f4cc689addc343c8c0",
+			"hashsum_meta": "0fdc27387520ae950456ec55ec0d47cf42ba1d2c7a02472ffb1675263019c470"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_CheckBox.prop",
+			"guid": "0bb5a3742ff35d04db9aa009badf61a39df609ad",
+			"size": 4994,
+			"hashsum_file": "d2daaede90ba7e1c4ebc707b386cffb6ddd88ee530e9ddc022c254e2cdd4877b",
+			"hashsum_meta": "021cb31b67872f1df11f0d9f495f6115dad60b02aaef3792512d98c2e90171d5"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_ClipMask.prop",
+			"guid": "4028110f1cb2f51b0745e1e290d1b3e791eb97e5",
+			"size": 1176,
+			"hashsum_file": "5ddd3cb12539ed5e44d34ed5bfb28974459101bb3d1e5dd72170d832eae1379f",
+			"hashsum_meta": "e87462ae93218f55954d8b2d91b3352741941588d95b18e3b78cec1dd19393d3"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_DrawSurface.prop",
+			"guid": "f64e18dcd4e2b8efcf54d82b910a775eac8daff5",
+			"size": 652,
+			"hashsum_file": "92ced8583be59656f3357b9a293fb0ce1617d34775d10f0373caff4ec4fe6b6b",
+			"hashsum_meta": "a7b9b26316aca4659afa8c411beab6032fc2de2bf89c55a3b6f034c2198611be"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_EditLine.prop",
+			"guid": "7804b7323e97fa38ad5d1396983661f4714d2c99",
+			"size": 4493,
+			"hashsum_file": "e9bd2c913888a6895bcef03eec1fe23554c4fbcf7886bf1b86114bd31743a570",
+			"hashsum_meta": "354f2eb7884e581d2806f7541ff5aeed35bc6f0195e0769cf076c20ee56be65d"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Element.prop",
+			"guid": "6fcd348047be8a6e0e2d8a1485831547e1a098ec",
+			"size": 648,
+			"hashsum_file": "05873b4db6726f57563ecaf385f5e95012ac08f8c2dc0634a99bf5926f0c6bf2",
+			"hashsum_meta": "f772f708e5dab773bb65660c3395a34614fa207b06635e3054ba637d807925b2"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Label.prop",
+			"guid": "1a914610540f70f5c7f1612a28d8511750320139",
+			"size": 2182,
+			"hashsum_file": "dba98c9d103397aa9a7b058648517d0c1d142b3e8de0f15e98be10c6393f3920",
+			"hashsum_meta": "716e3397a0ccd80e151c4d23fc7d0cc12b8613aabd283ec070524b4dd264fa81"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_ProgressBar.prop",
+			"guid": "85344fbcdcf39fd135859390ba585250d06662fa",
+			"size": 1702,
+			"hashsum_file": "07ffabcc8905893083fd311ff5a7dfc8bf04336a991572d79a1486018ca0d3b6",
+			"hashsum_meta": "96ce80b0a5832767cae835234092d658046bc403eb987c9c28706669d0309d97"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Scroll.prop",
+			"guid": "1d8060d8a6df7ca8d1eb89dbe6a7f52b0381f184",
+			"size": 4792,
+			"hashsum_file": "93fe5677a350f46163299d3de27a6385be0424b0ec5e4857c837a25baf130a7a",
+			"hashsum_meta": "ffff4a31e9402b1a249e09299173808b685150e9d004a991a53a2f6c858a5083"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_ScrollBox.prop",
+			"guid": "7ab2f78af679ef0e4e58e5f9c3db355ee399b72d",
+			"size": 1928,
+			"hashsum_file": "b6fc0714d3893eedce89f50eb9302fb5fb1ba643988e7a26351c4c6fdb73f34f",
+			"hashsum_meta": "c011f9c026612c0141f26fb8d93ad504e10ab81c34c00beabfc5618ae6e06823"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Slider.prop",
+			"guid": "db7098052827b16790dd0086559222e73aa8d85b",
+			"size": 5705,
+			"hashsum_file": "591d119dcb791f35dcd92532cffd25d73a8f05afdd474013fefacc0e6d5559c5",
+			"hashsum_meta": "db310cf7c1617c7c1c4cc882a82f47e5e1028891a6b7a173d783e56f36ca7cef"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Sprite.prop",
+			"guid": "20096493d0a0c66a01b427e1920e1e5c59375fe7",
+			"size": 1229,
+			"hashsum_file": "f2500ca454665c191b29115a9e38776dcc532469da5e986387e02363a3e102a4",
+			"hashsum_meta": "dfcff487cda15456f0cbbef599fa7126f632d9071384ac9879010a70d0f9644a"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_SpriteShader.prop",
+			"guid": "3c1dc914783c25f0b32ec430e49d13dfcbf3e4b1",
+			"size": 1349,
+			"hashsum_file": "c1cf21a3031cd85454f880d1b380a0e175a4bd22b38ba5767ae21f3eb94bbcc3",
+			"hashsum_meta": "28dbaf40fdc10fa88c9bf5816f5576e8eefd7c8cbdf0fbce37c76ab4f9f6ec18"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Table.prop",
+			"guid": "6fb6e20332106eebd34a3ae7a23b685e049f60d1",
+			"size": 1167,
+			"hashsum_file": "71043046712cbed06e756aab9f3f1db2dbe2ccc3f3688fc019c25b783429bc51",
+			"hashsum_meta": "5a8b89e78726cf0013df6621091805a91f81ea31b150dfd41167709fb9cdc503"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/elements/UI_Window.prop",
+			"guid": "b98940b5ea9a561ca6f4abe6c9b7640225d89369",
+			"size": 1669,
+			"hashsum_file": "cc7ac220bccb60f5d4ebf5ef856438484a5d97b15f77fffcdbb7074e31b0249e",
+			"hashsum_meta": "5ca505bc50981fd842d74b4771e030a78f2f1e47bb60261c97dcdd00ba98df07"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_circle.basemat",
+			"guid": "cde0102c9ca6a61b53887b7c7585236ef45165a3",
+			"size": 1321,
+			"hashsum_file": "7b7202aeb2d59505a97c8dfc8675da8ddfb988a45f19b6cd45d7d4371db674d0",
+			"hashsum_meta": "6cadfe3810b3c84065a9608db7a921598bac564a730d99b34c6f7c5c9c5793e3"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_clipmask.basemat",
+			"guid": "2feb8ac3d8b5de377e8efbc0f60294abf4ba8527",
+			"size": 1338,
+			"hashsum_file": "7a41c66c6843166b4e93ba7b5e85fe9a1ee5ac316b9b59c48b9a251996a38340",
+			"hashsum_meta": "54b8df07129dc5aa72b98a11e1ca9781f6957d0b171a0b62b302673293d4b754"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_clipmask_nine_sliced.basemat",
+			"guid": "324808ff0f7741a7a1002779db556fc8d76b2698",
+			"size": 3617,
+			"hashsum_file": "99576d34a0554db49337d65704ac706ea41b3027030e9f9e58156e7c7432078c",
+			"hashsum_meta": "eb17034474e86b48705187161d42c55eeaa130bca1b18776da43bd4b371675c8"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_fill_horizontal.basemat",
+			"guid": "1446e743b840cd744e95c52c06c21021765084b0",
+			"size": 1297,
+			"hashsum_file": "e25cb5b7b3521e00d4f5523953c1eb82cba831325e7cc794ab4487172aad977d",
+			"hashsum_meta": "149d07f84b7800d520db2fe5ab575e6f0d01f406d0ff1f149984638bb758f450"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_fill_radial_360.basemat",
+			"guid": "97245dc2a024606306ca434821235035bd536579",
+			"size": 2848,
+			"hashsum_file": "faa701ba708bc392a88db4aff1f099f7bf5069ef3d1462201587a7c0ec7e289e",
+			"hashsum_meta": "c07a09dc299287a6935f1f0cead05f9e6a020a988099c6a1f547273c562fc63b"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_fill_vertical.basemat",
+			"guid": "6000b605ee0b3425a971c27c6150e2277a98c8b9",
+			"size": 1297,
+			"hashsum_file": "24ef9dac8c5e8278017a5ac35e2c5ee9cd660ebaae5c7d284cde2dbdee0844d1",
+			"hashsum_meta": "d06dd825f9edcc07e86f20a27592d68db8e40eebc79093b2315de5e2191f1932"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_glass.basemat",
+			"guid": "9abcf6730e51781ebdb54c914a366780a3b63905",
+			"size": 4529,
+			"hashsum_file": "758a40adb83699bc2a6ee54ec1c57c8819b2d41e0e5c18115b968dd8fa142bce",
+			"hashsum_meta": "b59cab00dfdfec8aa8665dbb61313b2f23d3586a8db4933f6ceddc239dd59b51"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_glass_nine_sliced.basemat",
+			"guid": "ce2e41bb3bbc44a0d3a277082025ef3e751f7613",
+			"size": 6878,
+			"hashsum_file": "ddbadfd6f2b4564d65c452e5a192c9504962a5c40e1d1d76c8693a3fa36d0a37",
+			"hashsum_meta": "9b61bfdd8cfcf9aa86cbed9d01473a60a65e275a99f5bb3e8aa5189a7da44ffe"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_mipmap.basemat",
+			"guid": "9aecc017697d94631155aa95ddfa8a9198230e67",
+			"size": 1378,
+			"hashsum_file": "30115a04809ed7991aaf7fc22b6b13b218a8298272e6b4616b4ccee276ef7332",
+			"hashsum_meta": "8c24ffe01feec40552f6143dfc049b84a1f3ce036aea815de0511f1ec9ba93d9"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_nine_sliced.basemat",
+			"guid": "98b8c63b3971f339a0e402507a3e73cc8385f0cb",
+			"size": 1906,
+			"hashsum_file": "7ef9fb46cf30739d1bcf2698a72fb8dc8e2c9e6f0706eab1824558a41cbb0bf4",
+			"hashsum_meta": "e102363822ec54259f0492caca8e99efd1987476564dc83e6f66c7a63e932240"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_nine_sliced.shader",
+			"guid": "baf2d0c5de4975492264ee3f522bfe292f6b44c1",
+			"size": 1591,
+			"hashsum_file": "aa94d3cd663435fce2b11ef69eb5a0e6df556cbab70c397b2c177157363f4916",
+			"hashsum_meta": "c4d5f26a18dab1d46b300c9bb0fb6b0024890c3cd3563b49caeb3eb10ee6df42"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_rounded_rectangle.basemat",
+			"guid": "b585e8fa6555e59e9003b75c3a8db54d37752459",
+			"size": 4436,
+			"hashsum_file": "de369dc8627e62f2f3b837cffb91e301fd55c8fb131d0143471548d0e34c9eae",
+			"hashsum_meta": "ba3ce9990875c8d9fe4619a895a71a8f79013a0865c63658efe08115b26d7141"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_sector.basemat",
+			"guid": "17fa9065f91aea64f81eaa34e916703134616554",
+			"size": 3048,
+			"hashsum_file": "eab56954bb0951ba4687b66b6ebfb5e1f372021bb13f2f29ed7e5b1d3f8f0b77",
+			"hashsum_meta": "4b156571acf2a551f26b8c3fa26ace83f08cf5bc3d001877fb80b225350494ab"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_sharpen.basemat",
+			"guid": "2d0492a94e1297cfc24e877a827a62c0a5d1a067",
+			"size": 2234,
+			"hashsum_file": "ecd004f07d43841c1437d9a950473931818463e77445186a7e835bf53132d65d",
+			"hashsum_meta": "46f2c2931fb0d4322505a167e2a8a9cadc91f05ecec168740c7cb267e98a3c68"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/materials/ui_simple.basemat",
+			"guid": "9c153610891b611389262ede0da318b714088fb0",
+			"size": 1099,
+			"hashsum_file": "776a66c7e06d8df83aa654f07b01f36ab92cb5f414d22e4ea299012b0229a5e5",
+			"hashsum_meta": "a3a80b33b39494e6fc71c9d8b7f5f63b53bb9f33275167d300d9c5780ae13691"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/button.png",
+			"guid": "53b56d9867039c570d25e8413e0fc733b2b4f0ee",
+			"size": 2077,
+			"hashsum_file": "0a74f3e6d0b0fd3195bebb4accaccb2ce6ce06a0f29a55372b826b6e52bd0ed6",
+			"hashsum_meta": "396297192a894ea61c2911c72b9f30d76e4cc5ac41b7ab2b229cb4a64179ebae"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/button_circle.png",
+			"guid": "8f1e9bbc2cd4e24e99222d0776560239eedc0375",
+			"size": 3347,
+			"hashsum_file": "db419d4b687fb4b5118d535624009ca9ae2a38d22c6d6095e6d4c4449708067c",
+			"hashsum_meta": "c973012c758f7eba82b989be87070746310b1d9553701557dd2ba5fbbcd550ff"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/button_circle_pressed.png",
+			"guid": "1fd2e48a165e4f14c3772d5bd5398f465d68be50",
+			"size": 3345,
+			"hashsum_file": "efb085a2ae532f73ff3790c3ae8cbacb47f7eb0654ae4054533d189984c2f50a",
+			"hashsum_meta": "1dd5865027261123ec6dddb3419d0d3374c7a635dc90476dbe2113a8ffb41170"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/button_pressed.png",
+			"guid": "dcd1a74e1668009a2b2c2391258d33ac4c647d6f",
+			"size": 2087,
+			"hashsum_file": "d04e9c41c7ccc17fceec79e513c726785ed4c6d2aeac4da2a04f919419431b96",
+			"hashsum_meta": "b63b2b337f0335cdeb7afc0858a5bb6b5883a649d81fbad8362ea80432c8dbe0"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/checkmark.png",
+			"guid": "3333b0ccac09a9ea52a7a405524a4e8b675a8c02",
+			"size": 2450,
+			"hashsum_file": "b11baa449b540b33a19c74b9ecaea75e0752e27f8d78b0d5f618453861a62f94",
+			"hashsum_meta": "d0222dcb97abb68c32ce985c7f1fc69126b9ea07ea1c0910645d5fcac414a343"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/checkmark_circle.png",
+			"guid": "9c26d930670f410212eec92bdeab327f3c02db79",
+			"size": 2569,
+			"hashsum_file": "69ec670c3e0814ac8f7e0e18e1356dff8cb1a5b2126ae1e06f8d018451b8595a",
+			"hashsum_meta": "09b1fda36d0de8755813849062c86de6c9a2c2f6b12a0ce3e8516e4d0b0b3476"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/circle.png",
+			"guid": "9b3432de9e10a77c58ea86bf0fdaecd2dad74e84",
+			"size": 3099,
+			"hashsum_file": "b436785aef97a5ee704726937af44ebf56318f72dbbf97c22d5f2cc98d247bf1",
+			"hashsum_meta": "c61f4b55852c27bdca8b5d643e8f009f0d4d234e4919b52aca5a51764a46b046"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/gradient.png",
+			"guid": "b8d47775c573ee8796cbabe6c1ee795eb174a422",
+			"size": 1808,
+			"hashsum_file": "99eace2d695883e9e2f47deee8aaf4545b9d362f31c07917a4a3786e328ef36f",
+			"hashsum_meta": "5d1a75a049570100fc9081ee37f443fae6c9c73604563de6115c53dd103ecbbb"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/rectangle.png",
+			"guid": "12a4f9e233e7f289a80694550a8a1ae6cd8a8813",
+			"size": 2278,
+			"hashsum_file": "3c6da1ef3e4da0150b96f8f7b3502b0b9b46c7a263f38fe97bcc04c99fbfe91a",
+			"hashsum_meta": "556f76314b138e4f7dea30dd21b0b7477b23404929730ec928d7728bb8a1f927"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/scrollbox_bg.png",
+			"guid": "04e5fef3e0ae58aec7e767b6aa980a6d12ebf582",
+			"size": 2057,
+			"hashsum_file": "bd6971d9bdc9aef29533775acf68584ef29967a79f28bd8b179316e93254bb3a",
+			"hashsum_meta": "05d81e450c9745f2f0a04d6cb4fb365e754fa73e08208f6fa4746fc5ff8315af"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/scrollbox_mask.png",
+			"guid": "4c760e4d3846e64e74bedf069db6f4c82fee36f9",
+			"size": 2186,
+			"hashsum_file": "676ebd27fd77e001e137862bb5b3c85ed932f3e97bd63a8c04f3315367964f00",
+			"hashsum_meta": "7419da53f4cda3a1e2eba541957372803ee4adf02835911a5c958bce98f302e3"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/sector_gradient.png",
+			"guid": "58375a8aa695776279b3f66e290524775e9afcbf",
+			"size": 2923,
+			"hashsum_file": "321f433139936d8ea1e966489b0040a5a0d08cf50f330be363a5ef90d01655b4",
+			"hashsum_meta": "15611be8f933fe85f5a636953412c618b2ab1b19f4ca1a0b78f8bcfcb623c96d"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/sector_gradient_alpha.png",
+			"guid": "63a3bea9b35b63dd270a1a55203c5b7cee092e66",
+			"size": 3548,
+			"hashsum_file": "88b77dc218c62c6f601d7923e8377c0deae4c385abda2508ded5986902c4b5b2",
+			"hashsum_meta": "0c137d80b6dfbaf90dd109a83bcd54623135b727939f240f081757e80ab8c5ee"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/shadow.png",
+			"guid": "94b446778996401f90ef8b708366077e744f900c",
+			"size": 2966,
+			"hashsum_file": "92cd4c98d6601272af6525335486d3842d6f51dfd845e4c4feccbfca0990218b",
+			"hashsum_meta": "385c36ba63b792a5d56dd45de5ec6d67c546758c1988bc5414da34514e739f38"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/window.png",
+			"guid": "641721c27200f1222d749af5aeade575e091e2c9",
+			"size": 2087,
+			"hashsum_file": "d04e9c41c7ccc17fceec79e513c726785ed4c6d2aeac4da2a04f919419431b96",
+			"hashsum_meta": "05d0fba7f987cce9eee97d1203fc051f4c3a7062f43478b4cf837ba0fc1f5f22"
+		},
+		{
+			"path": "/data/UnigineToolkit/ui/textures/window_sizeable.png",
+			"guid": "ba5f4960c4d3c6944721b669252b44a8e9d48d94",
+			"size": 2326,
+			"hashsum_file": "62dc67c12c8ad82adf9388de70619cc8903167a40ddd7485e09aef8c04463b81",
+			"hashsum_meta": "7826961a30c11e5443c7df9966230e4e816752c2cf2acf10dc2b30ef417e0895"
+		},
+		{
+			"path": "/data/UnigineToolkit/Toolkit.cs",
+			"guid": "44f68626b3c10c36d205adae974a9645338eff98",
+			"size": 334177,
+			"hashsum_file": "5d1e595bce10cce58e9df71e1708c817e3a1801733c981d51c2682a56e2ae48f",
+			"hashsum_meta": "68937383a9a4d4e64f9f07e657f3bcc5b93b223d63991a2c2ccfbe230a788cf5"
+		}
+	],
+	"files": [
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_double_x64.dll",
+			"size": 2478592,
+			"hashsum_file": "35593c8f62a65489830e29a6b887d94ae5ff784c6b88666262cbc300594fe5a2"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_double_x64.pdb",
+			"size": 3633152,
+			"hashsum_file": "7462efaffe442fdeb375535454351251d75b47e96c07a68423c93fee55cdae2a"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_double_x64d.dll",
+			"size": 4141568,
+			"hashsum_file": "2cee23ccae7786eee975edf2b2a20c6b2501c18bf3fb4b37391e757a1dc8d60c"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_double_x64d.pdb",
+			"size": 13893632,
+			"hashsum_file": "ed1d17a44055ef3e7ad232f5a854b1093edf6e9210e34433277457b7f9967b66"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_x64.dll",
+			"size": 2478080,
+			"hashsum_file": "856e2054d811f59c1ac3d57783712ec16e59b52669ddb0b398001b6c4558be9a"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_x64.pdb",
+			"size": 3629056,
+			"hashsum_file": "85cf8ec9479b3f4c59000a0d150d1650cb57163da54e7d3a7f9ac49e81f72ff4"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_x64d.dll",
+			"size": 4141056,
+			"hashsum_file": "79fe74013898399995f1bbfdb52481f2aebd81fd4ad1559bb2ed44eebe265fcf"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_editorplugin_x64d.pdb",
+			"size": 13889536,
+			"hashsum_file": "cf399b391b801814f01fc5734a5d33efd42e14fd167304b02ba1a72bed7a0bce"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_double_x64.dll",
+			"size": 2097152,
+			"hashsum_file": "72b98ee640582bd1cb3f75caaeecff79186d599e3a7a18b38251d4e8d9ff8080"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_double_x64d.dll",
+			"size": 5135872,
+			"hashsum_file": "aff31eba7f567b66c011898ea141ce7f193df8236b95cbf5fdeda40d4b9c1d4a"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_double_x64d.pdb",
+			"size": 16101376,
+			"hashsum_file": "8b8e358419db50ca89c8ba2e7f7e170526f454fa6141ced7e26ac1397ec29c3f"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_x64.dll",
+			"size": 2095104,
+			"hashsum_file": "1dc2622b6ef27ef193a589d4fed7a5f78b70bd522ef54d6b38579a6e0e727f79"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_x64d.dll",
+			"size": 5121536,
+			"hashsum_file": "ef40dd038f4a7f19fc5013ffb09d402dbd47f9002d275fe6295beb45382ed969"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/UnigineToolkit_plugin_x64d.pdb",
+			"size": 16076800,
+			"hashsum_file": "6b3dd069ccec807d595045fc006c5c7789157b6fab7cea478e3d45b141637f38"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_editorplugin_double_x64.so",
+			"size": 2933480,
+			"hashsum_file": "2f5c5745e476851f3307635afa03fccc25358da5be6ebfa36421667e713a40ef"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_editorplugin_double_x64d.so",
+			"size": 16688000,
+			"hashsum_file": "2b995fbab17b3f3e8cd34ebc7417e938f61635e8106fff1e3cd2c24d82807aad"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_editorplugin_x64.so",
+			"size": 2933528,
+			"hashsum_file": "054253b09aa716c06e9b783bde9c22b7e819101f4603d2fb8593e9b0d7223c99"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_editorplugin_x64d.so",
+			"size": 16686672,
+			"hashsum_file": "701596ad6b9cc1ab129222762435c24724e33069e24001755fd5b1a7da11a0f1"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_plugin_double_x64.so",
+			"size": 3972360,
+			"hashsum_file": "7db60b8b4ad5604ac1b407918c863a5e970af5b68506b68f2734e912a80163d6"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_plugin_double_x64d.so",
+			"size": 23114416,
+			"hashsum_file": "2d0fac62d578cbec973bcdfedf426ce3447936fa9858d0d21b6dbd28b05120bd"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_plugin_x64.so",
+			"size": 3972336,
+			"hashsum_file": "549dc62c53b4290177b73b7c07f15c327f204c35f3882ebf3003f95fe30a444c"
+		},
+		{
+			"path": "bin/plugins/Unigine/Toolkit/libUnigineToolkit_plugin_x64d.so",
+			"size": 23073792,
+			"hashsum_file": "dc5fe4acfdb5ead7430c67cae2edcf2a27c85d30a1f6639b746bac1d329cbefd"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/debuggers/README.txt",
+			"size": 503,
+			"hashsum_file": "e1c19e24bf4bf5c19d4a1b5f3d138167f2e8fd9610bcc4d5834fc75093ea46f4"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/debuggers/imgui.gdb",
+			"size": 567,
+			"hashsum_file": "981ae4ff74eec41df38f66115813e9c4e4a8829d3a7cc801fe4b697f2e7b9c95"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/debuggers/imgui.natstepfilter",
+			"size": 1450,
+			"hashsum_file": "b8f41dfa8d91cbc6ca9584b36ef0c2412439b2fcb92ef33524c10838bb760ef3"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/debuggers/imgui.natvis",
+			"size": 1917,
+			"hashsum_file": "cf0e39ae67d2bb3524b46f52fac269239f5fe840f75f11e2b86494834cffc79a"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/LICENSE.txt",
+			"size": 1104,
+			"hashsum_file": "44abf9b2498d127928abb6e23b4cda06f6ec3577b34b0c9d4d0672f38b3d6293"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imconfig.h",
+			"size": 11827,
+			"hashsum_file": "7525d69e3a5cc0722dcaf37e70b46ef814a891c693196ac09a380f19936f153d"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui.cpp",
+			"size": 884332,
+			"hashsum_file": "8bbd770f3748aa103ae33e891741f54b352af1affee569fbc1b7de55bf500154"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui.h",
+			"size": 377527,
+			"hashsum_file": "4bce2c70cf36e5284917dd04bc22d0415ceb1fad8f84641c6a1fb1178fa1d62e"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui_demo.cpp",
+			"size": 555552,
+			"hashsum_file": "a2a9737cd9a9657053465e2b6ee0a99e25ccbd700413cbea0354eebcec23ca71"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui_draw.cpp",
+			"size": 260794,
+			"hashsum_file": "2660cc2e946505d19392d4281750e6024f7426fbc890bf440306f2c7275527f5"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui_internal.h",
+			"size": 272670,
+			"hashsum_file": "a68a564203f7b27376615462b4e1fbb60c967aa0986719c5d3ca15f0c0b7c9ae"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui_tables.cpp",
+			"size": 249052,
+			"hashsum_file": "13820b7ea3ef4cd1503e98e2e329021b58d89f8b5f19f2c1daf34c0526c23f6d"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imgui_widgets.cpp",
+			"size": 520003,
+			"hashsum_file": "219b959f5c64c15fb34ecc35d1d7e43d8d66391b43afbc65711339180dd9bba0"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imstb_rectpack.h",
+			"size": 20971,
+			"hashsum_file": "bb53504995e983d54b1ae06ea727f0b39647e5e205b4bf7da01343953974951c"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imstb_textedit.h",
+			"size": 58597,
+			"hashsum_file": "d9deebe52c76276c42ca030e4ab92ea145552d2aa7e92fd7dea27ffc64eb7166"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui/imstb_truetype.h",
+			"size": 204570,
+			"hashsum_file": "941a95c9f36771aab45062e977596785aa9cfaa508a523f6c34ace84b5916780"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-color-text-edit/CONTRIBUTING",
+			"size": 1381,
+			"hashsum_file": "8e78608605e72ab802dfadfba4584654c202b58892a53e6e66b19578455668a7"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-color-text-edit/LICENSE",
+			"size": 1067,
+			"hashsum_file": "7d8a940bdfabdc84091e8d597811784f21eb453b1eba157597ac319f59ec2b19"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-color-text-edit/README.md",
+			"size": 2327,
+			"hashsum_file": "06afa84bd95c43ac4d6de431705f1c4a93edfc34b8ed0d504df3758ab2b45c2b"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-color-text-edit/TextEditor.cpp",
+			"size": 97625,
+			"hashsum_file": "98212db64ab523c6270eca81a27c93b555a66b8a96fe9ad9f9f6a043b6ac793b"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-color-text-edit/TextEditor.h",
+			"size": 10923,
+			"hashsum_file": "725e404015f0a6c5307c538d1c72ece332d7c15d6458db74369e148ffcd34940"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-misc/imcurve_editor.cpp",
+			"size": 14078,
+			"hashsum_file": "0f11d6bd422b6966a9bcbb401dc33a570c01897e44ecaa79927c75b3b3e6b7c6"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-misc/imcurve_editor.h",
+			"size": 283,
+			"hashsum_file": "07271ef3fb8dd2774b92ad07cdd3ea660b131f8461b68491c5cb085edb6c9f6c"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/misc/crude_json.natvis",
+			"size": 1174,
+			"hashsum_file": "a85080203a69d102be94b6cf7f3fc2b96621e8d47ce6e7f7fb3b459fde1ee0ed"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/misc/imgui_node_editor.natvis",
+			"size": 3208,
+			"hashsum_file": "47ba03e2fc4aff6ac52c181b81631c7f9605390da90f5cddc37dfcf2d847619c"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/LICENSE",
+			"size": 1072,
+			"hashsum_file": "2d176cd30f8dc07a5b8e922fb0de308ffea7b8f2d7ff5a5f2ee99b562ed05b0c"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/crude_json.cpp",
+			"size": 21084,
+			"hashsum_file": "e81eecfe7d55968b5369e57d7d3d38fda415d641aee068c25aac21ef4a892b93"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/crude_json.h",
+			"size": 12923,
+			"hashsum_file": "68120f5ff1f87379c53c02143c9999d4b511545ccf69f7964fb008344edd26f7"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_bezier_math.h",
+			"size": 6858,
+			"hashsum_file": "f2e111af449e782f00fa75212ddbf4758f32bca5abd2450892a1c83793850373"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_bezier_math.inl",
+			"size": 20935,
+			"hashsum_file": "15f2cc5f3d0210bcf537c9fca9393ec00f78c975a1050d9ed503c6f56058ec20"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_canvas.cpp",
+			"size": 20561,
+			"hashsum_file": "09f04a1500cda06bc197a97fa4f29be741587c31c668b41c089587bbb59548ec"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_canvas.h",
+			"size": 9330,
+			"hashsum_file": "91b85335eb73b6c2ddcf52b49b16f7d404db48add6f07c15e150790eee284218"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_extra_math.h",
+			"size": 2575,
+			"hashsum_file": "8dc392baf3d44a4a93a1c24cfadb325b4e9ae624311296d6054cbda84031948a"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_extra_math.inl",
+			"size": 5188,
+			"hashsum_file": "b92ff90fdd244df1f7cca523a2e1f21cb359f6b9ac7e57fd5e93fc4f86a5ca3c"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_node_editor.cpp",
+			"size": 155964,
+			"hashsum_file": "640a7b2f74817f835be19ce6153066a80f2f76ea2a56bd7eaf6a5ec8baf7065d"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_node_editor.h",
+			"size": 19831,
+			"hashsum_file": "5f62cf3749355487080faf325c82f992ae41a52efa7c29a234dec37d75b7b2d6"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_node_editor_api.cpp",
+			"size": 17539,
+			"hashsum_file": "ee9a21a9b9fbb628be8e2bd909e1166dc655dd9561e58a58aeb9cd5b1054a508"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_node_editor_internal.h",
+			"size": 40783,
+			"hashsum_file": "fa7b6feff362819df869cfe29ecd5657f61fcd3b38dc5778ee63d1853b44364a"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/imgui-node-editor/imgui_node_editor_internal.inl",
+			"size": 1827,
+			"hashsum_file": "545c91e1a0c19326661734440a98ffc78ee0e9b628248320feb804ec88c7c2c4"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/ImGuiImpl.cpp",
+			"size": 22712,
+			"hashsum_file": "91e4b61cc9db115a31bb16a46d4523abfc28ac0881cabcafeb757467d0b90219"
+		},
+		{
+			"path": "source/UnigineToolkit/imgui/ImGuiImpl.h",
+			"size": 630,
+			"hashsum_file": "963ea6fb08173141dc8a982de8961a34074d579ceff62e263185531214b32990"
+		},
+		{
+			"path": "source/UnigineToolkit/localization/Localization.cpp",
+			"size": 5042,
+			"hashsum_file": "1bc5e445c8b26779970ecfff0e4d5912b3f5bd2547753bc3d5b1bfeb5421872d"
+		},
+		{
+			"path": "source/UnigineToolkit/localization/Localization.h",
+			"size": 682,
+			"hashsum_file": "83fa7ef1d87f7e17bbe84a37c52f8cbcc874428587737bd8ed517f8045295763"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/CameraSettingsWindow.cpp",
+			"size": 770,
+			"hashsum_file": "6bab40a8ebcbdafa0f173ed4787e13d4117271a84948022153cecd5c1e5ecbec"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/CameraSettingsWindow.h",
+			"size": 216,
+			"hashsum_file": "19114e74aeaccfe10c75b1bb710ba50c1f7eb818c9a88f9818a7790f248b90a6"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/EditorPlayer.cpp",
+			"size": 14321,
+			"hashsum_file": "76f0d915107d5b65144c585e4d4a55d6b80615f9efd9a61d694347cbdf528416"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/EditorPlayer.h",
+			"size": 3761,
+			"hashsum_file": "0971bbac99613798fc579f0ec9e1752c10e6e93341114e5dabc79fac11f0b24d"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/IShowInRuntimeEditor.h",
+			"size": 346,
+			"hashsum_file": "6a30d5299a393a5d3cced44090b86a53ed36840092d8cd01001ed98de5aacb24"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/ImGuiManipulator.cpp",
+			"size": 5145,
+			"hashsum_file": "4a07316e104308db1f76cd92ee8b06ce4c431a78531ee3132f8e64527e4e0615"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/ImGuiManipulator.h",
+			"size": 425,
+			"hashsum_file": "153b558971a52f68fe2b2d74dcf1d1ee1333f033296378a7bd2c9ff93b647ff4"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/NodesWindow.cpp",
+			"size": 25376,
+			"hashsum_file": "e78e994bedfa0ca6639f727d665b4a613d602ce9ad53e46319bb3e4e055e0ca8"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/NodesWindow.h",
+			"size": 175,
+			"hashsum_file": "0114839a5cadb894edd8791fbe7b5f103244989ca674e9c6862222e3c8f520c7"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/PropertiesWindow.cpp",
+			"size": 15163,
+			"hashsum_file": "379e4e91f4e9104256b925751d5b933e780f07091bca8885b16ca90bc3c5f39c"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/PropertiesWindow.h",
+			"size": 180,
+			"hashsum_file": "6d346ab6fe4f3a34fdbcbc3bb6d8bb2021ad29b329800b652d266988747f9af8"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/RuntimeEditor.cpp",
+			"size": 29272,
+			"hashsum_file": "8d380d756cd16a0a942a425cef3ce0dc2cafc476fe84a8a84231d8a07bc30876"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/RuntimeEditor.h",
+			"size": 5543,
+			"hashsum_file": "5e9e15f4b3abecca3c4d6532868377294d7b51f0024bb30158e116632ed83db9"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/RuntimeEditorExtension.h",
+			"size": 165,
+			"hashsum_file": "e914ff69155fd072ca69e12392ec123cf387294cafc0ec6d17cb0971d1066e65"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/USCWindow.cpp",
+			"size": 6087,
+			"hashsum_file": "ad08c743e53e1f27e3ed2d6a717ebd9e9ef6e0ed7e6d8270cf009e6e4c912f18"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/USCWindow.h",
+			"size": 232,
+			"hashsum_file": "dfcc12771dffdd4c645580ca61f9acd7c6eb918d6e393a127d01bcb595f8e9f9"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/WidgetsWindow.cpp",
+			"size": 7054,
+			"hashsum_file": "e50d1f04817cb6ab795fee08d59b67eb7d258d6340b38a3ae39f4d066c4569eb"
+		},
+		{
+			"path": "source/UnigineToolkit/runtime_editor/WidgetsWindow.h",
+			"size": 177,
+			"hashsum_file": "573a6f61b169354b4f084bbf90fc3f49c66d04ec3988f1507c1d70dfa4f7d975"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/toolkit/ToolkitWorldLogic.cpp",
+			"size": 979,
+			"hashsum_file": "c59deca53cca075c32f90ba5dd9198d03e7d6cc0e846ed8a26f3304bf923865a"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/toolkit/ToolkitWorldLogic.h",
+			"size": 352,
+			"hashsum_file": "34eeb845df7d282802a4b39348b32eb149e6bebf9992ddcff4462b3a8b44cd4d"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/ui/ButtonSetLocalization.cpp",
+			"size": 820,
+			"hashsum_file": "f2694068d009089ea92ba2bd81d6e0d062e57e83d65b78bc1b3beabbcae1dec3"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/ui/ButtonSetLocalization.h",
+			"size": 410,
+			"hashsum_file": "d2425234bacfb9704c5f3b718e78eda6ca99a9e9a56c55018f45f030bb0967c5"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/ui/DrawSurfaceSample.cpp",
+			"size": 1193,
+			"hashsum_file": "df94b083c05b08e4bb6e41813c03c9305284f3b075c9d78fd2eae1eae93afd6a"
+		},
+		{
+			"path": "source/UnigineToolkit/samples/ui/DrawSurfaceSample.h",
+			"size": 541,
+			"hashsum_file": "34950ca8a8ace483eecce06145c708211089ea0b5419abd128905749924dad65"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ButtonChangeWorld.cpp",
+			"size": 542,
+			"hashsum_file": "05efebebe52c571b0629ee0f04ffeb4b002d123e5d4e1a1fcd6db2eb0110e351"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ButtonChangeWorld.h",
+			"size": 455,
+			"hashsum_file": "1323beb463005dff6369196e66ea373b54e5a8542f332502609837e0bda515ea"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ButtonShowElement.cpp",
+			"size": 3512,
+			"hashsum_file": "9c4d1e2e4f012e30e65742b874193523355351626d9fecc6547bbdebb3c295c1"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ButtonShowElement.h",
+			"size": 1000,
+			"hashsum_file": "976f222df22f01c719843fb9ffe1983cb30b4e082166dfe9eb76bc99a19acaba"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/LoadLocalization.cpp",
+			"size": 1528,
+			"hashsum_file": "4bdd772854c074bf18ebd7ed8d8291276b2857ec1df1bcaf2370bdfa2740aee9"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/LoadLocalization.h",
+			"size": 984,
+			"hashsum_file": "a22d6c5cfc4ae7a958b0718e097f5e888073d6d04b3cabe2d62ccb24df86b7dc"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/RadioButtonGroup.cpp",
+			"size": 2011,
+			"hashsum_file": "313ca5c37e1ce47881bd961b43a65627ca61896bd4965ecd5300676afc122f7e"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/RadioButtonGroup.h",
+			"size": 844,
+			"hashsum_file": "83d53c69e1987855c7f223fc41e6050defb8388f980abc66c34b8bccfb94b581"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/RectangleSelection.cpp",
+			"size": 972,
+			"hashsum_file": "6f4c96619a9aa1c8507e35e13604a9414683bc6a591d4f7d15a4fbd1883e5366"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/RectangleSelection.h",
+			"size": 581,
+			"hashsum_file": "be3dfb6648a51b06481e060c216289eb2e3fbb06abe64162f40e486124488424"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/SoundPlayer.cpp",
+			"size": 1518,
+			"hashsum_file": "607ea802ec8b00dfdb634e2a50c9d4d13fbaac14daea11b737f138f11df58679"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/SoundPlayer.h",
+			"size": 864,
+			"hashsum_file": "2ef33b93b66be53cbaabc87ed7d1304bf804c72074117c49fd8bd214f6fff048"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ToggledButton.cpp",
+			"size": 1628,
+			"hashsum_file": "489c8ac768d670375457f10735af8175a375e530dea2dc0716ccb7c712e9f01b"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/components/ToggledButton.h",
+			"size": 2085,
+			"hashsum_file": "5f56c611a47b67ab2344305411732f81cdabeb88065b1919f5e7b31de66ae587"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UIDesigner.cpp",
+			"size": 149941,
+			"hashsum_file": "a3f1689a1102f518826fcde8cbe025af736eba4ff6f53e49e496434c63b580c6"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UIDesigner.h",
+			"size": 10750,
+			"hashsum_file": "6a4f5f4346337eb5aa9f5c770377fa8c4b6f44348c9dd60e367efb528ce567ed"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UndoCommands.cpp",
+			"size": 9666,
+			"hashsum_file": "a044b6f815852460e43908a3d7a35f38185446820dd8ee1ff3b4857b82404423"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UndoCommands.h",
+			"size": 2977,
+			"hashsum_file": "bb6fabde0a23531a9c6a63b0cd15c37200301a6c3a943e63e26f1fd0bdc89f52"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UndoManager.cpp",
+			"size": 2662,
+			"hashsum_file": "54929b5bf2c8f5ff3a3af04e95107ed91d96c375cfb4658a6a4d2f679ee6c0cf"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/editor/UndoManager.h",
+			"size": 794,
+			"hashsum_file": "994fc6b1208f461a7cae54ffe064b9e929c6223b52247accdf91c715e94e0967"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Button.cpp",
+			"size": 8556,
+			"hashsum_file": "b42026062395e379f1e5a3980686c7c677e4b3b58fb8265fa70df3b4f26065be"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Button.h",
+			"size": 3759,
+			"hashsum_file": "a1301252430bee63dd523ef142f9500d552a4f609a33d78f0a8e29953be014ee"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Canvas.cpp",
+			"size": 21696,
+			"hashsum_file": "8193b146c0ddbb72d844206e7c6d14160481684debd8df2578580bf22ae51687"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Canvas.h",
+			"size": 10441,
+			"hashsum_file": "ebac9f13de6d79c54c88c0d928b0f3de375077d31dee17dd2fa3893f86eea252"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/CheckBox.cpp",
+			"size": 9521,
+			"hashsum_file": "985805f9c9dbf342f03ed80bfd472289e5ac4908cbe6b1f6b4ceeba83f49231a"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/CheckBox.h",
+			"size": 4320,
+			"hashsum_file": "4591fa7e4b326dcccc33a7880914ceb1b38ba7793173d4f41a15c8a97ce5e006"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ClipMask.cpp",
+			"size": 6840,
+			"hashsum_file": "df82a99fd01c5d2b4ef703c79c4778b4d3bcecc63f767fc58605e0d04a5ebb60"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ClipMask.h",
+			"size": 5663,
+			"hashsum_file": "e18ff025ce58d8684d173ed82219ea3a7ad5937fe7d98b83e012dc96636ce907"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/DrawSurface.cpp",
+			"size": 1732,
+			"hashsum_file": "08f0d8484d3541d3f9fd62fe90b57d68c173325bacc13ee62fa62b1e636a1bba"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/DrawSurface.h",
+			"size": 767,
+			"hashsum_file": "8b728aebfacd9a80c4fa1a6749ad77d0e417567cea588ece35d70191b8c61c00"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/EditLine.cpp",
+			"size": 8168,
+			"hashsum_file": "efdf002ef7cd3ffc8d3e5f8dfa432047279a784101a6ade1ff1bbf5ac93672e9"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/EditLine.h",
+			"size": 3606,
+			"hashsum_file": "398e49f601698c388f48b852b15ebff23d04d2edb60fc764ca9b6feedf1c5f79"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Element.cpp",
+			"size": 27051,
+			"hashsum_file": "4f7b77b81d1dd9c34b28877bfb7d53d2619afc1f8d59432304fee7ddd91f2f8d"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Element.h",
+			"size": 20389,
+			"hashsum_file": "17d5ab349824a33c1a6371fad979683f7be79a13169417202db3f5385f762853"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Label.cpp",
+			"size": 7514,
+			"hashsum_file": "964497e4a68ce4164729577bd7fd6939923473fcd71764ee6ae8ec9f7e3eae26"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Label.h",
+			"size": 3454,
+			"hashsum_file": "1360ea5b0ff80b88dcecea088097267732b63591912a70e9da919a2369d30a5e"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ProgressBar.cpp",
+			"size": 7479,
+			"hashsum_file": "8f21df35db9a657d67bec04079efc72a73c0f7a6173826503852d7ce7e6b15bc"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ProgressBar.h",
+			"size": 3435,
+			"hashsum_file": "c4e1a1e8e13afd98de799090cbe52377d8d071e13c48802f2c8762a7cf0ef62c"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Scroll.cpp",
+			"size": 12974,
+			"hashsum_file": "5f08955de3b453edb1b7698b8f76b7f78e642d77b056f5254245ccfd2b335069"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Scroll.h",
+			"size": 4159,
+			"hashsum_file": "30074497cfaebb277ce085c81cbeb1823fd5b339aae59d1b3382389093b22fc5"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ScrollBox.cpp",
+			"size": 13101,
+			"hashsum_file": "cffe55374b069b89285fcf2acafd9e4ae842200e1c0847487f4bc7d9137b3940"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/ScrollBox.h",
+			"size": 3362,
+			"hashsum_file": "90032e1bbc4066bd6970f7f855e5a9fb67731ca37e2b4f2457b7fd15a517fb0e"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Slider.cpp",
+			"size": 17469,
+			"hashsum_file": "07255f0414b3f436245ae683a70dedb8b7d5036e8a0ee24be411feeac0500391"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Slider.h",
+			"size": 5915,
+			"hashsum_file": "5496347880a9cedb0a2607172c742a079e285aafebcf0c724c950e346531050a"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Sprite.cpp",
+			"size": 6141,
+			"hashsum_file": "f3107dacf704bc9d3303874849d446592738833269b6e903b3a0b4b36ef5d6a5"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Sprite.h",
+			"size": 2059,
+			"hashsum_file": "06b6f9cae216b8a27cdd874d13bea7516962a1885ea2b90e1b9288b252b83312"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/SpriteShader.cpp",
+			"size": 6866,
+			"hashsum_file": "2d3de090830df72921ccf09250afad8c841a039ab1012fb692078494799f9056"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/SpriteShader.h",
+			"size": 2416,
+			"hashsum_file": "953f3bba86baa3d9d6525d3cb083bd1e7e7921cae3e609a780cb7282e950f771"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Table.cpp",
+			"size": 3541,
+			"hashsum_file": "a46402f21eda65dbbfbc60a200bda6d0ec4129a13ee5bbe3fe4be631e69d475f"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Table.h",
+			"size": 1556,
+			"hashsum_file": "b65a804bbb4114f28a37b7fe4b29c34ad05ece39f012e3e9844cd0e37ecb5879"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Window.cpp",
+			"size": 7071,
+			"hashsum_file": "a7c36934dc24f2271453cdcafc382a39fb1e970dde07bc92bc066c65689bf6bd"
+		},
+		{
+			"path": "source/UnigineToolkit/ui/elements/Window.h",
+			"size": 2744,
+			"hashsum_file": "5a67e43c00a52f879481210c5e09467e7f6bd048935df31175d3dc5e629135a4"
+		},
+		{
+			"path": "source/UnigineToolkit/utils/math/EaseInOut.cpp",
+			"size": 3798,
+			"hashsum_file": "efb9a05cbf4d1d6a30b18d1ea8c577a19c3a8b3d7d4af3438a0c851a5d3f7e18"
+		},
+		{
+			"path": "source/UnigineToolkit/utils/math/EaseInOut.h",
+			"size": 1000,
+			"hashsum_file": "f4459128540489a819d74974b0a98d75e41c150189e74d80453dd2e66bd9faab"
+		}
+	]
+}

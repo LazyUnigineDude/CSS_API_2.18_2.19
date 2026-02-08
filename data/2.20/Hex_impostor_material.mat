@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.20.0.0" guid="8b6ad3983b9d69ae833edd6cfa473d850114451d" base_material="6e45df4305937b858effe8a2aa97d0eefcb7c9b5">
+	<options transparent="1"/>
+	<state name="lerp">2</state>
+	<state name="ao_map">0</state>
+	<state name="depth_map">1</state>
+	<texture name="albedo" streaming_density_multiplier="3">guid://05bfa6667d7bbf089c40f01ad7ab52a62fadc723</texture>
+	<texture name="shading" streaming_density_multiplier="3">guid://73dfafe525dfd16d87755101d565364250a8b7fa</texture>
+	<texture name="normal" streaming_density_multiplier="3">guid://e677e06c93d9f10bfdc3298044527fe172d7dfc1</texture>
+	<texture name="translucent" streaming_density_multiplier="3">guid://a2df43279676694fbdf25d23973346f7c6637c64</texture>
+	<texture name="depth" streaming_density_multiplier="3">guid://ba86e09179588ff80e16d4edf765231c06742296</texture>
+	<texture name="opacity_lerp_map" streaming_density_multiplier="3">guid://e64bb1b375483e9330ff70eff48865e79c839f60</texture>
+	<parameter name="size" expression="0">6.31837845</parameter>
+	<parameter name="pivot_offset" expression="1">vec3(0.00,0.00,1.00)</parameter>
+</material>

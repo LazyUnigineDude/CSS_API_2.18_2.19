@@ -76,8 +76,8 @@ public class SimpleDetect : Component
 
 	void Shutdown()
 	{
-		if (Ptr != null) Ptr.DeleteLater();
-		if (NPtr != null) NPtr.DeleteLater();
+		if (Ptr != null) Ptr.Dispose();
+		if (NPtr != null) NPtr.Dispose();
 
 		Gui GUI = Gui.GetCurrent();
 		if (GUI.IsChild(Label) == 1) GUI.RemoveChild(Label);

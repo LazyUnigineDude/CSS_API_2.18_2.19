@@ -47,7 +47,7 @@ public class IKSolver : Component
 
 	void Shutdown()
 	{
-		Ptr.DeleteLater();
+		Ptr.Dispose();
 	}
 
 	void AlignFoot(dmat4 BoneTransform, int BoneNum)

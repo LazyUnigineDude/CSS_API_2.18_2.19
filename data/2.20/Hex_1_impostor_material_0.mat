@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.20.0.0" guid="168cd975c6304b65304a0991589609d079a622ca" base_material="967b9604ba73d6a3801174984c5f82cf5f90a4b9">
+	<state name="bound_mode">1</state>
+	<state name="shading_map">1</state>
+	<state name="translucent_map">1</state>
+	<state name="atlas_number">10</state>
+	<texture name="albedo" streaming_density_multiplier="3">guid://7d9467987f052d87d053b16cc9696c9f714ba91d</texture>
+	<texture name="normal" streaming_density_multiplier="3">guid://8e591925c52da4d4fb7446414a74aa57482a023a</texture>
+	<texture name="shading" streaming_density_multiplier="3">guid://bfe1edf7e0d93addc57ca2f37c74d3e9b3ec2574</texture>
+	<texture name="translucent" streaming_density_multiplier="3">guid://cf4051c91e82950d83631ea5a09f138fd62c4b2e</texture>
+	<texture name="depth" streaming_density_multiplier="3">guid://3a6d01be2eafbefc20b39cf2b6617a9cdc0a62db</texture>
+	<parameter name="bound_min" expression="0">-2.59807634 -3 0</parameter>
+	<parameter name="bound_max" expression="0">2.59807634 3 2</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+	<parameter name="specular" expression="0">1</parameter>
+	<parameter name="microfiber" expression="0">1</parameter>
+	<parameter name="translucency" expression="0">1</parameter>
+	<parameter name="size" expression="0">6.3183794</parameter>
+	<parameter name="pivot_offset" expression="0">0 0 1</parameter>
+</material>

@@ -1,0 +1,3346 @@
+{
+	"material": {
+		"type": 1,
+		"normal_space": 2,
+		"vertex_position_space": 1,
+		"vertex_offset_space": 2,
+		"vertex_mode": 0,
+		"advanced_mode": false,
+		"compiler_ieee_strictness": false,
+		"compiler_vulkan_vertex_shader_optimizations": true,
+		"compiler_optimization_level": 4,
+		"compiler_warning_mode": 2,
+		"cast_gi": false,
+		"depth_shadow": true,
+		"screen_projection": false,
+		"force_velocity": false,
+		"tessellation": false,
+		"two_sided": false,
+		"overlap": false,
+		"depth_test": true,
+		"scene_depth_write": true,
+		"opacity_depth_write": true,
+		"velocity_write": true,
+		"material_mask_write": true,
+		"depth_pre_pass": false,
+		"depth_mode": 0,
+		"decal_tbn_mode": 0,
+		"normal_blend_mode": 0,
+		"render_order_full": "After Post Materials",
+		"render_order_friendly": "Before Post Materials",
+		"user_mode": "Artist Friendly",
+		"textures_streaming_mode": "Force Streaming For All",
+		"use_taa": false,
+		"color_clamping_mode": "Disabled",
+		"fix_flicker": false,
+		"antialiasing_in_motion": false,
+		"diagonal_neighbors": false,
+		"catmull_resampling": false,
+		"frames_by_velocity": false,
+		"frames_by_color": false,
+		"blend_mode": 0,
+		"blend_src": 5,
+		"blend_dest": 6,
+		"blend_alpha_src": 2
+	},
+	"parameters": {
+		"parameter": {
+			"type": "Group",
+			"guid": "d609579039bc259ee41ec6a87304c05e46dffb0b",
+			"value": {
+				"type": "unknown",
+				"name": "states",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				]
+			},
+			"children": {
+				"parameter": {
+					"type": "Bool",
+					"guid": "1f3a99a51e661824931d702d1c8b722846486684",
+					"value": {
+						"type": "bool",
+						"name": "AO_map",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 0
+					},
+					"items": [
+						""
+					]
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "dd16f9c86baefb1f362071e077ce81437de2a563",
+					"value": {
+						"type": "bool",
+						"name": "shading_map",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 0
+					},
+					"items": [
+						""
+					]
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "5b614bcf954ab87b833fd3971678dc1c1f2b1506",
+					"value": {
+						"type": "bool",
+						"name": "translucent_map",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 0
+					},
+					"items": [
+						""
+					]
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "f4920463fb4594c23801f6ab2220e43d2e4abfca",
+					"value": {
+						"type": "bool",
+						"name": "depth_map",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 1
+					},
+					"items": [
+						""
+					]
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "9cf37cededc4a9089d5a3caf4cc2c8ddf03b2b57",
+					"value": {
+						"type": "bool",
+						"name": "depth_shadow_only",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 0
+					},
+					"items": [
+						""
+					],
+					"condition": "depth_map=1"
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "fbb58d73b06603e30b7a81bb62ffb2e1b86b2a9a",
+					"value": {
+						"type": "bool",
+						"name": "parallax_offset",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 1
+					},
+					"condition": "depth_map=1"
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "9086dcd91725cfcc83f331e11966ac730c7c9268",
+					"value": {
+						"type": "bool",
+						"name": "vertex_interpolation",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 1
+					}
+				},
+				"parameter": {
+					"type": "Bool",
+					"guid": "d16d11d088174fcda28f9acf0e1a8e012236bc87",
+					"value": {
+						"type": "bool",
+						"name": "opacity_jitter",
+						"min_value": 0,
+						"max_value": 1,
+						"inactive_f": [
+							1,
+							1,
+							1,
+							1
+						],
+						"inactive_i": [
+							0,
+							0,
+							0,
+							0
+						],
+						"value_x": 0
+					}
+				}
+			}
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "f9abe0d35a58701601bb687d32ca0fb8dbed0fb7",
+			"value": {
+				"type": "Texture2D",
+				"name": "albedo",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			}
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "367ef26f42507d02e186187981cf67849319cd13",
+			"value": {
+				"type": "Texture2D",
+				"name": "normal",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "692dbb7d56d633e22551bd47f4d92cd2d498270d",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			}
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "5673af333548f61756215b7b1dda3164f53a2d5a",
+			"value": {
+				"type": "Texture2D",
+				"name": "shading",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			},
+			"condition": "shading_map=1"
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "d84090aa1af944fc1c7fb8820027c1943ac2fc3d",
+			"value": {
+				"type": "Texture2D",
+				"name": "translucent",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			},
+			"condition": "translucent_map=1"
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "43df3892abcd9e35a4d1d36a69796c02980b6585",
+			"value": {
+				"type": "Texture2D",
+				"name": "ambient_occlusion",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			},
+			"condition": "AO_map=1"
+		},
+		"parameter": {
+			"type": "Texture2D",
+			"guid": "ccd1b2a5528c07decd9bc14491e28edd83db8612",
+			"value": {
+				"type": "Texture2D",
+				"name": "depth",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"asset": "d15782a509aae84ba85cebcb4e69571f60a7e33a",
+				"anisotropy": false,
+				"manual_filtering": false,
+				"force_streaming": false,
+				"wrap_x": 1,
+				"wrap_y": 1,
+				"wrap_z": 0
+			},
+			"condition": "depth_map=1"
+		},
+		"parameter": {
+			"type": "Static Int",
+			"guid": "268dc5c909cf1a3e85df63e1282b317d9c234ed3",
+			"value": {
+				"type": "int",
+				"name": "atlas_number",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 12
+			}
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "72f61ed704b262353333f79f328d62d73a9dc6ee",
+			"value": {
+				"type": "float",
+				"name": "metalness",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0
+			}
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "2e443fa21525ad0059ba587aa5b55e340fa00255",
+			"value": {
+				"type": "float",
+				"name": "roughness",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 1
+			}
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "07059f6fd9a3b522eec35b37c50dcfe530732626",
+			"value": {
+				"type": "float",
+				"name": "specular",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					0,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0.5
+			}
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "02d827704ac1ee4e83b076e6e954022a2c0eb546",
+			"value": {
+				"type": "float",
+				"name": "microfiber",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					0,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0
+			},
+			"condition": "shading_map=1"
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "633a52d812e59d0efa2908f0a82c7d109adae033",
+			"value": {
+				"type": "float",
+				"name": "translucency",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0
+			},
+			"condition": "translucent_map=1"
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "9b4aedcfc8c45cfa4c4a78dd8776f925bdba27d4",
+			"value": {
+				"type": "float",
+				"name": "parallax_intensity",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 1
+			},
+			"condition": "parallax_offset=1"
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "6f27010cbae403c891c402c1ffecd8948f18f917",
+			"value": {
+				"type": "float",
+				"name": "shadow_offset",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0
+			}
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "0c2cdd87aa06c07efcb5263a09a366cf571b462f",
+			"value": {
+				"type": "float",
+				"name": "opacity_jitter_intensity",
+				"min_value": 0,
+				"max_value": 1,
+				"inactive_f": [
+					0,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 0.5
+			},
+			"condition": "opacity_jitter=1"
+		},
+		"parameter": {
+			"type": "Slider",
+			"guid": "3b866fe935bfca7e7c04df6ef901ee17a460aabf",
+			"value": {
+				"type": "float",
+				"name": "size",
+				"min_value": 0.10000000149011612,
+				"max_value": 10,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_x": 1
+			}
+		},
+		"parameter": {
+			"type": "Float3",
+			"guid": "f7933c1aa86a812ca85d1bb367f078809096d5f7",
+			"value": {
+				"type": "float3",
+				"name": "pivot_offset",
+				"min_value": 0.10000000149011612,
+				"max_value": 10,
+				"inactive_f": [
+					1,
+					1,
+					1,
+					1
+				],
+				"inactive_i": [
+					0,
+					0,
+					0,
+					0
+				],
+				"value_z": 0,
+				"value_y": 0,
+				"value_x": 0
+			}
+		}
+	},
+	"version": "2.20.0.0",
+	"nodes": {
+		"Material": {
+			"label": "Material",
+			"guid": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"x": 4244,
+			"y": 992,
+			"collapsed": false,
+			"props": {
+			},
+			"inputs": {
+				"input": {
+					"label": "Opacity",
+					"type": "float",
+					"id": -1880079150
+				},
+				"input": {
+					"label": "Opacity Clip Threshold",
+					"type": "float",
+					"id": -1577925397
+				},
+				"input": {
+					"label": "Albedo",
+					"type": "float3",
+					"id": -509366906
+				},
+				"input": {
+					"label": "Metalness",
+					"type": "float",
+					"id": -1695405859
+				},
+				"input": {
+					"label": "Roughness",
+					"type": "float",
+					"id": 1466423059
+				},
+				"input": {
+					"label": "Specular",
+					"type": "float",
+					"id": -452932161
+				},
+				"input": {
+					"label": "Microfiber",
+					"type": "float",
+					"id": -410190875
+				},
+				"input": {
+					"label": "Normal Tangent Space",
+					"type": "float3",
+					"id": -1328428335
+				},
+				"input": {
+					"label": "Translucent",
+					"type": "float",
+					"id": 480745549
+				},
+				"input": {
+					"label": "Ambient Occlusion",
+					"type": "float",
+					"id": 979644461
+				},
+				"input": {
+					"label": "Emission",
+					"type": "float3",
+					"id": -2120341480
+				},
+				"input": {
+					"label": "Auxiliary",
+					"type": "float4",
+					"id": -488030030
+				},
+				"input": {
+					"label": "Auxiliary Clip Threshold",
+					"type": "float",
+					"id": 587570301
+				},
+				"input": {
+					"label": "Depth Offset",
+					"type": "float",
+					"id": 1982984727
+				},
+				"input": {
+					"label": "Vertex Position Object Space",
+					"type": "float3",
+					"id": 1951750090
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "Material",
+					"type": "",
+					"id": 0
+				}
+			}
+		},
+		"Final": {
+			"label": "Final",
+			"guid": "0f2f417e3b3b7ac5ee9bad604fcb013f4b641d92",
+			"x": 4668,
+			"y": 1176,
+			"collapsed": false,
+			"props": {
+			},
+			"inputs": {
+				"input": {
+					"label": "Material",
+					"type": "",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "09bce12aa9a3875439d426376338eca1bc34b82c",
+			"x": 4048,
+			"y": 1211,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 4
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "NORMAL",
+					"type": "float3",
+					"id": 0
+				}
+			},
+			"portal_guid": "ac2b5a8722718c9a45dbd968f6675ad1a058fcb6"
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "1285fcdafb27f8b8e314a511df52e7a5af2400d7",
+			"x": 2299,
+			"y": 1238,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "AMBIENT_OCCLUSION"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.0058931321837007999,
+					"y": 0.37620535492897034,
+					"x": 0.5
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "AMBIENT_OCCLUSION",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "7f3e8b5f93cb59edd341b2a0dfeb11c123effc2e",
+			"x": 2336,
+			"y": 868,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "SHADING"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.038056299090385437,
+					"y": 0.5,
+					"x": 0.23091527819633484
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "SHADING",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "c49f5c61778ca2bc348ca76a8c501fea9b9b8768",
+			"x": 2335,
+			"y": 778,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "ALBEDO"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.074509806931018829,
+					"y": 0.047058824449777603,
+					"x": 0.49803921580314636
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "ALBEDO",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"Parameter": {
+			"type": "float3",
+			"label": "float3",
+			"guid": "068d3d870b9cc8ac85ce063a989cbfe0ece28c0d",
+			"x": 1481,
+			"y": 1392,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float3",
+					"z": 0,
+					"y": 0,
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "pivot_offset",
+					"type": "float3",
+					"id": 0
+				}
+			},
+			"parameter_guid": "f7933c1aa86a812ca85d1bb367f078809096d5f7"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "68f07f8dde49e3e33b3a03c8bd2b177f2a8911e3",
+			"x": 1537,
+			"y": 1366,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "size",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "3b866fe935bfca7e7c04df6ef901ee17a460aabf"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "2ee066934e6e63d71b33c256bbd0328fe2e5c239",
+			"x": 1408,
+			"y": 1340,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0.5
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "opacity_jitter_intensity",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "0c2cdd87aa06c07efcb5263a09a366cf571b462f"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "7d21018321c353737b713cd49425c0d23b481dc2",
+			"x": 1460,
+			"y": 1314,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "shadow_offset",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "6f27010cbae403c891c402c1ffecd8948f18f917"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "1b56fbf9627abc88d6fad26270fb50983fe5c4a0",
+			"x": 1475,
+			"y": 1261,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "translucency",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "633a52d812e59d0efa2908f0a82c7d109adae033"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "bae72289ff94d28e809f531472b2802f3b11af7f",
+			"x": 1441,
+			"y": 1287,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "parallax_intensity",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "9b4aedcfc8c45cfa4c4a78dd8776f925bdba27d4"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "93f4f92f0686e41deaec1db0fd353901c519e6be",
+			"x": 1491,
+			"y": 1182,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "roughness",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "2e443fa21525ad0059ba587aa5b55e340fa00255"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "3180ca8510f2cf09be29436068ddce8a2455f01b",
+			"x": 1492,
+			"y": 1156,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "metalness",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "72f61ed704b262353333f79f328d62d73a9dc6ee"
+		},
+		"Parameter": {
+			"type": "int",
+			"label": "int",
+			"guid": "79b2bcf5f6e017192fcb77ce25413d9888211cac",
+			"x": 1469,
+			"y": 1130,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Int",
+					"x": 12
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "atlas_number",
+					"type": "int",
+					"id": 0
+				}
+			},
+			"parameter_guid": "268dc5c909cf1a3e85df63e1282b317d9c234ed3"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "a005a2313db6162c43ab4a7a7ef98f004e5fa5f8",
+			"x": 1525,
+			"y": 1104,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "d15782a509aae84ba85cebcb4e69571f60a7e33a"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "depth",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "ccd1b2a5528c07decd9bc14491e28edd83db8612"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "9a0627ad1c4255f3145b36665d1cb351adde2c84",
+			"x": 1432,
+			"y": 1078,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "ambient_occlusion",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "43df3892abcd9e35a4d1d36a69796c02980b6585"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "f3b70969100e6e4d3b91679260e73324c7debc50",
+			"x": 1486,
+			"y": 1051,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "translucent",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "d84090aa1af944fc1c7fb8820027c1943ac2fc3d"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "d563436511d19d84f76549fe4f6029537134a15c",
+			"x": 1508,
+			"y": 1025,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "shading",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "5673af333548f61756215b7b1dda3164f53a2d5a"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "93da11a1964eb059f3fb89aacd73bd8ff91067a8",
+			"x": 1515,
+			"y": 999,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "692dbb7d56d633e22551bd47f4d92cd2d498270d"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "normal",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "367ef26f42507d02e186187981cf67849319cd13"
+		},
+		"Parameter": {
+			"type": "Texture2D",
+			"label": "Texture2D",
+			"guid": "870f92c377df60033a2a9ac6611cde6310cf9ee9",
+			"x": 1517,
+			"y": 973,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Path",
+					"widget": "Texture2D",
+					"asset": "5219d6ddb5dbd1520e843a369ad2b64326bb24e2"
+				},
+				"prop": {
+					"label": "Wrap X",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Y",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 1
+				},
+				"prop": {
+					"label": "Wrap Z",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Repeat",
+						"Clamp",
+						"Border"
+					],
+					"x": 0
+				},
+				"prop": {
+					"label": "Anisotropy",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Force Streaming",
+					"widget": "Bool",
+					"x": 0
+				},
+				"prop": {
+					"label": "Manual Filtering",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "albedo",
+					"type": "Texture2D",
+					"id": 0
+				}
+			},
+			"parameter_guid": "f9abe0d35a58701601bb687d32ca0fb8dbed0fb7"
+		},
+		"SubGraph": {
+			"label": "Octahedral Impostor",
+			"guid": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"x": 1617,
+			"y": 402,
+			"collapsed": false,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "SubGraph",
+					"asset": "417bc84eaa3badd32f20a01c13cb85b21214f8cd"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "AO",
+					"type": "bool",
+					"id": -484289190
+				},
+				"input": {
+					"label": "Shading Map",
+					"type": "bool",
+					"id": -923196175
+				},
+				"input": {
+					"label": "Translucent Map",
+					"type": "bool",
+					"id": -782837348
+				},
+				"input": {
+					"label": "Depth Map",
+					"type": "bool",
+					"id": -1194842037
+				},
+				"input": {
+					"label": "Depth Shadow Only",
+					"type": "bool",
+					"id": -1845038827
+				},
+				"input": {
+					"label": "Parallax Offset",
+					"type": "bool",
+					"id": -839261906
+				},
+				"input": {
+					"label": "Vertex Interpolation",
+					"type": "bool",
+					"id": -1084901707
+				},
+				"input": {
+					"label": "Opacity Jitter",
+					"type": "bool",
+					"id": -230532976
+				},
+				"input": {
+					"label": "Albedo",
+					"type": "Texture2D",
+					"id": -838266161
+				},
+				"input": {
+					"label": "Normal",
+					"type": "Texture2D",
+					"id": -856709565
+				},
+				"input": {
+					"label": "Shading",
+					"type": "Texture2D",
+					"id": -295177177
+				},
+				"input": {
+					"label": "Translucent",
+					"type": "Texture2D",
+					"id": -1582264122
+				},
+				"input": {
+					"label": "Ambient Occlusion",
+					"type": "Texture2D",
+					"id": -43313318
+				},
+				"input": {
+					"label": "Depth",
+					"type": "Texture2D",
+					"id": -158321410
+				},
+				"input": {
+					"label": "Atlas Number",
+					"type": "int",
+					"id": -1004693909
+				},
+				"input": {
+					"label": "Metalness",
+					"type": "float",
+					"id": -1798075773
+				},
+				"input": {
+					"label": "Roughness",
+					"type": "float",
+					"id": -1860302697
+				},
+				"input": {
+					"label": "Specular",
+					"type": "float",
+					"id": -491638106
+				},
+				"input": {
+					"label": "Microfiber",
+					"type": "float",
+					"id": -1525131863
+				},
+				"input": {
+					"label": "Translucency",
+					"type": "float",
+					"id": -1820196773
+				},
+				"input": {
+					"label": "Parallax Intensity",
+					"type": "float",
+					"id": -1996558217
+				},
+				"input": {
+					"label": "Shadow Offset",
+					"type": "float",
+					"id": -792555765
+				},
+				"input": {
+					"label": "Opacity Jitter Intensity",
+					"type": "float",
+					"id": -1294641169
+				},
+				"input": {
+					"label": "Size",
+					"type": "float",
+					"id": -225834461
+				},
+				"input": {
+					"label": "Pivot Offset",
+					"type": "float3",
+					"id": -1554362201
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "Opacity Threshold",
+					"type": "float",
+					"id": -1636559332
+				},
+				"output": {
+					"label": "Albedo",
+					"type": "float4",
+					"id": -1853583112
+				},
+				"output": {
+					"label": "Shading",
+					"type": "float4",
+					"id": -1741928122
+				},
+				"output": {
+					"label": "Normal",
+					"type": "float3",
+					"id": -1011445779
+				},
+				"output": {
+					"label": "Translucent",
+					"type": "float",
+					"id": -130961304
+				},
+				"output": {
+					"label": "Ambient Occlusion",
+					"type": "float",
+					"id": -580495193
+				},
+				"output": {
+					"label": "Depth Offset",
+					"type": "float",
+					"id": -364708390
+				},
+				"output": {
+					"label": "Vertex Position OS",
+					"type": "float3",
+					"id": -1656441999
+				}
+			}
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "e0ad6f34a8a35d0728c0058ada48a61b4ed9b92c",
+			"x": 1425,
+			"y": 868,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "depth_shadow_only",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "9cf37cededc4a9089d5a3caf4cc2c8ddf03b2b57"
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "ac2fa057a5605f302191f5694ffd9875c50ba1c7",
+			"x": 4166,
+			"y": 1184,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "w"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "w",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "3b01bd478a83f92f98b369d910a656f44d4baeb7",
+			"x": 1493,
+			"y": 1235,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "microfiber",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "02d827704ac1ee4e83b076e6e954022a2c0eb546"
+		},
+		"Parameter": {
+			"type": "float",
+			"label": "Slider",
+			"guid": "fa079c4bb3f5fb51e38a12a966771b9a5b0d17fe",
+			"x": 1505,
+			"y": 1209,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0.5
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "specular",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"parameter_guid": "07059f6fd9a3b522eec35b37c50dcfe530732626"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "e1d94343168c22853834b33fdb783797888000ab",
+			"x": 1475,
+			"y": 946,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "opacity_jitter",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "d16d11d088174fcda28f9acf0e1a8e012236bc87"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "862eafb0805b7db74cf2fa44e6f8b4e570315b7c",
+			"x": 1427,
+			"y": 920,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "vertex_interpolation",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "9086dcd91725cfcc83f331e11966ac730c7c9268"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "7dbc15e95ba18545b77e0c8509204ee787c41651",
+			"x": 1459,
+			"y": 894,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "parallax_offset",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "fbb58d73b06603e30b7a81bb62ffb2e1b86b2a9a"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "cb9c29ce1032691ba582af42db13dd6cec47143a",
+			"x": 1486,
+			"y": 841,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "depth_map",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "f4920463fb4594c23801f6ab2220e43d2e4abfca"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "57676d9f81e01855cca671db8a4f549ea63c9087",
+			"x": 1447,
+			"y": 815,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "translucent_map",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "5b614bcf954ab87b833fd3971678dc1c1f2b1506"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "158eea3c1a29607e64faa79021471a824c3fafc8",
+			"x": 1469,
+			"y": 789,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "shading_map",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "dd16f9c86baefb1f362071e077ce81437de2a563"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "faaaa7e5a45a3af0a411a8c10fcb5bf0f64514cd",
+			"x": 1505,
+			"y": 763,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "AO_map",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "1f3a99a51e661824931d702d1c8b722846486684"
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "e2cab7474d75930ef16d1128e1c43de634501676",
+			"x": 2322,
+			"y": 1101,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "TRANSLUCENT"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.17154073715209961,
+					"y": 0.49999997019767761,
+					"x": 0.46746677160263062
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "TRANSLUCENT",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "ac2b5a8722718c9a45dbd968f6675ad1a058fcb6",
+			"x": 2342,
+			"y": 979,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "NORMAL"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.50196081399917603,
+					"y": 0.21960784494876862,
+					"x": 0.10196078568696976
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "NORMAL",
+					"type": "float3",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "657c6404c79e3f59728638f3145bc05b5e2de429",
+			"x": 2317,
+			"y": 1357,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "DEPTH_OFFSET"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.5,
+					"y": 0.12358115613460541,
+					"x": 0.25988268852233887
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "DEPTH_OFFSET",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "8c0878937281daf31ae66c56baeed06c44320439",
+			"x": 2296,
+			"y": 706,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "OPACITY_THRESHOLD"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.12053351104259491,
+					"y": 0.48755621910095215,
+					"x": 0.5
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "OPACITY_THRESHOLD",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "1d8c47b011be40873437561579c01794f1eaf9a2",
+			"x": 3977,
+			"y": 1395,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 7
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "VERTEX_POSITION",
+					"type": "float3",
+					"id": 0
+				}
+			},
+			"portal_guid": "7f2102e68df23ebd2372fa2df8a3c3acde93fc93"
+		},
+		"Parameter": {
+			"type": "bool",
+			"label": "bool",
+			"guid": "df2cbe3451fe087b178cd629a2ac86b325f40a46",
+			"x": 3422,
+			"y": 998,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Bool",
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "opacity_jitter",
+					"type": "bool",
+					"id": 0
+				}
+			},
+			"parameter_guid": "d16d11d088174fcda28f9acf0e1a8e012236bc87"
+		},
+		"PortalIn": {
+			"label": "Portal In",
+			"guid": "7f2102e68df23ebd2372fa2df8a3c3acde93fc93",
+			"x": 2310,
+			"y": 1496,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Name",
+					"widget": "String",
+					"string": "VERTEX_POSITION"
+				},
+				"prop": {
+					"label": "Color",
+					"widget": "Color",
+					"w": 1,
+					"z": 0.46274510025978088,
+					"y": 0.40392157435417175,
+					"x": 0.18823529779911041
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "VERTEX_POSITION",
+					"type": "float3",
+					"id": 0
+				}
+			},
+			"outputs": {
+			}
+		},
+		"Branch": {
+			"label": "Branch",
+			"guid": "cb4485840d409f4a88e4bc7328d799a266c15ced",
+			"x": 3564,
+			"y": 859,
+			"collapsed": false,
+			"props": {
+				"prop": {
+					"label": "Mode",
+					"widget": "Combobox",
+					"combobox_items": [
+						"Flatten",
+						"Branch",
+						"Auto"
+					],
+					"x": 0
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "Condition",
+					"type": "bool",
+					"id": 0
+				},
+				"input": {
+					"label": "True",
+					"type": "float",
+					"id": 1
+				},
+				"input": {
+					"label": "False",
+					"type": "float",
+					"id": 2
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "5408ae861f96704596837d830959e514926c1968",
+			"x": 3269,
+			"y": 1026,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 6
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "OPACITY_THRESHOLD",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"portal_guid": "8c0878937281daf31ae66c56baeed06c44320439"
+		},
+		"float": {
+			"type": "float",
+			"label": "float",
+			"guid": "e16bd32808b9f148a95fa06d35bae800b08e4eda",
+			"x": 3486,
+			"y": 1053,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Float",
+					"x": 0.5
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "0.5",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "8280b5bc2e46bb558175bad1e5ff08eb80be240e",
+			"x": 3997,
+			"y": 1369,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 5
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "DEPTH_OFFSET",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"portal_guid": "657c6404c79e3f59728638f3145bc05b5e2de429"
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "e6c6ef6e58c457a0c4e6a50bf9a40b38f7821d90",
+			"x": 4166,
+			"y": 1026,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "w"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "w",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "facbdedc0fe2dd1f061864712f678718d7799e2e",
+			"x": 4162,
+			"y": 1079,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "x,y,z"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "x,y,z",
+					"type": "float3",
+					"id": 0
+				}
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "fd368ceaf0c48173255453e10c69bfe1d10c994b",
+			"x": 3804,
+			"y": 594,
+			"collapsed": false,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 2
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "ALBEDO",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"portal_guid": "c49f5c61778ca2bc348ca76a8c501fea9b9b8768"
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "ff588f71a6dd47d7ec8c44bab3668b40103638ec",
+			"x": 4166,
+			"y": 1131,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "y"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "y",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "5663580bcac821c164b61c7c73e3ecfb1f308cfe",
+			"x": 4166,
+			"y": 1158,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "z"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "z",
+					"type": "float",
+					"id": 0
+				}
+			}
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "5cd8ec3e96f58d365f68fb1b31b773a0e1eee0e0",
+			"x": 4003,
+			"y": 1237,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 3
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "TRANSLUCENT",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"portal_guid": "e2cab7474d75930ef16d1128e1c43de634501676"
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "b41c004b1d923ec463bca9aebb9255781ab3fcf5",
+			"x": 3952,
+			"y": 1263,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 0
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "AMBIENT_OCCLUSION",
+					"type": "float",
+					"id": 0
+				}
+			},
+			"portal_guid": "1285fcdafb27f8b8e314a511df52e7a5af2400d7"
+		},
+		"PortalOut": {
+			"label": "Portal Out",
+			"guid": "b2045c7d262799b113143df8cc96561b5f150c37",
+			"x": 3562,
+			"y": 1107,
+			"collapsed": false,
+			"props": {
+				"prop": {
+					"label": "Portal",
+					"widget": "Combobox",
+					"combobox_items": [
+						"AMBIENT_OCCLUSION",
+						"SHADING",
+						"ALBEDO",
+						"TRANSLUCENT",
+						"NORMAL",
+						"DEPTH_OFFSET",
+						"OPACITY_THRESHOLD",
+						"VERTEX_POSITION"
+					],
+					"x": 1
+				}
+			},
+			"inputs": {
+			},
+			"outputs": {
+				"output": {
+					"label": "SHADING",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"portal_guid": "7f3e8b5f93cb59edd341b2a0dfeb11c123effc2e"
+		},
+		"Expression": {
+			"label": "Expression",
+			"guid": "0e0c6de747ad6e7e5ccece484ff954e3a4bd7c2a",
+			"x": 4166,
+			"y": 1105,
+			"collapsed": true,
+			"props": {
+				"prop": {
+					"label": "",
+					"widget": "Code",
+					"string": "x"
+				}
+			},
+			"inputs": {
+				"input": {
+					"label": "",
+					"type": "float4",
+					"id": 0
+				}
+			},
+			"outputs": {
+				"output": {
+					"label": "x",
+					"type": "float",
+					"id": 0
+				}
+			}
+		}
+	},
+	"anchors": {
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float",
+			"input_label": "Opacity",
+			"input_id": -1880079150,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "w",
+			"output_id": 0,
+			"output_node": "e6c6ef6e58c457a0c4e6a50bf9a40b38f7821d90"
+		},
+		"anchor": {
+			"input_index": 1,
+			"input_type": "float",
+			"input_label": "Opacity Clip Threshold",
+			"input_id": -1577925397,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "",
+			"output_id": 0,
+			"output_node": "cb4485840d409f4a88e4bc7328d799a266c15ced"
+		},
+		"anchor": {
+			"input_index": 2,
+			"input_type": "float3",
+			"input_label": "Albedo",
+			"input_id": -509366906,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float3",
+			"output_label": "x,y,z",
+			"output_id": 0,
+			"output_node": "facbdedc0fe2dd1f061864712f678718d7799e2e"
+		},
+		"anchor": {
+			"input_index": 3,
+			"input_type": "float",
+			"input_label": "Metalness",
+			"input_id": -1695405859,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "x",
+			"output_id": 0,
+			"output_node": "0e0c6de747ad6e7e5ccece484ff954e3a4bd7c2a"
+		},
+		"anchor": {
+			"input_index": 4,
+			"input_type": "float",
+			"input_label": "Roughness",
+			"input_id": 1466423059,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "y",
+			"output_id": 0,
+			"output_node": "ff588f71a6dd47d7ec8c44bab3668b40103638ec"
+		},
+		"anchor": {
+			"input_index": 5,
+			"input_type": "float",
+			"input_label": "Specular",
+			"input_id": -452932161,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "z",
+			"output_id": 0,
+			"output_node": "5663580bcac821c164b61c7c73e3ecfb1f308cfe"
+		},
+		"anchor": {
+			"input_index": 6,
+			"input_type": "float",
+			"input_label": "Microfiber",
+			"input_id": -410190875,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "w",
+			"output_id": 0,
+			"output_node": "ac2fa057a5605f302191f5694ffd9875c50ba1c7"
+		},
+		"anchor": {
+			"input_index": 7,
+			"input_type": "float3",
+			"input_label": "Normal Tangent Space",
+			"input_id": -1328428335,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float3",
+			"output_label": "NORMAL",
+			"output_id": 0,
+			"output_node": "09bce12aa9a3875439d426376338eca1bc34b82c"
+		},
+		"anchor": {
+			"input_index": 8,
+			"input_type": "float",
+			"input_label": "Translucent",
+			"input_id": 480745549,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "TRANSLUCENT",
+			"output_id": 0,
+			"output_node": "5cd8ec3e96f58d365f68fb1b31b773a0e1eee0e0"
+		},
+		"anchor": {
+			"input_index": 9,
+			"input_type": "float",
+			"input_label": "Ambient Occlusion",
+			"input_id": 979644461,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "AMBIENT_OCCLUSION",
+			"output_id": 0,
+			"output_node": "b41c004b1d923ec463bca9aebb9255781ab3fcf5"
+		},
+		"anchor": {
+			"input_index": 13,
+			"input_type": "float",
+			"input_label": "Depth Offset",
+			"input_id": 1982984727,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "DEPTH_OFFSET",
+			"output_id": 0,
+			"output_node": "8280b5bc2e46bb558175bad1e5ff08eb80be240e"
+		},
+		"anchor": {
+			"input_index": 14,
+			"input_type": "float3",
+			"input_label": "Vertex Position Object Space",
+			"input_id": 1951750090,
+			"input_node": "829f90678c21529ab2138131aaaf08dc82560e8b",
+			"output_index": 0,
+			"output_type": "float3",
+			"output_label": "VERTEX_POSITION",
+			"output_id": 0,
+			"output_node": "1d8c47b011be40873437561579c01794f1eaf9a2"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "",
+			"input_label": "Material",
+			"input_id": 0,
+			"input_node": "0f2f417e3b3b7ac5ee9bad604fcb013f4b641d92",
+			"output_index": 0,
+			"output_type": "",
+			"output_label": "Material",
+			"output_id": 0,
+			"output_node": "829f90678c21529ab2138131aaaf08dc82560e8b"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float",
+			"input_label": "AMBIENT_OCCLUSION",
+			"input_id": 0,
+			"input_node": "1285fcdafb27f8b8e314a511df52e7a5af2400d7",
+			"output_index": 5,
+			"output_type": "float",
+			"output_label": "Ambient Occlusion",
+			"output_id": -580495193,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "SHADING",
+			"input_id": 0,
+			"input_node": "7f3e8b5f93cb59edd341b2a0dfeb11c123effc2e",
+			"output_index": 2,
+			"output_type": "float4",
+			"output_label": "Shading",
+			"output_id": -1741928122,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "ALBEDO",
+			"input_id": 0,
+			"input_node": "c49f5c61778ca2bc348ca76a8c501fea9b9b8768",
+			"output_index": 1,
+			"output_type": "float4",
+			"output_label": "Albedo",
+			"output_id": -1853583112,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "bool",
+			"input_label": "AO",
+			"input_id": -484289190,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "AO_map",
+			"output_id": 0,
+			"output_node": "faaaa7e5a45a3af0a411a8c10fcb5bf0f64514cd"
+		},
+		"anchor": {
+			"input_index": 1,
+			"input_type": "bool",
+			"input_label": "Shading Map",
+			"input_id": -923196175,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "shading_map",
+			"output_id": 0,
+			"output_node": "158eea3c1a29607e64faa79021471a824c3fafc8"
+		},
+		"anchor": {
+			"input_index": 2,
+			"input_type": "bool",
+			"input_label": "Translucent Map",
+			"input_id": -782837348,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "translucent_map",
+			"output_id": 0,
+			"output_node": "57676d9f81e01855cca671db8a4f549ea63c9087"
+		},
+		"anchor": {
+			"input_index": 3,
+			"input_type": "bool",
+			"input_label": "Depth Map",
+			"input_id": -1194842037,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "depth_map",
+			"output_id": 0,
+			"output_node": "cb9c29ce1032691ba582af42db13dd6cec47143a"
+		},
+		"anchor": {
+			"input_index": 4,
+			"input_type": "bool",
+			"input_label": "Depth Shadow Only",
+			"input_id": -1845038827,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "depth_shadow_only",
+			"output_id": 0,
+			"output_node": "e0ad6f34a8a35d0728c0058ada48a61b4ed9b92c"
+		},
+		"anchor": {
+			"input_index": 5,
+			"input_type": "bool",
+			"input_label": "Parallax Offset",
+			"input_id": -839261906,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "parallax_offset",
+			"output_id": 0,
+			"output_node": "7dbc15e95ba18545b77e0c8509204ee787c41651"
+		},
+		"anchor": {
+			"input_index": 6,
+			"input_type": "bool",
+			"input_label": "Vertex Interpolation",
+			"input_id": -1084901707,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "vertex_interpolation",
+			"output_id": 0,
+			"output_node": "862eafb0805b7db74cf2fa44e6f8b4e570315b7c"
+		},
+		"anchor": {
+			"input_index": 7,
+			"input_type": "bool",
+			"input_label": "Opacity Jitter",
+			"input_id": -230532976,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "opacity_jitter",
+			"output_id": 0,
+			"output_node": "e1d94343168c22853834b33fdb783797888000ab"
+		},
+		"anchor": {
+			"input_index": 8,
+			"input_type": "Texture2D",
+			"input_label": "Albedo",
+			"input_id": -838266161,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "albedo",
+			"output_id": 0,
+			"output_node": "870f92c377df60033a2a9ac6611cde6310cf9ee9"
+		},
+		"anchor": {
+			"input_index": 9,
+			"input_type": "Texture2D",
+			"input_label": "Normal",
+			"input_id": -856709565,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "normal",
+			"output_id": 0,
+			"output_node": "93da11a1964eb059f3fb89aacd73bd8ff91067a8"
+		},
+		"anchor": {
+			"input_index": 10,
+			"input_type": "Texture2D",
+			"input_label": "Shading",
+			"input_id": -295177177,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "shading",
+			"output_id": 0,
+			"output_node": "d563436511d19d84f76549fe4f6029537134a15c"
+		},
+		"anchor": {
+			"input_index": 11,
+			"input_type": "Texture2D",
+			"input_label": "Translucent",
+			"input_id": -1582264122,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "translucent",
+			"output_id": 0,
+			"output_node": "f3b70969100e6e4d3b91679260e73324c7debc50"
+		},
+		"anchor": {
+			"input_index": 12,
+			"input_type": "Texture2D",
+			"input_label": "Ambient Occlusion",
+			"input_id": -43313318,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "ambient_occlusion",
+			"output_id": 0,
+			"output_node": "9a0627ad1c4255f3145b36665d1cb351adde2c84"
+		},
+		"anchor": {
+			"input_index": 13,
+			"input_type": "Texture2D",
+			"input_label": "Depth",
+			"input_id": -158321410,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "Texture2D",
+			"output_label": "depth",
+			"output_id": 0,
+			"output_node": "a005a2313db6162c43ab4a7a7ef98f004e5fa5f8"
+		},
+		"anchor": {
+			"input_index": 14,
+			"input_type": "int",
+			"input_label": "Atlas Number",
+			"input_id": -1004693909,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "int",
+			"output_label": "atlas_number",
+			"output_id": 0,
+			"output_node": "79b2bcf5f6e017192fcb77ce25413d9888211cac"
+		},
+		"anchor": {
+			"input_index": 15,
+			"input_type": "float",
+			"input_label": "Metalness",
+			"input_id": -1798075773,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "metalness",
+			"output_id": 0,
+			"output_node": "3180ca8510f2cf09be29436068ddce8a2455f01b"
+		},
+		"anchor": {
+			"input_index": 16,
+			"input_type": "float",
+			"input_label": "Roughness",
+			"input_id": -1860302697,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "roughness",
+			"output_id": 0,
+			"output_node": "93f4f92f0686e41deaec1db0fd353901c519e6be"
+		},
+		"anchor": {
+			"input_index": 17,
+			"input_type": "float",
+			"input_label": "Specular",
+			"input_id": -491638106,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "specular",
+			"output_id": 0,
+			"output_node": "fa079c4bb3f5fb51e38a12a966771b9a5b0d17fe"
+		},
+		"anchor": {
+			"input_index": 18,
+			"input_type": "float",
+			"input_label": "Microfiber",
+			"input_id": -1525131863,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "microfiber",
+			"output_id": 0,
+			"output_node": "3b01bd478a83f92f98b369d910a656f44d4baeb7"
+		},
+		"anchor": {
+			"input_index": 19,
+			"input_type": "float",
+			"input_label": "Translucency",
+			"input_id": -1820196773,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "translucency",
+			"output_id": 0,
+			"output_node": "1b56fbf9627abc88d6fad26270fb50983fe5c4a0"
+		},
+		"anchor": {
+			"input_index": 20,
+			"input_type": "float",
+			"input_label": "Parallax Intensity",
+			"input_id": -1996558217,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "parallax_intensity",
+			"output_id": 0,
+			"output_node": "bae72289ff94d28e809f531472b2802f3b11af7f"
+		},
+		"anchor": {
+			"input_index": 21,
+			"input_type": "float",
+			"input_label": "Shadow Offset",
+			"input_id": -792555765,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "shadow_offset",
+			"output_id": 0,
+			"output_node": "7d21018321c353737b713cd49425c0d23b481dc2"
+		},
+		"anchor": {
+			"input_index": 22,
+			"input_type": "float",
+			"input_label": "Opacity Jitter Intensity",
+			"input_id": -1294641169,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "opacity_jitter_intensity",
+			"output_id": 0,
+			"output_node": "2ee066934e6e63d71b33c256bbd0328fe2e5c239"
+		},
+		"anchor": {
+			"input_index": 23,
+			"input_type": "float",
+			"input_label": "Size",
+			"input_id": -225834461,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "size",
+			"output_id": 0,
+			"output_node": "68f07f8dde49e3e33b3a03c8bd2b177f2a8911e3"
+		},
+		"anchor": {
+			"input_index": 24,
+			"input_type": "float3",
+			"input_label": "Pivot Offset",
+			"input_id": -1554362201,
+			"input_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887",
+			"output_index": 0,
+			"output_type": "float3",
+			"output_label": "pivot_offset",
+			"output_id": 0,
+			"output_node": "068d3d870b9cc8ac85ce063a989cbfe0ece28c0d"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "ac2fa057a5605f302191f5694ffd9875c50ba1c7",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "SHADING",
+			"output_id": 0,
+			"output_node": "b2045c7d262799b113143df8cc96561b5f150c37"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float",
+			"input_label": "TRANSLUCENT",
+			"input_id": 0,
+			"input_node": "e2cab7474d75930ef16d1128e1c43de634501676",
+			"output_index": 4,
+			"output_type": "float",
+			"output_label": "Translucent",
+			"output_id": -130961304,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float3",
+			"input_label": "NORMAL",
+			"input_id": 0,
+			"input_node": "ac2b5a8722718c9a45dbd968f6675ad1a058fcb6",
+			"output_index": 3,
+			"output_type": "float3",
+			"output_label": "Normal",
+			"output_id": -1011445779,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float",
+			"input_label": "DEPTH_OFFSET",
+			"input_id": 0,
+			"input_node": "657c6404c79e3f59728638f3145bc05b5e2de429",
+			"output_index": 6,
+			"output_type": "float",
+			"output_label": "Depth Offset",
+			"output_id": -364708390,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float",
+			"input_label": "OPACITY_THRESHOLD",
+			"input_id": 0,
+			"input_node": "8c0878937281daf31ae66c56baeed06c44320439",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "Opacity Threshold",
+			"output_id": -1636559332,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float3",
+			"input_label": "VERTEX_POSITION",
+			"input_id": 0,
+			"input_node": "7f2102e68df23ebd2372fa2df8a3c3acde93fc93",
+			"output_index": 7,
+			"output_type": "float3",
+			"output_label": "Vertex Position OS",
+			"output_id": -1656441999,
+			"output_node": "8a19d2eecd4e441cb9d8b995ca90f0fa0324a887"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "bool",
+			"input_label": "Condition",
+			"input_id": 0,
+			"input_node": "cb4485840d409f4a88e4bc7328d799a266c15ced",
+			"output_index": 0,
+			"output_type": "bool",
+			"output_label": "opacity_jitter",
+			"output_id": 0,
+			"output_node": "df2cbe3451fe087b178cd629a2ac86b325f40a46"
+		},
+		"anchor": {
+			"input_index": 1,
+			"input_type": "float",
+			"input_label": "True",
+			"input_id": 1,
+			"input_node": "cb4485840d409f4a88e4bc7328d799a266c15ced",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "OPACITY_THRESHOLD",
+			"output_id": 0,
+			"output_node": "5408ae861f96704596837d830959e514926c1968"
+		},
+		"anchor": {
+			"input_index": 2,
+			"input_type": "float",
+			"input_label": "False",
+			"input_id": 2,
+			"input_node": "cb4485840d409f4a88e4bc7328d799a266c15ced",
+			"output_index": 0,
+			"output_type": "float",
+			"output_label": "0.5",
+			"output_id": 0,
+			"output_node": "e16bd32808b9f148a95fa06d35bae800b08e4eda"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "e6c6ef6e58c457a0c4e6a50bf9a40b38f7821d90",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "ALBEDO",
+			"output_id": 0,
+			"output_node": "fd368ceaf0c48173255453e10c69bfe1d10c994b"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "facbdedc0fe2dd1f061864712f678718d7799e2e",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "ALBEDO",
+			"output_id": 0,
+			"output_node": "fd368ceaf0c48173255453e10c69bfe1d10c994b"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "ff588f71a6dd47d7ec8c44bab3668b40103638ec",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "SHADING",
+			"output_id": 0,
+			"output_node": "b2045c7d262799b113143df8cc96561b5f150c37"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "5663580bcac821c164b61c7c73e3ecfb1f308cfe",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "SHADING",
+			"output_id": 0,
+			"output_node": "b2045c7d262799b113143df8cc96561b5f150c37"
+		},
+		"anchor": {
+			"input_index": 0,
+			"input_type": "float4",
+			"input_label": "",
+			"input_id": 0,
+			"input_node": "0e0c6de747ad6e7e5ccece484ff954e3a4bd7c2a",
+			"output_index": 0,
+			"output_type": "float4",
+			"output_label": "SHADING",
+			"output_id": 0,
+			"output_node": "b2045c7d262799b113143df8cc96561b5f150c37"
+		}
+	}
+}

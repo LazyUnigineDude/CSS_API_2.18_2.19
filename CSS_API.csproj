@@ -20,108 +20,370 @@
 		<Platforms>x64</Platforms>
 		<PlatformTarget>x64</PlatformTarget>
 		<DebugType>portable</DebugType>
-		<DOTNET_HOST_PATH Condition="'$(DOTNET_HOST_PATH)' == ''">dotnet</DOTNET_HOST_PATH>
+		<DOTNET_HOST_PATH Condition="&apos;$(DOTNET_HOST_PATH)&apos; == &apos;&apos;">dotnet</DOTNET_HOST_PATH>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
 		<AssemblyName>CSS_API_x64d</AssemblyName>
 		<DebugSymbols>true</DebugSymbols>
 		<Optimize>false</Optimize>
 		<DefineConstants>TRACE;DEBUG;UNIGINE_DOUBLE;</DefineConstants>
 	</PropertyGroup>
-	<ItemGroup Condition="'$(Configuration)'=='Debug'">
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos;">
 		<Reference Include="UnigineSharp_double_x64d">
 			<SpecificVersion>false</SpecificVersion>
 			<HintPath>bin\UnigineSharp_double_x64d.dll</HintPath>
 		</Reference>
 	</ItemGroup>
-	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+	<PropertyGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
 		<AssemblyName>CSS_API_x64</AssemblyName>
 		<Optimize>true</Optimize>
 		<DefineConstants>TRACE;NDEBUG;UNIGINE_DOUBLE;</DefineConstants>
 	</PropertyGroup>
-	<ItemGroup Condition="'$(Configuration)'=='Release'">
+	<ItemGroup Condition="&apos;$(Configuration)&apos;==&apos;Release&apos;">
 		<Reference Include="UnigineSharp_double_x64">
 			<SpecificVersion>false</SpecificVersion>
 			<HintPath>bin\UnigineSharp_double_x64.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="data/Get Components/GetComponents.cs" />
-		<Compile Include="data/Triggers/TriggerExample.cs" />
-		<Compile Include="data/Coroutines/Lerper.cs" />
-		<Compile Include="data/Dial/DialCheck.cs" />
-		<Compile Include="data/GUI/MapMaker.cs" />
-		<Compile Include="data/Movement/PhysicsMovement.cs" />
-		<Compile Include="data/Movement/ChessMovement.cs" />
-		<Compile Include="data/GUI/ChessGUI.cs" />
-		<Compile Include="data/Components/ComponentCheckInherit.cs" />
-		<Compile Include="data/Components/ComponentCheck.cs" />
-		<Compile Include="data/Coroutines/GUI/RotateImageAroundCenter.cs" />
-		<Compile Include="data/Intersections/SimpleDetect.cs" />
-		<Compile Include="data/Lever/Lever.cs" />
-		<Compile Include="data/IKSolver/IKSolver.cs" />
-		<Compile Include="data/Intersections/ScreenDetect.cs" />
-		<Compile Include="data/Movement/ConstMovement.cs" />
-		<Compile Include="data/GUI/Widgets.cs" />
-		<Compile Include="data/Coroutines/TimeController.cs" />
-		<Compile Include="data/Components/AnotherComponent.cs" />
-		<Compile Include="data/Intersections/CameraDetect.cs" />
-		<Compile Include="data\MeshMaker.cs" />
-		<Compile Include="data\PlanetMaker\PlanetMaker.cs" />
-		<Compile Include="data\Rope\RopeHandler.cs" />
+		<Compile Include="data/Get Components/GetComponents.cs"/>
+		<Compile Include="data/Triggers/TriggerExample.cs"/>
+		<Compile Include="data/Coroutines/Lerper.cs"/>
+		<Compile Include="data/Dial/DialCheck.cs"/>
+		<Compile Include="data/GUI/MapMaker.cs"/>
+		<Compile Include="data/Movement/PhysicsMovement.cs"/>
+		<Compile Include="data/Movement/ChessMovement.cs"/>
+		<Compile Include="data/GUI/ChessGUI.cs"/>
+		<Compile Include="data/Components/ComponentCheckInherit.cs"/>
+		<Compile Include="data/Components/ComponentCheck.cs"/>
+		<Compile Include="data/Coroutines/GUI/RotateImageAroundCenter.cs"/>
+		<Compile Include="data/Intersections/SimpleDetect.cs"/>
+		<Compile Include="data/Lever/Lever.cs"/>
+		<Compile Include="data/IKSolver/IKSolver.cs"/>
+		<Compile Include="data/Intersections/ScreenDetect.cs"/>
+		<Compile Include="data/Movement/ConstMovement.cs"/>
+		<Compile Include="data/GUI/Widgets.cs"/>
+		<Compile Include="data/Coroutines/TimeController.cs"/>
+		<Compile Include="data/Components/AnotherComponent.cs"/>
+		<Compile Include="data/Intersections/CameraDetect.cs"/>
+		<Compile Include="data\2.20\UpgradeTesting2_20.cs"/>
+		<Compile Include="data\Events\Events.cs"/>
+		<Compile Include="data\Events\SimulateEvent.cs"/>
+		<Compile Include="data\MeshMaker.cs"/>
+		<Compile Include="data\PlanetMaker\PlanetMaker.cs"/>
+		<Compile Include="data\Rope\RopeHandler.cs"/>
+		<Compile Include="data\UnigineToolkit\samples\ui_csharp\ButtonClickSample.cs"/>
+		<Compile Include="data\UnigineToolkit\samples\ui_csharp\Rotation.cs"/>
+		<Compile Include="data\UnigineToolkit\Toolkit.cs"/>
+		<Compile Include="data/Events/EventHandler.cs"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Compile Include="source\AppEditorLogic.cs" />
-		<Compile Include="source\AppSystemLogic.cs" />
-		<Compile Include="source\AppWorldLogic.cs" />
-		<Compile Include="source\main.cs" />
+		<Compile Include="source\AppEditorLogic.cs"/>
+		<Compile Include="source\AppSystemLogic.cs"/>
+		<Compile Include="source\AppWorldLogic.cs"/>
+		<Compile Include="source\main.cs"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Diffuse.png" />
-		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Glossiness.png" />
-		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Normal.png" />
-		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Specular.png" />
-		<Content Include="data\PlanetMaker\cubemap.png" />
+		<Content Include="data\2.20\9ab59e9.jpg"/>
+		<Content Include="data\2.20\9ab59e9_0.jpg"/>
+		<Content Include="data\2.20\cubemap.png"/>
+		<Content Include="data\2.20\cubemap_0.png"/>
+		<Content Include="data\2.20\impostor-octa_alb.tiff"/>
+		<Content Include="data\2.20\impostor-octa_final.tiff"/>
+		<Content Include="data\2.20\impostor-octa_n.tiff"/>
+		<Content Include="data\2.20\impostor-octa_sh.tiff"/>
+		<Content Include="data\2.20\impostor-octa_t.tiff"/>
+		<Content Include="data\2.20\impostor-spherical_alb.tiff"/>
+		<Content Include="data\2.20\impostor-spherical_final.tiff"/>
+		<Content Include="data\2.20\impostor-spherical_n.tiff"/>
+		<Content Include="data\2.20\impostor-spherical_sh.tiff"/>
+		<Content Include="data\2.20\impostor-spherical_t.tiff"/>
+		<Content Include="data\2.20\stretched-2560-1080-1162944.jpg"/>
+		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Diffuse.png"/>
+		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Glossiness.png"/>
+		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Normal.png"/>
+		<Content Include="data\IKSolver\character.fbm\Ch36_1001_Specular.png"/>
+		<Content Include="data\PlanetMaker\cubemap.png"/>
+		<Content Include="data\UnigineToolkit\imgui\Roboto-Light.ttf"/>
+		<Content Include="data\UnigineToolkit\samples\ui\custom_materials\avatar.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\elements\clip_texture.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\button_hover.wav"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\button_press.wav"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\fire_sparkle.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\Kirsty_Rg_It.ttf"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\sound_license.txt"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\two_stripes.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\epic_menu\two_stripes_2.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\localization\en.png"/>
+		<Content Include="data\UnigineToolkit\samples\ui\localization\ru.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\button.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\button_circle.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\button_circle_pressed.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\button_pressed.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\checkmark.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\checkmark_circle.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\circle.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\gradient.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\rectangle.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\scrollbox_bg.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\scrollbox_mask.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\sector_gradient.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\sector_gradient_alpha.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\shadow.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\window.png"/>
+		<Content Include="data\UnigineToolkit\ui\textures\window_sizeable.png"/>
 	</ItemGroup>
 	<ItemGroup>
-		<None Include="data\IKSolver\character.fbm\Ch36_1001_Diffuse.png.meta" />
-		<None Include="data\IKSolver\character.fbm\Ch36_1001_Glossiness.png.meta" />
-		<None Include="data\IKSolver\character.fbm\Ch36_1001_Normal.png.meta" />
-		<None Include="data\IKSolver\character.fbm\Ch36_1001_Specular.png.meta" />
-		<None Include="data\IKSolver\character.fbx" />
-		<None Include="data\IKSolver\character.fbx.meta" />
-		<None Include="data\IKSolver\IKSolver.world" />
-		<None Include="data\IKSolver\IKSolver.world.meta" />
-		<None Include="data\IKSolver\materials\ch36_body.mgraph" />
-		<None Include="data\IKSolver\materials\ch36_body.mgraph.meta" />
-		<None Include="data\PlanetMaker\cubemap.png.meta" />
-		<None Include="data\PlanetMaker\PlanetMaker.cs.meta" />
-		<None Include="data\PlanetMaker\PlanetMaker.world" />
-		<None Include="data\PlanetMaker\PlanetMaker.world.meta" />
-		<None Include="data\PlanetMaker\sky_base_0.mat" />
-		<None Include="data\PlanetMaker\sky_base_0.mat.meta" />
-		<None Include="data\Rope\box.mesh" />
-		<None Include="data\Rope\box.mesh.meta" />
-		<None Include="data\Rope\box_mesh_base.mgraph" />
-		<None Include="data\Rope\box_mesh_base.mgraph.meta" />
-		<None Include="data\Rope\box_mesh_base_0.mat" />
-		<None Include="data\Rope\box_mesh_base_0.mat.meta" />
-		<None Include="data\Rope\box_mesh_base_1.mat" />
-		<None Include="data\Rope\box_mesh_base_1.mat.meta" />
-		<None Include="data\Rope\cylinder.mesh" />
-		<None Include="data\Rope\cylinder.mesh.meta" />
-		<None Include="data\Rope\cylinder_0.mesh" />
-		<None Include="data\Rope\cylinder_0.mesh.meta" />
-		<None Include="data\Rope\cylinder_0_mesh_base.mgraph" />
-		<None Include="data\Rope\cylinder_0_mesh_base.mgraph.meta" />
-		<None Include="data\Rope\cylinder_mesh_base.mgraph" />
-		<None Include="data\Rope\cylinder_mesh_base.mgraph.meta" />
-		<None Include="data\Rope\Rope.world" />
-		<None Include="data\Rope\Rope.world.meta" />
-		<None Include="data\Rope\RopeHandler.cs.meta" />
+		<None Include="data\2.20\cubemap.png.meta"/>
+		<None Include="data\2.20\cubemap_0.png.meta"/>
+		<None Include="data\2.20\Hex.fbx"/>
+		<None Include="data\2.20\Hex.fbx.meta"/>
+		<None Include="data\2.20\Hex_1_impostor_material.mgraph"/>
+		<None Include="data\2.20\Hex_1_impostor_material.mgraph.meta"/>
+		<None Include="data\2.20\Hex_1_impostor_material_0.mat"/>
+		<None Include="data\2.20\Hex_1_impostor_material_0.mat.meta"/>
+		<None Include="data\2.20\Hex_impostor_material.mat"/>
+		<None Include="data\2.20\Hex_impostor_material.mat.meta"/>
+		<None Include="data\2.20\impostor-octa_alb.tiff.meta"/>
+		<None Include="data\2.20\impostor-octa_depth.texture"/>
+		<None Include="data\2.20\impostor-octa_depth.texture.meta"/>
+		<None Include="data\2.20\impostor-octa_final.tiff.meta"/>
+		<None Include="data\2.20\impostor-octa_n.tiff.meta"/>
+		<None Include="data\2.20\impostor-octa_sh.tiff.meta"/>
+		<None Include="data\2.20\impostor-octa_t.tiff.meta"/>
+		<None Include="data\2.20\impostor-spherical_alb.tiff.meta"/>
+		<None Include="data\2.20\impostor-spherical_depth.texture"/>
+		<None Include="data\2.20\impostor-spherical_depth.texture.meta"/>
+		<None Include="data\2.20\impostor-spherical_final.tiff.meta"/>
+		<None Include="data\2.20\impostor-spherical_n.tiff.meta"/>
+		<None Include="data\2.20\impostor-spherical_opacity.texture"/>
+		<None Include="data\2.20\impostor-spherical_opacity.texture.meta"/>
+		<None Include="data\2.20\impostor-spherical_sh.tiff.meta"/>
+		<None Include="data\2.20\impostor-spherical_t.tiff.meta"/>
+		<None Include="data\2.20\sky_base_1.mat"/>
+		<None Include="data\2.20\sky_base_1.mat.meta"/>
+		<None Include="data\2.20\stretched-2560-1080-1162944.jpg.meta"/>
+		<None Include="data\2.20\Toolkit_Add-On1.0.0cross_4CG93J.upackage"/>
+		<None Include="data\2.20\Toolkit_Add-On1.0.0cross_4CG93J.upackage.meta"/>
+		<None Include="data\2.20\UpgradeTesting2_20.cs.meta"/>
+		<None Include="data\Events\Events.world"/>
+		<None Include="data\Events\Events.world.meta"/>
+		<None Include="data\Events\SimulateEvent.cs.meta"/>
+		<None Include="data\IKSolver\character.fbm\Ch36_1001_Diffuse.png.meta"/>
+		<None Include="data\IKSolver\character.fbm\Ch36_1001_Glossiness.png.meta"/>
+		<None Include="data\IKSolver\character.fbm\Ch36_1001_Normal.png.meta"/>
+		<None Include="data\IKSolver\character.fbm\Ch36_1001_Specular.png.meta"/>
+		<None Include="data\IKSolver\character.fbx"/>
+		<None Include="data\IKSolver\character.fbx.meta"/>
+		<None Include="data\IKSolver\IKSolver.world"/>
+		<None Include="data\IKSolver\IKSolver.world.meta"/>
+		<None Include="data\IKSolver\materials\ch36_body.mgraph"/>
+		<None Include="data\IKSolver\materials\ch36_body.mgraph.meta"/>
+		<None Include="data\PlanetMaker\cubemap.png.meta"/>
+		<None Include="data\PlanetMaker\PlanetMaker.cs.meta"/>
+		<None Include="data\PlanetMaker\PlanetMaker.world"/>
+		<None Include="data\PlanetMaker\PlanetMaker.world.meta"/>
+		<None Include="data\PlanetMaker\sky_base_0.mat"/>
+		<None Include="data\PlanetMaker\sky_base_0.mat.meta"/>
+		<None Include="data\Rope\box.mesh"/>
+		<None Include="data\Rope\box.mesh.meta"/>
+		<None Include="data\Rope\box_mesh_base.mgraph"/>
+		<None Include="data\Rope\box_mesh_base.mgraph.meta"/>
+		<None Include="data\Rope\box_mesh_base_0.mat"/>
+		<None Include="data\Rope\box_mesh_base_0.mat.meta"/>
+		<None Include="data\Rope\box_mesh_base_1.mat"/>
+		<None Include="data\Rope\box_mesh_base_1.mat.meta"/>
+		<None Include="data\Rope\cylinder.mesh"/>
+		<None Include="data\Rope\cylinder.mesh.meta"/>
+		<None Include="data\Rope\cylinder_0.mesh"/>
+		<None Include="data\Rope\cylinder_0.mesh.meta"/>
+		<None Include="data\Rope\cylinder_0_mesh_base.mgraph"/>
+		<None Include="data\Rope\cylinder_0_mesh_base.mgraph.meta"/>
+		<None Include="data\Rope\cylinder_mesh_base.mgraph"/>
+		<None Include="data\Rope\cylinder_mesh_base.mgraph.meta"/>
+		<None Include="data\Rope\Rope.world"/>
+		<None Include="data\Rope\Rope.world.meta"/>
+		<None Include="data\Rope\RopeHandler.cs.meta"/>
+		<None Include="data\UnigineToolkit\imgui\imgui.basemat"/>
+		<None Include="data\UnigineToolkit\imgui\imgui.basemat.meta"/>
+		<None Include="data\UnigineToolkit\imgui\Roboto-Light.ttf.meta"/>
+		<None Include="data\UnigineToolkit\launchers\Debug-Double.launch"/>
+		<None Include="data\UnigineToolkit\launchers\Debug-Double.launch.meta"/>
+		<None Include="data\UnigineToolkit\launchers\Debug-Float.launch"/>
+		<None Include="data\UnigineToolkit\launchers\Debug-Float.launch.meta"/>
+		<None Include="data\UnigineToolkit\launchers\Release-Double.launch"/>
+		<None Include="data\UnigineToolkit\launchers\Release-Double.launch.meta"/>
+		<None Include="data\UnigineToolkit\launchers\Release-Float.launch"/>
+		<None Include="data\UnigineToolkit\launchers\Release-Float.launch.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_extreme.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_extreme.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_high.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_high.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_low.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_low.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_medium.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_medium.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_ultra.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_ultra.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_virtual_reality.render"/>
+		<None Include="data\UnigineToolkit\samples\template_assets\template_render_settings\template_virtual_reality.render.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\avatar.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\custom_materials.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\custom_materials.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_circle_1.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_circle_1.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_nine_sliced_1.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_nine_sliced_1.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_rounded_rectangle_1.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_rounded_rectangle_1.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_sector_1.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_sector_1.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_sharpen_1.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\custom_materials\ui_sharpen_1.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\elements\clip_texture.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\elements\elements.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\elements\elements.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\button_hover.wav.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\button_press.wav.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\epic_menu.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\epic_menu.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\fire_sparkle.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\Kirsty_Rg_It.ttf.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\sound_license.txt.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\two_stripes.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\two_stripes_2.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\Typodermic Desktop EULA 2023.pdf"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\Typodermic Desktop EULA 2023.pdf.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\ui_epic_button.basemat"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\ui_epic_button.basemat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\ui_epic_button_impl.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\epic_menu\ui_epic_button_impl.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\glass.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\glass.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\en.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\localization_file.csv"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\localization_file.csv.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\localization_sample.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\localization_sample.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\ru.png.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\UIC_ButtonSetLocalization.prop"/>
+		<None Include="data\UnigineToolkit\samples\ui\localization\UIC_ButtonSetLocalization.prop.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\radio_buttons.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\radio_buttons.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\rectangle_selection\rectangle_selection.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\rectangle_selection\rectangle_selection.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\rectangle_selection\ui_rounded_rectangle_selection.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\rectangle_selection\ui_rounded_rectangle_selection.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\samples_ui.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\samples_ui.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\show_animation.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\show_animation.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\toggled_buttons.world"/>
+		<None Include="data\UnigineToolkit\samples\ui\toggled_buttons.world.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui\ui_rounded_rectangle_tooltip.mat"/>
+		<None Include="data\UnigineToolkit\samples\ui\ui_rounded_rectangle_tooltip.mat.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui_csharp\ButtonClickSample.cs.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui_csharp\Rotation.cs.meta"/>
+		<None Include="data\UnigineToolkit\samples\ui_csharp\ui_csharp_sample.world"/>
+		<None Include="data\UnigineToolkit\samples\ui_csharp\ui_csharp_sample.world.meta"/>
+		<None Include="data\UnigineToolkit\Toolkit.cs.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\LoadLocalization.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\LoadLocalization.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ButtonChangeWorld.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ButtonChangeWorld.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ButtonShowElement.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ButtonShowElement.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_DrawSurfaceSample.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_DrawSurfaceSample.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_RadioButtonGroup.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_RadioButtonGroup.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_RectangleSelection.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_RectangleSelection.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_SoundPlayer.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_SoundPlayer.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ToggledButton.prop"/>
+		<None Include="data\UnigineToolkit\ui\components\UIC_ToggledButton.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Button.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Button.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Canvas.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Canvas.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_CheckBox.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_CheckBox.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ClipMask.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ClipMask.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_DrawSurface.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_DrawSurface.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_EditLine.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_EditLine.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Element.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Element.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Label.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Label.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ProgressBar.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ProgressBar.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Scroll.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Scroll.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ScrollBox.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_ScrollBox.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Slider.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Slider.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Sprite.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Sprite.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_SpriteShader.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_SpriteShader.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Table.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Table.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Window.prop"/>
+		<None Include="data\UnigineToolkit\ui\elements\UI_Window.prop.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_circle.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_circle.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_clipmask.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_clipmask.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_clipmask_nine_sliced.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_clipmask_nine_sliced.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_horizontal.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_horizontal.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_radial_360.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_radial_360.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_vertical.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_fill_vertical.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_glass.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_glass.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_glass_nine_sliced.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_glass_nine_sliced.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_mipmap.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_mipmap.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_nine_sliced.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_nine_sliced.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_nine_sliced.shader"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_nine_sliced.shader.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_rounded_rectangle.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_rounded_rectangle.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_sector.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_sector.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_sharpen.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_sharpen.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_simple.basemat"/>
+		<None Include="data\UnigineToolkit\ui\materials\ui_simple.basemat.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\button.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\button_circle.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\button_circle_pressed.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\button_pressed.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\checkmark.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\checkmark_circle.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\circle.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\gradient.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\rectangle.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\scrollbox_bg.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\scrollbox_mask.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\sector_gradient.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\sector_gradient_alpha.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\shadow.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\window.png.meta"/>
+		<None Include="data\UnigineToolkit\ui\textures\window_sizeable.png.meta"/>
 	</ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="'$(Configuration)'=='Debug' And $(SkipPostBuild)=='false'" />
-		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="'$(Configuration)'=='Release' And $(SkipPostBuild)=='false'" />
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64d.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Debug&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
+		<Exec Command="&quot;$(DOTNET_HOST_PATH)&quot; &quot;$(OutputPath)cspropgen_double_x64.dll&quot; -p &quot;$(OutputPath)$(AssemblyName).dll&quot; -data_path ../data/" Condition="&apos;$(Configuration)&apos;==&apos;Release&apos; And $(SkipPostBuild)==&apos;false&apos;"/>
 	</Target>
 </Project>

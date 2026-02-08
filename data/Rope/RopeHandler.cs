@@ -114,8 +114,8 @@ public class RopeHandler : Component
 
 	void Shutdown()
 	{
-		GPoint.DeleteLater();
-		Point.DeleteLater();
+		GPoint.Dispose();
+		Point.Dispose();
         Gui GUI = Gui.GetCurrent();
         if (GUI.IsChild(Instructions) == 1) { GUI.RemoveChild(Instructions); }
         Instructions.DeleteLater();
